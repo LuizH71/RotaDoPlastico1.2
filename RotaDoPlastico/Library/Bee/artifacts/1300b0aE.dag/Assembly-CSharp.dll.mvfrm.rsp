@@ -40,7 +40,13 @@ Library\Bee\artifacts\mvdfrm\Unity.Notifications.ref.dll_C779BCBD8C9A81BA.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Notifications.iOS.ref.dll_77F0EA2A00993C29.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.PlasticSCM.Editor.ref.dll_A558B9E65539D7D0.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Profiling.Core.ref.dll_8367B79E0D98D3BB.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.Editor.ref.dll_AA6E4515E60A494B.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.Runtime.ref.dll_CA4A63933BEF3AB0.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Core.ShaderLibrary.ref.dll_38159DB35CC29EFE.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.ref.dll_DF61AD73468C057E.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Rider.Editor.ref.dll_DA88E6A3E9EB6155.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Searcher.Editor.ref.dll_1D712DD21DFFF248.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.ShaderGraph.Editor.ref.dll_CA6C4521A25CEDB6.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.Editor.ref.dll_D0BA3615D322EF6C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.ref.dll_02929A3ECA791895.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Timeline.Editor.ref.dll_17F688653313AA4C.mvfrm
