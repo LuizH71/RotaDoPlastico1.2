@@ -409,6 +409,7 @@
 "Assets/Residuos/Scripts/Residuo.cs"
 "Assets/Residuos/Scripts/ResiduoCanvas.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/TextInteraction.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
