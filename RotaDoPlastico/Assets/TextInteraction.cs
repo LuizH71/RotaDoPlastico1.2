@@ -5,6 +5,8 @@ using TMPro;
 
 public class TextInteraction : MonoBehaviour
 {
+    [SerializeField]private TextInteraction _otherPerson; //get the same script as this but on the other person
+
     [Header("On UI elements")]
     [SerializeField] GameObject _interactionObj; //the obj that contains the text object and pannels
     [SerializeField] TextMeshProUGUI _interactionText;// the obj that contains the text component
@@ -27,7 +29,7 @@ public class TextInteraction : MonoBehaviour
     private bool started = false;
 
     private bool nextFrase = false;//variable that checks if the player can go to the next paragraph
-    private bool start = false;
+    [SerializeField]private bool start = false;
 
     public bool hadConversation = false;
     private void Start()
@@ -65,15 +67,16 @@ public class TextInteraction : MonoBehaviour
 
             StartCoroutine(DisplayLine(NpcWords[textLocation]));
         }
-        else if (textLocation == NpcWords.Length)
+        else if (textLocation == NpcWords.Length|| textLocation==5)
         {
-            textLocation += 1;
             hadConversation = true;
+            textLocation += 1;
         }
         //if paragraph were over than disable the UI interaction obj
         if (Input.GetKeyDown(KeyCode.F)&& hadConversation)
         {
             _interactionObj.SetActive(false);
+            ChagePerson();
         }
     }
     //method that run the courotine
@@ -108,8 +111,19 @@ public class TextInteraction : MonoBehaviour
     }
     private IEnumerator StartTypingDelay()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.1f);
         StartTyping = true;
+    }
+
+    private void ChagePerson()
+    {
+        if(_otherPerson.textLocation <= _otherPerson.NpcWords.Length)
+        {
+            start = false;
+            _otherPerson.start = true;
+            _otherPerson._interactionObj.SetActive(true);
+        }
+
     }
 
 }
