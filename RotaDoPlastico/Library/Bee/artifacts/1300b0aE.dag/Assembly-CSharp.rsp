@@ -406,6 +406,7 @@
 "Assets/Canvas/Timer.cs"
 "Assets/MovementButtons.cs"
 "Assets/Player/Scrpts/Player.cs"
+"Assets/Rescue.cs"
 "Assets/Residuos/Scripts/Residuo.cs"
 "Assets/Residuos/Scripts/ResiduoCanvas.cs"
 "Assets/Scripts/GameManager.cs"

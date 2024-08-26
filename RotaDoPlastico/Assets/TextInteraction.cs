@@ -32,12 +32,14 @@ public class TextInteraction : MonoBehaviour
     [SerializeField]private bool start = false;
 
     public bool hadConversation = false;
+    private bool _input = false;
     private void Start()
     {
         start = true;
     }
     private void Update()
     {
+        TouchInput();
         if (start)
         {
             NextLineAndStop();
@@ -58,13 +60,14 @@ public class TextInteraction : MonoBehaviour
 
         }
         //if player press the interaction button and the paragraph was over, go to the next paragraph
-        if (Input.GetKeyDown(KeyCode.F) && textLocation < NpcWords.Length && nextFrase == true)
+        if (_input && textLocation < NpcWords.Length && nextFrase == true)
         {
             _interactionObj.SetActive(true);
             StopAllCoroutines();
             StartTyping = false;
             textLocation += 1;
 
+            _input = false;
             StartCoroutine(DisplayLine(NpcWords[textLocation]));
         }
         else if (textLocation == NpcWords.Length|| textLocation==5)
@@ -73,10 +76,12 @@ public class TextInteraction : MonoBehaviour
             textLocation += 1;
         }
         //if paragraph were over than disable the UI interaction obj
-        if (Input.GetKeyDown(KeyCode.F)&& hadConversation)
+        if (_input && hadConversation)
         {
+            _input = false;
             _interactionObj.SetActive(false);
             ChagePerson();
+
         }
     }
     //method that run the courotine
@@ -97,8 +102,9 @@ public class TextInteraction : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
 
             //if Player press the button it will display the entire paragraph and stop writing letter by letter
-            if (Input.GetKeyDown(KeyCode.F) && StartTyping)
+            if (_input && StartTyping)
             {
+                _input = false;
                 _interactionText.text = line;
                 StartTyping = false;
                 nextFrase = true;
@@ -123,7 +129,26 @@ public class TextInteraction : MonoBehaviour
             _otherPerson.start = true;
             _otherPerson._interactionObj.SetActive(true);
         }
+        else//ativa o script player no Player
+        {
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().enabled = true;
+        }
 
+    }
+
+    //Gets the input on the screen
+    private void TouchInput()
+    {
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+
+            if(touch.phase == TouchPhase.Began)
+            {
+                _input = true;
+            }
+
+        }
     }
 
 }

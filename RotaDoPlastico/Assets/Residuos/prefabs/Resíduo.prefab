@@ -133,5 +133,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 515f9d15abc78f24ebc702265ef9f7f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _resImage: {fileID: 0}
-  _resInfo: ahhhhhhhhhhh
+  _resImage: {fileID: 21300000, guid: 2a3e569f22c9c224ba62af7825ab83ff, type: 3}
+  _resInfo: "Pl\xE1stico"
