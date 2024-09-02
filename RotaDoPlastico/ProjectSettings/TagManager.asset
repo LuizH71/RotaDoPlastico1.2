@@ -6,16 +6,17 @@ TagManager:
   tags:
   - GameManager
   - Canvas
+  - Terreno
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Boia
+  - Agua
+  - Terreno
   - 
   - 
   - 

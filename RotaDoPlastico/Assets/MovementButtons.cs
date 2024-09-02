@@ -7,13 +7,17 @@ public class MovementButtons : MonoBehaviour, IPointerDownHandler, IPointerUpHan
 {
 
     private Player _player;
+    private Rescue _playerRescue;
     [SerializeField] private bool left = false;
     [SerializeField] private bool right = false;
     [SerializeField] private bool up = false;
+    [Tooltip("Variavel que faz a boia retornar ao barco")]
+    [SerializeField] private bool Return = false;
     // Start is called before the first frame update
     void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        _playerRescue = _player.GetComponent<Rescue>();
     }
 
     // Update is called once per frame
@@ -35,6 +39,10 @@ public class MovementButtons : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         {
             _player._isAccelerating = true;
         }
+        else if (Return)
+        {
+            _playerRescue.Return = true;
+        }
     }
     public void OnPointerUp(PointerEventData data)
     {
@@ -49,6 +57,10 @@ public class MovementButtons : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         else if (up)
         {
             _player._isAccelerating = false;
+        }
+        else if (Return)
+        {
+            _playerRescue.Return = false;
         }
     }
 }
