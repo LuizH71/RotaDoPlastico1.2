@@ -4,21 +4,26 @@ using UnityEngine;
 
 public class Rescue : MonoBehaviour
 {
-
+    [Header("instances")]
+    private GameObject _player;
     [SerializeField] private GameObject _boiaPrefab;
-
     private GameObject _boia;
 
-    private bool _criada = false;
-    [HideInInspector] public bool Return = false;
-    [SerializeField]private bool Ligado = false;
 
-    private GameObject _player;
+    [Header("Lerp/Launch")]
+    [SerializeField] private float _desiredTimeDuration;
+    private float _elapsedTime;
+    [SerializeField] private Transform _boiaEndPos;
+    [HideInInspector] public bool Launch;
 
+    private bool _launched = false;
+
+    [Header("Return")]
     public float VelocidadeParaVoltar;
+    [HideInInspector] public bool Return = false;
+    private bool _returned = false;
 
-    [SerializeField] private LayerMask Ground;
-    [SerializeField] private float _rayRadius = 1.5f;
+    [SerializeField] private bool Ligado = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,87 +33,74 @@ public class Rescue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetInput();
-        BoiaManager();
-    }
-
-    private void BoiaManager()
-    {
-
-        if (!_criada)
+        if (Launch)
         {
-            if (Ligado)
-            {
-                spawnBoia();
-            }
-
+            MoveBoiaToEndPos(_boiaEndPos.position);
         }
-        else if(Return)
+        else if (Return)
         {
             MoveToBoat();
         }
     }
 
-    private void spawnBoia()
+    public void MoveBoiaToEndPos(Vector3 _endPos)
     {
-        if (Input.touchCount > 0)
+
+        _elapsedTime += Time.deltaTime;
+        float percentageComplete = _elapsedTime / _desiredTimeDuration;
+        _boia.transform.position = Vector3.Lerp(_boia.transform.position, _endPos, percentageComplete);
+
+        float distance = Vector3.Distance(_boia.transform.position, _endPos);
+        if (distance < 0.1f)
         {
-            Touch touch = Input.GetTouch(0);
-
-            if (touch.phase == TouchPhase.Began )
-            {
-                RaycastHit2D raycastHit = Physics2D.CircleCast(Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position), _rayRadius, Vector2.zero);
-
-
-                if (raycastHit.collider.CompareTag("Terreno"))
-                {
-                    //Do Nothing
-                    Debug.Log("Jogou na terra");
-                
-                }
-                else
-                {
-                    //Pega a posição da tela aonde foi clicado
-                    Vector3 _pos = Camera.main.ScreenToWorldPoint(new Vector3(touch.position.x, touch.position.y, 0f));
-
-                    //Checa se aonde foi clicado é terreno, caso sim não jogue a boia
-                    _boia = Instantiate(_boiaPrefab);
-                    _boia.transform.position = new Vector3(_pos.x, _pos.y, _boia.transform.position.z);
-
-
-                    _criada = true;
-                }
-
-
-            }
+            Launch = false;
+            _elapsedTime = 0;
+            _launched = true;
         }
+    }
+
+    public void SpawnBoia()
+    {
+        _boia = Instantiate(_boiaPrefab);
+        _boia.transform.position = transform.position;
+        _boia.GetComponent<Animator>().SetTrigger("LaunchBoia");
     }
 
     void MoveToBoat()
     {
-        var step = VelocidadeParaVoltar * Time.deltaTime;
-        _boia.transform.position = Vector3.MoveTowards(_boia.transform.position, _player.transform.position, step);
-
-        if(Vector3.Distance(_boia.transform.position, _player.transform.position) < 0.1f)
+        if (_launched)
         {
-            _criada = false;
-            Destroy(_boia);
+            var step = VelocidadeParaVoltar * Time.deltaTime;
+            _boia.transform.position = Vector3.MoveTowards(_boia.transform.position, _player.transform.position, step);
+
+            if (Vector3.Distance(_boia.transform.position, _player.transform.position) < 0.1f)
+            {
+                Destroy(_boia);
+                _launched = false;
+            }
         }
+
     }
 
     public void OnOFF()
     {
-        if (Ligado)
+        if (Ligado && !_launched && !Launch)//Desliga
         {
             _player.GetComponent<Player>().enabled = true;
             Ligado = false;
+            _boiaEndPos.gameObject.SetActive(false);
+            _boiaEndPos.gameObject.GetComponent<BoiaMove>().ResetPos();
+            _returned = false;
         }
-        else
+        else//Liga
         {
-            _player.GetComponent<Player>().enabled = false ;
+            _player.GetComponent<Player>().enabled = false;
+            _player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             Ligado = true;
+            _boiaEndPos.gameObject.SetActive(true);
         }
     }
+    /*
     private void GetInput()
     {
         if ((Input.touchCount > 0) && (Input.GetTouch(0).phase == TouchPhase.Began))
@@ -127,5 +119,5 @@ public class Rescue : MonoBehaviour
             }
         }
     }
-
+    */
 }
