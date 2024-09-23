@@ -8,6 +8,7 @@ TagManager:
   - Canvas
   - Terreno
   - Quadrado
+  - Boia
   layers:
   - Default
   - TransparentFX

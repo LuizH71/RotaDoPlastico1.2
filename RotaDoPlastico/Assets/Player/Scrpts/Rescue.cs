@@ -56,6 +56,7 @@ public class Rescue : MonoBehaviour
             Launch = false;
             _elapsedTime = 0;
             _launched = true;
+            _boia.GetComponent<Rigidbody2D>().simulated = true;
         }
     }
 
