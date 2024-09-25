@@ -55,7 +55,7 @@ public class PauseMenu : MonoBehaviour
     //clicar no botão voltar ao menu principal volta ao menu principal
     public void ResetLevel()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 
     //clicar sair fecha o jogo

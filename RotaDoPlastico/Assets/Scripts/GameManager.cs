@@ -17,10 +17,17 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _animalToGetTXT;
     [SerializeField] private TextMeshProUGUI _animalAmountTXT;
 
+    [Header("MicroPlastic")]
+    public int MicroPlasticAmountToGet;
+    [HideInInspector] public int MicroPlasticAmount = 0;
+    [SerializeField] private TextMeshProUGUI _microPlasticToGetTXT;
+    [SerializeField] private TextMeshProUGUI _microPlasticAmountTXT;
+
     private void Start()
     {
         _residuosToGetTXT.text = ResiduosAmountToGet.ToString();
         _animalToGetTXT.text = AnimalAmountToGet.ToString();
+        _microPlasticToGetTXT.text = MicroPlasticAmountToGet.ToString();
     }
 
     public void PassResiduo()
@@ -32,5 +39,10 @@ public class GameManager : MonoBehaviour
     {
         AnimalAmount += 1;
         _animalAmountTXT.text = AnimalAmount.ToString();
+    }
+    public void PassMicroPlastic()
+    {
+        MicroPlasticAmount += 1;
+        _microPlasticAmountTXT.text = MicroPlasticAmount.ToString();
     }
 }

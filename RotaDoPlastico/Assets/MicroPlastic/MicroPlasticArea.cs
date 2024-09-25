@@ -7,6 +7,13 @@ public class MicroPlasticArea : MonoBehaviour
     public List< GameObject> MicroPlasticComponents;
     [SerializeField]private bool _notFinished = true;
 
+    private GameManager _gameManager;
+
+    private void Start()
+    {
+        _gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+    }
+
     private void Update()
     {
         CheckMicroPlasticAreaComponents();
@@ -22,7 +29,9 @@ public class MicroPlasticArea : MonoBehaviour
             }
             if(MicroPlasticComponents.Count == 0)
             {
-               //passar para o gameManager
+                //passar para o gameManager
+                _gameManager.PassMicroPlastic();
+                Debug.Log("Uhuuuu");
             }
 
         }

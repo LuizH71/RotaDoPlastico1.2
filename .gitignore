@@ -95,3 +95,27 @@ fmod_editor.log
 fmod_editor.log
 Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
 *.dylib
+RotaDoPlastico/Library/Bee/artifacts/Android/4qqi9/0xtq4r3ojiup.o
+*.cpp
+*.o
+*.rsp
+*.so
+RotaDoPlastico/Assets/Water.shadergraph.meta
+RotaDoPlastico/Assets/Water.shadergraph
+RotaDoPlastico/Assets/Water.mat.meta
+RotaDoPlastico/Assets/Water.mat
+RotaDoPlastico/Assets/Water 1.mat.meta
+RotaDoPlastico/Assets/Water 1.mat
+/RotaDoPlastico/Library/Artifacts/14
+/RotaDoPlastico/Library/Artifacts
+*.json
+*.json
+*.dag
+*.payloads
+*.outputdata
+*.dag_derived
+*.gradle
+/RotaDoPlastico/Library/Bee
+/RotaDoPlastico/Library
+/RotaDoPlastico/Library
+/RotaDoPlastico/Library/Bee
