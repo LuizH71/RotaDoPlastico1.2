@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Animais : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class Animais : MonoBehaviour
     [SerializeField] private Sprite _animalImage;
     [TextArea]
     [SerializeField] private string _animalInfo;
+
+    private NavMeshAgent _agent;
 
     private bool _resgataddo = false;
     private void Start()
@@ -29,6 +32,7 @@ public class Animais : MonoBehaviour
         if (collision.CompareTag("Boia"))
         {
             _resgataddo = true;
+            _agent.enabled = false;
             Debug.Log("ahhh");
             gameObject.transform.SetParent(collision.gameObject.transform);
             gameObject.transform.position = new Vector2(collision.transform.position.x, collision.transform.position.y);
