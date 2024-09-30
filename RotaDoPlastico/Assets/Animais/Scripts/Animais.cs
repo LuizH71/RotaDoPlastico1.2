@@ -5,16 +5,17 @@ using UnityEngine.AI;
 
 public class Animais : MonoBehaviour
 {
+    [SerializeField] private GameObject _parent;
     private ResiduoCanvas _residuoCanvas;
     private GameManager _gameManager;
+
+    [Space]
 
     [SerializeField] private Sprite _animalImage;
     [TextArea]
     [SerializeField] private string _animalInfo;
 
-    private NavMeshAgent _agent;
-
-    private bool _resgataddo = false;
+    private bool _resgatado = false;
     private void Start()
     {
         _residuoCanvas = GameObject.FindGameObjectWithTag("Canvas").GetComponent<ResiduoCanvas>();
@@ -23,19 +24,20 @@ public class Animais : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && _resgataddo)
+        if (collision.CompareTag("Player") && _resgatado)
         {
             _gameManager.PassAnimal();
             _residuoCanvas.PassResToCanvas(_animalInfo, _animalImage);
-            Destroy(gameObject);
+            Destroy(_parent);
         }
         if (collision.CompareTag("Boia"))
         {
-            _resgataddo = true;
-            _agent.enabled = false;
+            _resgatado = true;
+            _parent.GetComponent<AnimalMov>().enabled = false;
+            _parent.GetComponent<Collider2D>().enabled = false;
             Debug.Log("ahhh");
-            gameObject.transform.SetParent(collision.gameObject.transform);
-            gameObject.transform.position = new Vector2(collision.transform.position.x, collision.transform.position.y);
+            _parent.transform.SetParent(collision.gameObject.transform);
+            _parent.transform.position = new Vector2(collision.transform.position.x, collision.transform.position.y);
         }
     }
 }
