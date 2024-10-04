@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638629686119538338
-    m_Hash: 122500357
+      ticks: 638635783453287995
+    m_Hash: 523215579
   m_LockFileStatus:
     m_FilePath: D:/projeto Interantar/RotaDoPlastico1.2/RotaDoPlastico/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638629686122578191
-    m_Hash: 1813893188
+      ticks: 638635783453297997
+    m_Hash: 326197532
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -497,12 +497,14 @@ m_ResolvedPackages:
     - 2.4.3
     - 2.4.4
     - 2.5.1
+    - 2.5.2
     compatible:
     - 2.2.0
     - 2.3.1
     - 2.4.3
     - 2.4.4
     - 2.5.1
+    - 2.5.2
     recommended: 2.2.0
     deprecated: []
   dependencies: []
