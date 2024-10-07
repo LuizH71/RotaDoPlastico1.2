@@ -409,6 +409,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Animais/Scripts/Animais.cs"
 "Assets/Animais/Scripts/AnimalMov.cs"
+"Assets/Audio/Scripts/AudioManager.cs"
+"Assets/Audio/Scripts/Sound.cs"
 "Assets/Canvas/MainMenu.cs"
 "Assets/Canvas/MovementButtons.cs"
 "Assets/Canvas/PauseMenu.cs"

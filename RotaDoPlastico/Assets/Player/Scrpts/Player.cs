@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Audio;
 
 public class Player : MonoBehaviour
 {
@@ -16,9 +17,12 @@ public class Player : MonoBehaviour
     public bool left = false;
     public bool right = false;
 
+    private AudioSource _audioSource;
+
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -34,10 +38,21 @@ public class Player : MonoBehaviour
             _rb.velocity = Vector2.ClampMagnitude(_rb.velocity, _boatMaxVelocity);
         }
     }
-    private void HandleBoatAcceleration()
+    public void Accelerate()
     {
-        _isAccelerating = Input.GetKey(KeyCode.UpArrow);
+        if (_isAccelerating)
+        {
+            _isAccelerating = false;
+            _audioSource.enabled = false;
+        }
+        else
+        {
+            _isAccelerating = true;
+            _audioSource.enabled = true;
+        }
+
     }
+
 
     private void HandleShipRotations()
     {
