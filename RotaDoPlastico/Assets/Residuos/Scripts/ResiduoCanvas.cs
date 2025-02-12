@@ -15,7 +15,17 @@ public class ResiduoCanvas : MonoBehaviour
     private float TimePassedToDeactivated;
     [SerializeField]private float InformationDelay;
 
+    [SerializeField] private Residuo Residuos;
 
+    private void OnEnable()
+    {
+        Residuos.ResiduoColectedEvent.AddListener(PassResToCanvas);
+    }
+
+    private void OnDisable()
+    {
+        Residuos.ResiduoColectedEvent.RemoveListener(PassResToCanvas);
+    }
 
     private void Update()
     {

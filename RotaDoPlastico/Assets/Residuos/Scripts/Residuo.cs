@@ -3,30 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Events;
 
-public class Residuo : MonoBehaviour
+[CreateAssetMenu (fileName ="ResiduoSO", menuName = "ScriptableObjects/Residuo")]
+public class Residuo : ScriptableObject
 {
-    private ResiduoCanvas _residuoCanvas;
-    private Collider2D _circleCollider;
-    private GameManager _gameManager;
 
-    [SerializeField] private Sprite _resImage;
+    [SerializeField] public Sprite _residuoImage;
     [TextArea]
-    [SerializeField] private string _resInfo;
-    private void Start()
-    {
-        _residuoCanvas = GameObject.FindGameObjectWithTag("Canvas").GetComponent<ResiduoCanvas>();
-        _gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
-        _circleCollider = GetComponent<CircleCollider2D>();
-    }
+    [SerializeField] public string _residuoInfo;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+
+    [System.NonSerialized]
+    public UnityEvent<string, Sprite> ResiduoColectedEvent;
+
+
+    public void PassInformation(string info, Sprite img)
     {
-        if (collision.CompareTag("Player"))
-        {
-            _gameManager.PassResiduo();
-            _residuoCanvas.PassResToCanvas(_resInfo, _resImage);
-            Destroy(gameObject);
-        }
+        ResiduoColectedEvent.Invoke(info, img);
     }
 }

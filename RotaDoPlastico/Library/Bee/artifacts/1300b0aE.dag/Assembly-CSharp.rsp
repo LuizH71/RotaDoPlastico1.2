@@ -426,6 +426,7 @@
 "Assets/Prefab/BoiaRayCast.cs"
 "Assets/Residuos/Scripts/Residuo.cs"
 "Assets/Residuos/Scripts/ResiduoCanvas.cs"
+"Assets/Residuos/Scripts/ResiduoTrigger.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/ResiduoSpawner.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
