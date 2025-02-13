@@ -17,9 +17,4 @@ public class Residuo : ScriptableObject
     [System.NonSerialized]
     public UnityEvent<string, Sprite> ResiduoColectedEvent;
 
-
-    public void PassInformation(string info, Sprite img)
-    {
-        ResiduoColectedEvent.Invoke(info, img);
-    }
 }

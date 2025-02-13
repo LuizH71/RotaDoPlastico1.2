@@ -14,7 +14,8 @@ public class ResiduoTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            ResiduoSO.PassInformation(ResiduoSO._residuoInfo, ResiduoSO._residuoImage);
+            ResiduoCanvas.Instance.PassResToCanvas(ResiduoSO._residuoInfo, ResiduoSO._residuoImage);
+            GameManager.Instance.PassResiduo();
             Destroy(gameObject);
         }
     }

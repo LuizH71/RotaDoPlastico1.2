@@ -6,6 +6,8 @@ using TMPro;
 
 public class ResiduoCanvas : MonoBehaviour
 {
+    public static ResiduoCanvas Instance;
+
     [SerializeField] private GameObject _residuoPanel;
 
     public TextMeshProUGUI ResInfoTXT;
@@ -17,14 +19,17 @@ public class ResiduoCanvas : MonoBehaviour
 
     [SerializeField] private Residuo Residuos;
 
-    private void OnEnable()
-    {
-        Residuos.ResiduoColectedEvent.AddListener(PassResToCanvas);
-    }
 
-    private void OnDisable()
+    private void Awake()
     {
-        Residuos.ResiduoColectedEvent.RemoveListener(PassResToCanvas);
+        if(Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
     }
 
     private void Update()

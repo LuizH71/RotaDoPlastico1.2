@@ -30,7 +30,7 @@ public class BoiaMove : MonoBehaviour
         TargetMovement();
     }
 
-    private void TargetMovement()
+    private void TargetMovement()//Faz o movimento da sinalização aonde a boia vai cair
     {
         if (Input.touchCount > 0)
         {
@@ -48,7 +48,7 @@ public class BoiaMove : MonoBehaviour
                     _rb.MovePosition(new Vector2(touchPos.x - _deltaX, touchPos.y - _deltaY));
                     break;
 
-                case TouchPhase.Ended:
+                case TouchPhase.Ended:// Caso solte da tela ou não faz nada em caso de estar em cima da terra ou solta a boia caso esteja em cima da água
                     if (!LaunchBoia)
                     {
                         ResetPos();
@@ -73,16 +73,16 @@ public class BoiaMove : MonoBehaviour
         transform.position = _startPos;
         this.enabled = true;
     }
-    private void Raycast()
+    private void Raycast()// Checa pra ver se onde a boia vai é  água ou terra
     {
 
-        if (Physics2D.CircleCast(transform.position, _rayRadius, Vector2.zero,1f,TerrnoAndPlayer))
+        if (Physics2D.CircleCast(transform.position, _rayRadius, Vector2.zero,1f,TerrnoAndPlayer))// Se for terra fica vermelho e não deixa jogar a boia
         {
             this.GetComponent<SpriteRenderer>().color = Color.red;
             LaunchBoia = false;
 
         }
-        else
+        else//Se For água fica azul e deixa jogar a boia
         {
             this.GetComponent<SpriteRenderer>().color = Color.blue;
             LaunchBoia = true;

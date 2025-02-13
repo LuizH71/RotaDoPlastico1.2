@@ -5,6 +5,8 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance;
+
     [Header("Resíduos")]
     public int ResiduosAmountToGet;
     [HideInInspector] public int ResiduoAmount = 0;
@@ -22,6 +24,19 @@ public class GameManager : MonoBehaviour
     [HideInInspector] public int MicroPlasticAmount = 0;
     [SerializeField] private TextMeshProUGUI _microPlasticToGetTXT;
     [SerializeField] private TextMeshProUGUI _microPlasticAmountTXT;
+
+
+    private void Awake()
+    {
+        if(Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
 
     private void Start()
     {

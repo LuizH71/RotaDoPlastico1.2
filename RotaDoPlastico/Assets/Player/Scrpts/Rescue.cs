@@ -57,6 +57,7 @@ public class Rescue : MonoBehaviour
             _elapsedTime = 0;
             _launched = true;
             _boia.GetComponent<Rigidbody2D>().simulated = true;
+            _boiaEndPos.gameObject.GetComponent<BoiaMove>().ResetPos();
         }
     }
 

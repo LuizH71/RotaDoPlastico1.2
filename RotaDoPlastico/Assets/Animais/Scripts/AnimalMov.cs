@@ -28,11 +28,6 @@ public class AnimalMov : MonoBehaviour
         {
             MoveAwayFromPlayer();
         }
-
-        if(!_move && _playerClose)
-        {
-            CreateRandomPoint(transform.position, range);
-        }
     }
 
     private void MoveAwayFromPlayer()
@@ -125,7 +120,7 @@ public class AnimalMov : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             _playerClose = true;
-
+            CreateRandomPoint(transform.position, range);
             DisableOrEnableAnimal(false);
         }
     }

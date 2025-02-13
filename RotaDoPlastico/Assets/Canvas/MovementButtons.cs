@@ -16,7 +16,7 @@ public class MovementButtons : MonoBehaviour, IPointerDownHandler, IPointerUpHan
     // Start is called before the first frame update
     void Start()
     {
-        _player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        _player = Player.Instance;
         _playerRescue = _player.GetComponent<Rescue>();
     }
 

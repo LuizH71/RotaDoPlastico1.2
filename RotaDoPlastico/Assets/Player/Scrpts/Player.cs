@@ -6,6 +6,8 @@ using UnityEngine.Audio;
 
 public class Player : MonoBehaviour
 {
+    public static Player Instance;
+
     [Header("Boat Parameters")]
     [SerializeField] private float _boatAcceleration = 10f;
     [SerializeField] private float _boatMaxVelocity = 10f;
@@ -19,6 +21,18 @@ public class Player : MonoBehaviour
 
     private AudioSource _audioSource;
 
+
+    private void Awake()
+    {
+        if(Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
