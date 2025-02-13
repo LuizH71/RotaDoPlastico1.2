@@ -18,8 +18,7 @@ public class BoiaMove : MonoBehaviour
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
-        _player = GameObject.FindGameObjectWithTag("Player");
-        _startPos = transform.position;
+        _player = Player.Instance.gameObject;
     }
 
     // Update is called once per frame
@@ -70,7 +69,7 @@ public class BoiaMove : MonoBehaviour
 
     public void ResetPos()
     {
-        transform.position = _startPos;
+        transform.position = _player.transform.position;
         this.enabled = true;
     }
     private void Raycast()// Checa pra ver se onde a boia vai é  água ou terra
