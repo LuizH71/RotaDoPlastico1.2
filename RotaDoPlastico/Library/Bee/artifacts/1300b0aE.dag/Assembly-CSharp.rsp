@@ -420,6 +420,7 @@
 "Assets/MicroPlastic/MicroPlasticComponent.cs"
 "Assets/Player/Scrpts/Line.cs"
 "Assets/Player/Scrpts/Player.cs"
+"Assets/Player/Scrpts/PlayerAnimation.cs"
 "Assets/Player/Scrpts/RedeRotation.cs"
 "Assets/Player/Scrpts/Rescue.cs"
 "Assets/Prefab/BoiaMove.cs"
