@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
 
     private AudioSource _audioSource;
 
-
+    [SerializeField] private PlayerAnimation _playerAnimation;
     private void Awake()
     {
         if(Instance == null)
@@ -79,6 +79,7 @@ public class Player : MonoBehaviour
         {
             transform.Rotate(-_boatRotatioSpeed * Time.deltaTime * transform.forward);
         }
+        _playerAnimation.PlayerBoatAnimation();
     }
 
 }
