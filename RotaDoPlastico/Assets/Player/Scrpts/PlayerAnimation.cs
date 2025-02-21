@@ -16,7 +16,6 @@ public class PlayerAnimation : MonoBehaviour
 
     public void PlayerBoatAnimation()
     {
-        Debug.Log(_playerTransform.rotation.eulerAngles.z);
         if (_playerTransform.rotation.eulerAngles.z < 30f || _playerTransform.rotation.eulerAngles.z > 315f)
         {
             _animator.SetFloat("velX", 0f);
