@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 
 public class HealthUI : MonoBehaviour
 {
@@ -9,14 +10,23 @@ public class HealthUI : MonoBehaviour
 
     public floatVariable CurrentHealth;
 
-
+    [SerializeField] private UnityEvent Death;
     private void Start()
     {
         UpdateLife();
     }
     public void UpdateLife()
     {
-        _healthSlider.value = CurrentHealth.Value;
+        if(CurrentHealth.Value > 0)
+        {
+            _healthSlider.value = CurrentHealth.Value;
+        }
+        else
+        {
+            _healthSlider.value = 0;
+            Time.timeScale = 0;
+            Death.Invoke();
+        }
     }
 
 }
