@@ -2,10 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+using UnityEngine.Events;
+using UnityEngine.EventSystems;
+using TMPro;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
+public enum npcs { Protagonista, Experiente}
+public enum Animation { Falando, BocaAberta, BocaFechada, Feliz}
 public class TextInteraction : MonoBehaviour
 {
-    [SerializeField]private TextInteraction _otherPerson; //get the same script as this but on the other person
+    [System.Serializable]
+    public class Interaction
+    {
+        public npcs NPC;
+        public Animation FacialExpression;
+
+        public string NpcName;
+        [TextArea] //give more space to write
+        public string NpcDialogue;
+    }
 
     [Header("On UI elements")]
     [SerializeField] GameObject _interactionObj; //the obj that contains the text object and pannels
@@ -13,11 +32,7 @@ public class TextInteraction : MonoBehaviour
     [SerializeField] TextMeshProUGUI npcNameText;
 
 
-    [Header("The text")]
-    [SerializeField] private string NpcName;
-    [Space]
-    [TextAreaAttribute] //give more space to write
-    [SerializeField] private string[] NpcWords;// array of paragraph
+    [SerializeField] private Interaction[] NpcInteraction;// array of paragraph
 
     [Header("Typing")]
     [Space]
@@ -51,26 +66,27 @@ public class TextInteraction : MonoBehaviour
 
         if (!started)
         {
-            npcNameText.text = NpcName;
+            npcNameText.text = NpcInteraction[textLocation].NpcName;
             StartTyping = false;
             StopAllCoroutines();
             _interactionObj.SetActive(true);
             started = true;
-            StartCoroutine(DisplayLine(NpcWords[textLocation]));
+            StartCoroutine(DisplayLine(NpcInteraction[textLocation].NpcDialogue));
 
         }
         //if player press the interaction button and the paragraph was over, go to the next paragraph
-        if (_input && textLocation < NpcWords.Length && nextFrase == true)
+        if (_input && textLocation < NpcInteraction.Length && nextFrase == true)
         {
             _interactionObj.SetActive(true);
             StopAllCoroutines();
             StartTyping = false;
             textLocation += 1;
+            npcNameText.text = NpcInteraction[textLocation].NpcName;
 
             _input = false;
-            StartCoroutine(DisplayLine(NpcWords[textLocation]));
+            StartCoroutine(DisplayLine(NpcInteraction[textLocation].NpcDialogue));
         }
-        else if (textLocation == NpcWords.Length|| textLocation==5)
+        else if (textLocation == NpcInteraction.Length)
         {
             hadConversation = true;
             textLocation += 1;
@@ -80,7 +96,6 @@ public class TextInteraction : MonoBehaviour
         {
             _input = false;
             _interactionObj.SetActive(false);
-            ChagePerson();
 
         }
     }
@@ -121,20 +136,6 @@ public class TextInteraction : MonoBehaviour
         StartTyping = true;
     }
 
-    private void ChagePerson()
-    {
-        if(_otherPerson.textLocation <= _otherPerson.NpcWords.Length)
-        {
-            start = false;
-            _otherPerson.start = true;
-            _otherPerson._interactionObj.SetActive(true);
-        }
-        else//ativa o script player no Player
-        {
-            GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().enabled = true;
-        }
-
-    }
 
     //Gets the input on the screen
     private void TouchInput()
