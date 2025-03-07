@@ -11,7 +11,7 @@ using TMPro;
 using UnityEditor;
 #endif
 
-public enum npcs { Protagonista, Experiente}
+public enum npcs { MainCharacter, OldScientist }
 public enum Animation { Falando, BocaAberta, BocaFechada, Feliz}
 public class TextInteraction : MonoBehaviour
 {
@@ -21,7 +21,6 @@ public class TextInteraction : MonoBehaviour
         public npcs NPC;
         public Animation FacialExpression;
 
-        public string NpcName;
         [TextArea] //give more space to write
         public string NpcDialogue;
     }
@@ -29,7 +28,15 @@ public class TextInteraction : MonoBehaviour
     [Header("On UI elements")]
     [SerializeField] GameObject _interactionObj; //the obj that contains the text object and pannels
     [SerializeField] TextMeshProUGUI _interactionText;// the obj that contains the text component
-    [SerializeField] TextMeshProUGUI npcNameText;
+ 
+    [Header("Old scientist")]
+    [SerializeField] private GameObject _oldScientistObj;
+    [SerializeField] private Animator _oldScientistAnimator;
+
+    [Header("Main character")]
+    [SerializeField] private GameObject _mainCharacterObj;
+    [SerializeField] private Animator _mainCharacterAnimator;
+
 
 
     [SerializeField] private Interaction[] NpcInteraction;// array of paragraph
@@ -66,41 +73,14 @@ public class TextInteraction : MonoBehaviour
 
         if (!started)
         {
-            npcNameText.text = NpcInteraction[textLocation].NpcName;
-            StartTyping = false;
-            StopAllCoroutines();
-            _interactionObj.SetActive(true);
-            started = true;
-            StartCoroutine(DisplayLine(NpcInteraction[textLocation].NpcDialogue));
-
+            StartTheConversation();
         }
-        //if player press the interaction button and the paragraph was over, go to the next paragraph
-        if (_input && textLocation < NpcInteraction.Length && nextFrase == true)
+        else
         {
-            _interactionObj.SetActive(true);
-            StopAllCoroutines();
-            StartTyping = false;
-            textLocation += 1;
-            npcNameText.text = NpcInteraction[textLocation].NpcName;
+            GoToNextParagraphOrisble();
+        }
 
-            _input = false;
-            StartCoroutine(DisplayLine(NpcInteraction[textLocation].NpcDialogue));
-        }
-        else if (textLocation == NpcInteraction.Length)
-        {
-            hadConversation = true;
-            textLocation += 1;
-        }
-        //if paragraph were over than disable the UI interaction obj
-        if (_input && hadConversation)
-        {
-            _input = false;
-            _interactionObj.SetActive(false);
-
-        }
     }
-    //method that run the courotine
-
 
     //separate the string into chars and write one by one
     private IEnumerator DisplayLine(string line)
@@ -151,5 +131,52 @@ public class TextInteraction : MonoBehaviour
 
         }
     }
+    //method that run the courotine
+    private void GoToNextParagraphOrisble()
+    {
+        //if player press the interaction button and the paragraph was over, go to the next paragraph
+        if (_input && textLocation < NpcInteraction.Length && nextFrase == true)
+        {
+            _interactionObj.SetActive(true);
+            StopAllCoroutines();
+            StartTyping = false;
+            textLocation += 1;
+            updateUI(NpcInteraction[textLocation].NPC);//Updatede ui/ Switches characters
 
+            _input = false;
+            StartCoroutine(DisplayLine(NpcInteraction[textLocation].NpcDialogue));
+        }
+        else if (textLocation == NpcInteraction.Length) //if paragraph were over than disable the UI interaction obj
+        {
+            hadConversation = true;
+            textLocation += 1;
+            _input = false;
+            _interactionObj.SetActive(false);
+        }
+    }
+    private void StartTheConversation()
+    {
+        StartTyping = false;
+        StopAllCoroutines();
+        _interactionObj.SetActive(true);
+        started = true;
+        StartCoroutine(DisplayLine(NpcInteraction[textLocation].NpcDialogue));
+        updateUI(NpcInteraction[textLocation].NPC);//Updatede ui/ Switches characters
+    }
+
+    private void updateUI(npcs NPC)
+    {
+        switch (NPC)
+        {
+            case npcs.OldScientist:
+                _mainCharacterObj.SetActive(false);
+                _oldScientistObj.SetActive(true);
+                break;
+            case npcs.MainCharacter:
+                _mainCharacterObj.SetActive(true);
+                _oldScientistObj.SetActive(false);
+                break;
+        }
+            
+    }
 }
