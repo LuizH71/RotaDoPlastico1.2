@@ -1,0 +1,1209 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'pt' Physical Memory: 16221 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/projeto Interantar/RotaDoPlastico1.2/RotaDoPlastico
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50219
+Successfully changed project path to: D:/projeto Interantar/RotaDoPlastico1.2/RotaDoPlastico
+D:/projeto Interantar/RotaDoPlastico1.2/RotaDoPlastico
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1360] Host "[IP] 192.168.15.3 [Port] 0 [Flags] 2 [Guid] 3236112634 [EditorId] 3236112634 [Version] 1048832 [Id] WindowsEditor(7,Luiz) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1360] Host "[IP] 192.168.15.3 [Port] 0 [Flags] 2 [Guid] 3236112634 [EditorId] 3236112634 [Version] 1048832 [Id] WindowsEditor(7,Luiz) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 19.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/projeto Interantar/RotaDoPlastico1.2/RotaDoPlastico/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.6109
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015523 seconds.
+- Loaded All Assemblies, in  0.477 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 303 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.743 seconds
+Domain Reload Profiling: 1217ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (129ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (175ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (744ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (669ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (444ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029A8AC98840 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8AB966C0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A465D8B30 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A7520F0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A7520F0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8AB966C0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8AB9C4D0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8AB9C4D0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A78BD80 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8AB9C4D0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A78BD80 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8AB3E620 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A9AD010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8B5C7A50 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A791990 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BB48640 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A3FD6C0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A03F010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A9E4620 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BF1AA30 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A9E4620 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A0A0420 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BBF8A80 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A0C0CA0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.Unified.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A0C0CA0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Profiling.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A3FD6C0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BC00090 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BC154A0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BC154A0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8B84F020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A0C0CA0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A412020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A0C0CA0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A412020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BC794D0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.VRR.Extension.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BC794D0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BC814E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BC814E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A4643AE20 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BC814E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A45B850 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A0C0CA0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BC814E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A4645D240 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A4645D240 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A4645D240 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A4645D240 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A4645D240 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A46462650 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A4646DC60 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A49D060 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A46496280 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A49D060 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A4C3C70 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A46523D10 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A4653C520 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8B754830 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A46577620 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8B78D240 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8B797450 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8B797450 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8B7ACA70 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A1F65C0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A1F65C0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A22F1D0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A257FE0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A257FE0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A257FE0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A25F5F0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.844 seconds
+Refreshing native plugins compatible for Editor in 6.54 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.991 seconds
+Domain Reload Profiling: 1831ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (582ms)
+		LoadAssemblies (426ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (181ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (991ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (794ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (573ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 8.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5699 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 121 unused Assets / (1.3 MB). Loaded Objects now: 6132.
+Memory consumption went from 195.2 MB to 193.9 MB.
+Total: 7.745700 ms (FindLiveObjects: 0.536100 ms CreateObjectMapping: 0.591600 ms MarkObjects: 5.795000 ms  DeleteObjects: 0.821100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029A96A76030 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96858020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97726500 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A89ED4020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A7520F0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8B823040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A5E6040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A5E6040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96EC2010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CF10460 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8ACB2020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A7520F0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96864450 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CE975E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8B5794B0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96EC2010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A5E9C50 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A769510 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A94ED0080 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8328810 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CE975E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A0D7020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8AAC5040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8328810 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.Unified.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8328810 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Profiling.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A89FE6CC0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A9689BA60 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A9729C380 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD5AD70 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CE975E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A9689BA60 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96584C70 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8328810 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A957F9020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A9729C380 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8328810 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.VRR.Extension.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8328810 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A9729C380 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A972A4390 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A0D7020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A959B3040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A972BE010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8328810 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D5F4030 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8328810 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8328810 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D005960 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CE975E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8328810 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CA0E010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8328810 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D005960 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96705020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96705020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D005960 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A89EE4030 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96705020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96705020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CEBB3F0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A9534D040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96715700 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A53F030 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96715700 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A549240 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8AC89620 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96A1C020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8AC89620 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97430030 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96A592B0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8AB11010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CEE9020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8AC89620 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.555 seconds
+Refreshing native plugins compatible for Editor in 6.61 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.725 seconds
+Domain Reload Profiling: 2277ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1726ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (847ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (607ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 9.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5681 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (1.3 MB). Loaded Objects now: 6149.
+Memory consumption went from 192.6 MB to 191.3 MB.
+Total: 6.868000 ms (FindLiveObjects: 0.658900 ms CreateObjectMapping: 0.597400 ms MarkObjects: 4.858900 ms  DeleteObjects: 0.751800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029A8A93A010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A93A010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8C005020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A89ED4020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A7520F0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A45CF4080 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CD7A020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97B4F1C0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96D0B480 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CABE070 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A967BF010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A3BF6B0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97B4F1C0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97BE0110 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A951E4010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A3BF6B0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CABE070 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A972D7550 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.Unified.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Profiling.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A5E6040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A45CF4080 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97D7B0B0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A3BF6B0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97D630B0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A965846F0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8D38010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A3F2700 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.VRR.Extension.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A951E4010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A5E6040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A184830 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A959B3040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A184830 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A950FE040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D005960 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97BBA2F0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97C93900 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD55010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97D630B0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A89E76830 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96166020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D005960 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A5E6040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A955B9020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96166020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A45CF4080 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A950FE040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97D72160 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CABE070 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97D72160 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A3F2700 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D5C6A30 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97A89820 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D5C6A30 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8B7FB020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A89FD3240 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8AB11010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A9551C020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95615C30 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.597 seconds
+Refreshing native plugins compatible for Editor in 8.37 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.001 seconds
+Domain Reload Profiling: 2593ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (381ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2002ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (974ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (706ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 12.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5681 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (1.3 MB). Loaded Objects now: 6165.
+Memory consumption went from 194.5 MB to 193.2 MB.
+Total: 6.389900 ms (FindLiveObjects: 0.536600 ms CreateObjectMapping: 0.471900 ms MarkObjects: 4.581600 ms  DeleteObjects: 0.798600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1083538.967739 seconds.
+  path: Assets/Audio/audios/Ambience1.wav
+  artifactKey: Guid(51eef53485b905746975a1170cb4c7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/audios/Ambience1.wav using Guid(51eef53485b905746975a1170cb4c7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75b8470f63c18281d6e62598b2774bc') in 0.097813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Audio/audios/hit2.wav
+  artifactKey: Guid(8822f1e19b7bce349883e95ae0736adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/audios/hit2.wav using Guid(8822f1e19b7bce349883e95ae0736adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890dbe27a4a8ba85d7badfcda3adfe2e') in 0.018938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029A972D7550 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A972D7550 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A967BF010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A89ED4020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A89ED4020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A3F2700 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97E11C40 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95F54040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97B4F1C0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95F54040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8AAC5040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CABE070 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97C40D50 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96F27050 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95F54040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97B4F1C0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97AE7B30 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A951A0040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97E1EC90 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97DD4AE0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A3BF6B0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A0D7020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8AAC5040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97DD4AE0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.Unified.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97DD4AE0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Profiling.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97AE7B30 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8C2AC020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A94FC7620 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD5AD70 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A3BF6B0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A969C2050 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A275D80 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A9719D020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8B82F30 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97E1EC90 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95F54040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.VRR.Extension.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A967F9E20 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97E1EC90 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A969C2050 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96EC2010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8A8E060 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96EC2010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A9539A430 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D5F4030 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97DD4AE0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97DD4AE0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A969C2050 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A842080 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97DD4AE0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8714EB0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A967F9E20 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A969C2050 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A94FC7620 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95B7C010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A9657E010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A9657E010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB873B010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95B7C010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A3F2700 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D5F4030 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D372040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CABE070 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D372040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A45B14B20 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D5C6A30 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A9783B540 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D5C6A30 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A957AF020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A9657E010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96A1C020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8C752010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D469020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.611 seconds
+Refreshing native plugins compatible for Editor in 8.07 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.021 seconds
+Domain Reload Profiling: 2628ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (382ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2022ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (994ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (727ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 10.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5680 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (1.3 MB). Loaded Objects now: 6190.
+Memory consumption went from 196.4 MB to 195.1 MB.
+Total: 6.133000 ms (FindLiveObjects: 0.532000 ms CreateObjectMapping: 0.910400 ms MarkObjects: 3.861600 ms  DeleteObjects: 0.828000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029A9598A040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A9598A040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A967BF010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB90D2050 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB90D2050 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A89FC9030 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A46688BE0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Extension.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95F54040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8CE9040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95F54040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8B57A020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CABE070 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97C40D50 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95242020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95F54040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A0D7020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A967F9E20 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8B768FB0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95A39010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000298D8F4C5E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A3BF6B0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97047040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8B57A020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000298D8F4C5E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.Unified.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000298D8F4C5E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Profiling.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A967F9E20 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8B57A020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A89FC9030 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8BD5AD70 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A3BF6B0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB883C030 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A275D80 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95F54040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A957F9020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95A39010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95F54040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.VRR.Extension.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A967F9E20 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A95A39010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A969C2050 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96EC2010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96482020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96EC2010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000298D8F4C5E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A950FE040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000298D8F4C5E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Samsung.Android.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000298D8F4C5E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A969C2050 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97BB9AE0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000298D8F4C5E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.UI.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB8714EB0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000298D8F4C5E0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB883C030 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A94FC7620 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97047040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB883C030 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB883C030 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029AB873B010 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97047040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A89FC9030 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A46338AF0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8AAC5040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8CABE070 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97E26CB0 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A0D7020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.AdaptivePerformance.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97C79760 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97C10040 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A97C79760 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A957AF020 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A96D0B070 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8A275D80 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A89FC9030 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000029A8D5C6C30 doesn't match image D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.590 seconds
+Refreshing native plugins compatible for Editor in 10.31 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.941 seconds
+Domain Reload Profiling: 2528ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (381ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1941ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (936ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (674ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 10.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5681 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (1.3 MB). Loaded Objects now: 6206.
+Memory consumption went from 198.6 MB to 197.3 MB.
+Total: 5.351300 ms (FindLiveObjects: 0.420100 ms CreateObjectMapping: 0.421300 ms MarkObjects: 3.584200 ms  DeleteObjects: 0.924400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
