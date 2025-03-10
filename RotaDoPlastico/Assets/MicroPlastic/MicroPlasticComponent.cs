@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class MicroPlasticComponent : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class MicroPlasticComponent : MonoBehaviour
     private GameObject _player;
     private MicroPlasticArea _parent;
 
+    [SerializeField] private UnityEvent _colected;
     private void Start()
     {
         //_parent = gameObject.GetComponentInParent<MicroPlasticArea>();
@@ -16,7 +18,7 @@ public class MicroPlasticComponent : MonoBehaviour
 
     private void Update()
     {
-        
+        /*
         if (_collided)
         {
             float step = 5 * Time.deltaTime;
@@ -31,7 +33,7 @@ public class MicroPlasticComponent : MonoBehaviour
 
             }
         }
-        
+        */
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -40,7 +42,8 @@ public class MicroPlasticComponent : MonoBehaviour
             Destroy(gameObject);
             _collided = true;
             _player = collision.gameObject;
-            //_parent.CheckMicroPlasticAreaComponents();
+            Destroy(gameObject);
+            _colected.Invoke();
         }
     }
 }

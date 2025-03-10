@@ -16,7 +16,7 @@ public class MicroPlasticArea : MonoBehaviour
 
     private void Update()
     {
-        CheckMicroPlasticAreaComponents();
+        //CheckMicroPlasticAreaComponents();
     }
 
     public void CheckMicroPlasticAreaComponents()
