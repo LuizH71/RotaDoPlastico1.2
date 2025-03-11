@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class MovementButtons : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
@@ -13,6 +14,13 @@ public class MovementButtons : MonoBehaviour, IPointerDownHandler, IPointerUpHan
     [SerializeField] private bool up = false;
     [Tooltip("Variavel que faz a boia retornar ao barco")]
     [SerializeField] private bool Return = false;
+
+
+    [Header("ImageFeedBack")]
+    [SerializeField] private Sprite _upPressed;
+    [SerializeField] private Sprite _upUnpressed;
+    [SerializeField] private Image _upIMG;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,11 +28,7 @@ public class MovementButtons : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         _playerRescue = _player.GetComponent<Rescue>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
     public void OnPointerDown(PointerEventData data)
     {
         if (left)

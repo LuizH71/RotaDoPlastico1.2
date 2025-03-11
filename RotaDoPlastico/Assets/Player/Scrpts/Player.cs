@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Audio;
+using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
@@ -22,6 +23,9 @@ public class Player : MonoBehaviour
     private AudioSource _audioSource;
 
     [SerializeField] private PlayerAnimation _playerAnimation;
+
+    public static UnityAction<bool> _accelerating;// Cria uma ação/event que passa um bool. Esse evento é especialmente
+    // para a classe, MovementButtons, com essa informação ele vai saber se o botão na HUD deve estar pressionado ou não
     private void Awake()
     {
         if(Instance == null)
@@ -64,7 +68,7 @@ public class Player : MonoBehaviour
             _isAccelerating = true;
             _audioSource.enabled = true;
         }
-
+        _accelerating?.Invoke(_isAccelerating);// Chama o Evento
     }
 
 

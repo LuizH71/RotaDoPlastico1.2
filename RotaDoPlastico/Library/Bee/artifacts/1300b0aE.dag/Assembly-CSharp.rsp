@@ -411,6 +411,7 @@
 "Assets/Animais/Scripts/AnimalMov.cs"
 "Assets/Audio/Scripts/AudioManager.cs"
 "Assets/Audio/Scripts/Sound.cs"
+"Assets/Canvas/ButtonFeedBack.cs"
 "Assets/Canvas/HealthUI.cs"
 "Assets/Canvas/MainMenu.cs"
 "Assets/Canvas/MovementButtons.cs"
