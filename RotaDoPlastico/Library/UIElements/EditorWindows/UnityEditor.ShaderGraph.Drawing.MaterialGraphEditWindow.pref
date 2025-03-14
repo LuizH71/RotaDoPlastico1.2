@@ -15,6 +15,22 @@ MonoBehaviour:
   m_Keys:
   - __PanelContainer__rootVisualContainer__8866896c0ed2c0c40ab969cfac0790d1__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
   - __PanelContainer__rootVisualContainer__8866896c0ed2c0c40ab969cfac0790d1__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__3ed64a6e43da62f4ea62e70cb623df62__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__3ed64a6e43da62f4ea62e70cb623df62__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__33aa5e9ba90bce1479525d188936ed9f__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__33aa5e9ba90bce1479525d188936ed9f__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__1039e142764e39d40b6e1e3bc2868857__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__1039e142764e39d40b6e1e3bc2868857__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__4c6f7a342f3706c42aaf3c40a16860ca__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__4c6f7a342f3706c42aaf3c40a16860ca__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
   m_Values:
-  - '{"position":{"x":629.0,"y":130.0,"z":0.0},"scale":{"x":0.26489531993865969,"y":0.26489531993865969,"z":1.0}}'
-  - '{"m_Version":80,"m_SelectedElementsArray":[]}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{"position":{"x":489.0,"y":-201.0,"z":0.0},"scale":{"x":0.5717532634735107,"y":0.5717532634735107,"z":1.0}}'
+  - '{"m_Version":58,"m_SelectedElementsArray":[]}'

@@ -126,10 +126,10 @@ TextureImporter:
       name: gelotopo_0
       rect:
         serializedVersion: 2
-        x: 148
-        y: 410
-        width: 777
-        height: 381
+        x: 33
+        y: 85
+        width: 914
+        height: 692
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,12 +147,12 @@ TextureImporter:
       name: gelotopo_1
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 331
-        width: 695
-        height: 457
+        x: 994
+        y: 66
+        width: 758
+        height: 708
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,12 +168,12 @@ TextureImporter:
       name: gelotopo_2
       rect:
         serializedVersion: 2
-        x: 1882
-        y: 353
-        width: 653
-        height: 424
+        x: 1788
+        y: 198
+        width: 838
+        height: 496
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,12 +189,12 @@ TextureImporter:
       name: gelotopo_3
       rect:
         serializedVersion: 2
-        x: 2705
-        y: 339
-        width: 755
-        height: 438
+        x: 2716
+        y: 226
+        width: 786
+        height: 463
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: gelotopo_4
       rect:
         serializedVersion: 2
-        x: 3686
-        y: 383
-        width: 921
-        height: 388
+        x: 3593
+        y: 124
+        width: 1025
+        height: 650
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
