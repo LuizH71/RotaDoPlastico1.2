@@ -22,7 +22,6 @@ public class ButtonFeedBack : MonoBehaviour
 
     private void ButtonsFeedBack(bool isAccelerating)
     {
-        Debug.Log("ahhhh");
         if (isAccelerating)
         {
             _upIMG.sprite = _upPressed;
