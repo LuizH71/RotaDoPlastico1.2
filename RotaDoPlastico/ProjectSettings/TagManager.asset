@@ -50,3 +50,6 @@ TagManager:
   - name: obj
     uniqueID: 2284871439
     locked: 0
+  - name: Areas
+    uniqueID: 388330045
+    locked: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Rescue : MonoBehaviour
 {
@@ -23,8 +24,10 @@ public class Rescue : MonoBehaviour
     [HideInInspector] public bool Return = false;
     private bool _returned = false;
 
-    [SerializeField] private bool Ligado = false;
-    // Start is called before the first frame update
+    [SerializeField] public bool Ligado = false;
+
+    public static UnityAction<bool> _rescuing;// Cria uma ação/event que passa um bool. Esse evento é especialmente
+    // para a classe, ButtonFeedback, com essa informação ele vai saber se o botão na HUD deve estar pressionado ou não
     void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player");
@@ -57,6 +60,8 @@ public class Rescue : MonoBehaviour
             _elapsedTime = 0;
             _launched = true;
             _boia.GetComponent<Rigidbody2D>().simulated = true;
+
+            _rescuing?.Invoke(Launch);
         }
     }
 
@@ -86,20 +91,24 @@ public class Rescue : MonoBehaviour
 
     public void OnOFF()
     {
-        if (Ligado && !_launched && !Launch)//Desliga
+        if (Ligado && !_launched && !Launch && !_launched)//Desliga
         {
             _player.GetComponent<Player>().enabled = true;
             Ligado = false;
             _boiaEndPos.gameObject.SetActive(false);
             _boiaEndPos.gameObject.GetComponent<BoiaMove>().ResetPos();
             _returned = false;
+
+            _rescuing?.Invoke(Ligado);
         }
-        else//Liga
+        else if (!_launched)//Liga
         {
             _player.GetComponent<Player>().enabled = false;
             _player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             Ligado = true;
             _boiaEndPos.gameObject.SetActive(true);
+
+            _rescuing?.Invoke(Ligado);
         }
     }
     /*

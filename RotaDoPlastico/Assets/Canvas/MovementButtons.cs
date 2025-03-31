@@ -15,12 +15,6 @@ public class MovementButtons : MonoBehaviour, IPointerDownHandler, IPointerUpHan
     [Tooltip("Variavel que faz a boia retornar ao barco")]
     [SerializeField] private bool Return = false;
 
-
-    [Header("ImageFeedBack")]
-    [SerializeField] private Sprite _upPressed;
-    [SerializeField] private Sprite _upUnpressed;
-    [SerializeField] private Image _upIMG;
-
     // Start is called before the first frame update
     void Start()
     {

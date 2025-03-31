@@ -8,6 +8,7 @@ using UnityEngine.Events;
 public class Player : MonoBehaviour
 {
     public static Player Instance;
+    private static Rescue _rescue;
 
     [Header("Boat Parameters")]
     [SerializeField] private float _boatAcceleration = 10f;
@@ -25,7 +26,7 @@ public class Player : MonoBehaviour
     [SerializeField] private PlayerAnimation _playerAnimation;
 
     public static UnityAction<bool> _accelerating;// Cria uma ação/event que passa um bool. Esse evento é especialmente
-    // para a classe, MovementButtons, com essa informação ele vai saber se o botão na HUD deve estar pressionado ou não
+    // para a classe, ButtonFeedback, com essa informação ele vai saber se o botão na HUD deve estar pressionado ou não
     private void Awake()
     {
         if(Instance == null)
@@ -41,6 +42,7 @@ public class Player : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         _audioSource = GetComponent<AudioSource>();
+        _rescue = GetComponent<Rescue>();
     }
 
     private void Update()
@@ -58,17 +60,20 @@ public class Player : MonoBehaviour
     }
     public void Accelerate()
     {
-        if (_isAccelerating)
+        if (!_rescue.Ligado)
         {
-            _isAccelerating = false;
-            _audioSource.enabled = false;
+            if (_isAccelerating)
+            {
+                _isAccelerating = false;
+                _audioSource.enabled = false;
+            }
+            else
+            {
+                _isAccelerating = true;
+                _audioSource.enabled = true;
+            }
+            _accelerating?.Invoke(_isAccelerating);// Chama o Evento
         }
-        else
-        {
-            _isAccelerating = true;
-            _audioSource.enabled = true;
-        }
-        _accelerating?.Invoke(_isAccelerating);// Chama o Evento
     }
 
 
