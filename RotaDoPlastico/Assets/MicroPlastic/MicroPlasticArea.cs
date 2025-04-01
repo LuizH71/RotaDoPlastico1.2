@@ -5,13 +5,9 @@ using UnityEngine;
 public class MicroPlasticArea : MonoBehaviour
 {
     public List< GameObject> MicroPlasticComponents;
-    [SerializeField]private bool _notFinished = true;
-
-    private GameManager _gameManager;
 
     private void Start()
     {
-        _gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
     }
 
     private void Update()
@@ -21,17 +17,18 @@ public class MicroPlasticArea : MonoBehaviour
 
     public void CheckMicroPlasticAreaComponents()
     {
-        for (int i = 0; i <MicroPlasticComponents.Count; i++)
+        for (int i = MicroPlasticComponents.Count-1; i >= 0; i--)
         {
             if (MicroPlasticComponents[i] == null)
             {
                 MicroPlasticComponents.RemoveAt(i);
+
             }
-            if(MicroPlasticComponents.Count == 0)
+            if (MicroPlasticComponents.Count == 1)
             {
                 //passar para o gameManager
-                _gameManager.PassMicroPlastic();
-                Debug.Log("Uhuuuu");
+                GameManager.Instance.PassMicroPlastic();
+                break;
             }
 
         }

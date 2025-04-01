@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
 
     [Header("MicroPlastic")]
     public int MicroPlasticAmountToGet;
-    [HideInInspector] public int MicroPlasticAmount = 0;
+    public int MicroPlasticAmount = 0;
     [SerializeField] private TextMeshProUGUI _microPlasticToGetTXT;
     [SerializeField] private TextMeshProUGUI _microPlasticAmountTXT;
 

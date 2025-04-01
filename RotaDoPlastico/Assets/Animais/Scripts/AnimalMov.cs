@@ -15,6 +15,7 @@ public class AnimalMov : MonoBehaviour
     [SerializeField]private bool _move = false;
     private Vector3 _lastDestination;
 
+    public float Speed; //Speed of movement
     void Start()
     {
         _agent = GetComponent<NavMeshAgent>();
@@ -32,9 +33,12 @@ public class AnimalMov : MonoBehaviour
 
     private void MoveAwayFromPlayer()
     {
-        _agent.SetDestination(_lastDestination);//Moves the animal
+        //_agent.SetDestination(_lastDestination);//Moves the animal
 
-        if(Vector3.Distance(transform.position,_lastDestination)< 0.5f)
+        var step = Speed * Time.deltaTime; // calculate distance to move
+        transform.position = Vector3.MoveTowards(transform.position, _lastDestination, step);
+
+        if(Vector3.Distance(transform.position,_lastDestination)< 1f)
         {
             _move = false;
             //Enable Animal Sprites and collider
@@ -44,7 +48,6 @@ public class AnimalMov : MonoBehaviour
     }
     private void CreateRandomPoint(Vector3 center, float range)
     {
-
         Vector3 randomPoint = center + Random.insideUnitSphere * range; //random point in a sphere 
         NavMeshHit hit;
         if (NavMesh.SamplePosition(randomPoint, out hit, 1.0f, NavMesh.AllAreas)) //documentation: https://docs.unity3d.com/ScriptReference/AI.NavMesh.SamplePosition.html
@@ -63,11 +66,12 @@ public class AnimalMov : MonoBehaviour
         else
         {
             CreateRandomPoint(transform.position, range);
+
         }
     }
     private void DisableOrEnableAnimal(bool x)
     {
-        _agent.enabled = !x;
+       // _agent.enabled = !x;
         _animalSpriteAndDescription.SetActive(x);
     }
 
@@ -119,16 +123,9 @@ public class AnimalMov : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            _playerClose = true;
-            CreateRandomPoint(transform.position, range);
             DisableOrEnableAnimal(false);
-        }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            _playerClose = false;
+            CreateRandomPoint(transform.position, range);
+
         }
     }
 }
