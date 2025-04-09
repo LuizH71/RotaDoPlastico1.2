@@ -91,4 +91,8 @@ public class Player : MonoBehaviour
         _playerAnimation.PlayerBoatAnimation();
     }
 
+    public void StopAccelerating()
+    {
+        _isAccelerating = false;
+    }
 }
