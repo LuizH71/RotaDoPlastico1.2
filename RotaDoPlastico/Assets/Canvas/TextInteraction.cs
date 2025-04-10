@@ -19,7 +19,8 @@ public class TextInteraction : MonoBehaviour
     public class Interaction
     {
         public npcs NPC;
-        public Animation FacialExpression;
+        public Sprite FacialExpression;
+        public Image IMG;
 
         [TextArea] //give more space to write
         public string NpcDialogue;
@@ -31,11 +32,9 @@ public class TextInteraction : MonoBehaviour
  
     [Header("Old scientist")]
     [SerializeField] private GameObject _oldScientistObj;
-    [SerializeField] private Animator _oldScientistAnimator;
 
     [Header("Main character")]
     [SerializeField] private GameObject _mainCharacterObj;
-    [SerializeField] private Animator _mainCharacterAnimator;
 
 
 
@@ -166,6 +165,7 @@ public class TextInteraction : MonoBehaviour
 
     private void updateUI(npcs NPC)
     {
+        NpcInteraction[textLocation].IMG.sprite = NpcInteraction[textLocation].FacialExpression;
         switch (NPC)
         {
             case npcs.OldScientist:

@@ -437,6 +437,7 @@
 "Assets/Scripts/GameEventListener.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/HitTrigger.cs"
+"Assets/Scripts/NextScene.cs"
 "Assets/Scripts/RandomSound.cs"
 "Assets/Scripts/ResetPosHUD.cs"
 "Assets/Scripts/Residuo.cs"
