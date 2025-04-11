@@ -6,6 +6,8 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -15,6 +17,7 @@ public enum npcs { MainCharacter, OldScientist }
 public enum Animation { Falando, BocaAberta, BocaFechada, Feliz}
 public class TextInteraction : MonoBehaviour
 {
+    public floatVariable Restarted;   
     [System.Serializable]
     public class Interaction
     {
@@ -25,6 +28,10 @@ public class TextInteraction : MonoBehaviour
         [TextArea] //give more space to write
         public string NpcDialogue;
     }
+
+    [Header("Qual interação")]
+    [SerializeField] private bool _inicio, _fail, _finalizado, BoteDestruido;
+
 
     [Header("On UI elements")]
     [SerializeField] GameObject _interactionObj; //the obj that contains the text object and pannels
@@ -54,17 +61,42 @@ public class TextInteraction : MonoBehaviour
 
     public bool hadConversation = false;
     private bool _input = false;
+
+    [Header("HUD")]
+    [SerializeField] private GameObject _hudOBJ;
+
+    [SerializeField] private UnityEvent _deathEvent;
+    [SerializeField] private UnityEvent _finishGameEvent;
     private void Start()
     {
-        start = true;
+        if(_inicio)
+        {
+            if(Restarted.Value == 0)
+            {
+                start = true;
+            }
+            else
+            {
+                Timer.Instance.StartTimer = true;
+                gameObject.SetActive(false);
+            }
+        }
+        else
+        {
+            start = true;
+        }
+
     }
     private void Update()
     {
+
         TouchInput();
         if (start)
         {
             NextLineAndStop();
         }
+
+        
     }
 
     private void NextLineAndStop()
@@ -73,6 +105,7 @@ public class TextInteraction : MonoBehaviour
         if (!started)
         {
             StartTheConversation();
+            _hudOBJ.SetActive(false);
         }
         else
         {
@@ -147,10 +180,25 @@ public class TextInteraction : MonoBehaviour
         }
         else if (textLocation == NpcInteraction.Length) //if paragraph were over than disable the UI interaction obj
         {
-            hadConversation = true;
-            textLocation += 1;
-            _input = false;
-            _interactionObj.SetActive(false);
+            if (_inicio)
+            {
+                _hudOBJ.SetActive(true);
+                hadConversation = true;
+                textLocation += 1;
+                _input = false;
+                _interactionObj.SetActive(false);
+                Timer.Instance.StartTimer = true;
+            }
+            else if (_fail || BoteDestruido)
+            {
+                _deathEvent.Invoke();
+            }
+            else if (_finalizado)
+            {
+                _finishGameEvent.Invoke();
+                Timer.Instance.StartTimer = false;
+            }
+
         }
     }
     private void StartTheConversation()

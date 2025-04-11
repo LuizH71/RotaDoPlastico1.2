@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Corda
   m_EditorClassIdentifier: 
   _residuoImage: {fileID: 740963999, guid: 5d20422d46afe5042bbc7f65f9cbedde, type: 3}
-  _residuoInfo: Corda.
+  _residuoInfo: "Um peda\xE7o de corda."

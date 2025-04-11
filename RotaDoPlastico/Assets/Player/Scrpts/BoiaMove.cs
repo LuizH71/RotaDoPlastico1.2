@@ -10,10 +10,13 @@ public class BoiaMove : MonoBehaviour
     private GameObject _player;
 
     [SerializeField] private float _rayRadius;
-
     [HideInInspector] public bool LaunchBoia;
-
     [SerializeField] private LayerMask TerrnoAndPlayer;
+
+    [Header("SpriteSwap")]
+    [SerializeField] private SpriteRenderer _spriteRender;
+    [SerializeField] private Sprite _boiaNormal;
+    [SerializeField] private Sprite _boiaErrada;
     // Start is called before the first frame update
     void Start()
     {
@@ -57,6 +60,7 @@ public class BoiaMove : MonoBehaviour
                         _rb.velocity = Vector2.zero;
                         _player.GetComponent<Rescue>().SpawnBoia();
                         _player.GetComponent<Rescue>().Launch = true;
+                        _spriteRender.sprite = null;
                         this.enabled = false;
                     }
                     break;
@@ -77,13 +81,15 @@ public class BoiaMove : MonoBehaviour
 
         if (Physics2D.CircleCast(transform.position, _rayRadius, Vector2.zero,1f,TerrnoAndPlayer))// Se for terra fica vermelho e não deixa jogar a boia
         {
-            this.GetComponent<SpriteRenderer>().color = Color.red;
+            //this.GetComponent<SpriteRenderer>().color = Color.red;
+            _spriteRender.sprite = _boiaErrada;
             LaunchBoia = false;
 
         }
         else//Se For água fica azul e deixa jogar a boia
         {
-            this.GetComponent<SpriteRenderer>().color = Color.blue;
+            //this.GetComponent<SpriteRenderer>().color = Color.blue;
+            _spriteRender.sprite = _boiaNormal;
             LaunchBoia = true;
         }
     }

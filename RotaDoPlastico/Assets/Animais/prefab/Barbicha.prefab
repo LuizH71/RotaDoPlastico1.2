@@ -122,7 +122,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.00084483624, y: -0.013926029}
   serializedVersion: 2
-  m_Radius: 3.4296548
+  m_Radius: 2.5
 --- !u!114 &6001945377043876858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _parent: {fileID: 3681905896734011902}
   _animalImage: {fileID: 21300000, guid: a5caedd1d83b6464d99c6eb297924eaf, type: 3}
-  _animalInfo: Pinguim-de-barbicha , enroscada em uma corda de pesca ilegal
+  _animalInfo: "Um pinguim-de-ad\xE9lia enroscado em uma corda de pesca ilegal"
 --- !u!95 &8828766221683840889
 Animator:
   serializedVersion: 5

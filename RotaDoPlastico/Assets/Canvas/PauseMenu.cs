@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+    public floatVariable Restarted;
+
     private bool isPaused = false;
     [SerializeField] private GameObject[] _hudButtons;
     
@@ -21,7 +23,7 @@ public class PauseMenu : MonoBehaviour
         PanelToDisable.SetActive(true);
         isPaused = true;
 
-        for (int i = 0; i <= _hudButtons.Length; i++)
+        for (int i = (_hudButtons.Length - 1); i >= 0; i--)
         {
             _hudButtons[i].SetActive(false);
         }
@@ -34,7 +36,7 @@ public class PauseMenu : MonoBehaviour
         PanelToDisable.SetActive(false);
         isPaused = false;
         
-        for(int i = 0; i<= _hudButtons.Length; i++)
+        for(int i = (_hudButtons.Length - 1); i >= 0; i--)
         {
             _hudButtons[i].SetActive(true);
         }
@@ -55,13 +57,16 @@ public class PauseMenu : MonoBehaviour
     //clicar no botão voltar ao menu principal volta ao menu principal
     public void ResetLevel()
     {
-        SceneManager.LoadScene(0);
+        Restarted.Value = 1;
+        SceneManager.LoadScene(2);
     }
 
     //clicar sair fecha o jogo
     public void SairJogo()
     {
         Application.Quit();
+        Restarted.Value = 0;
+
     }
 
 

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: "Sacolinha pl\xE1stica"
   m_EditorClassIdentifier: 
   _residuoImage: {fileID: 466582112, guid: 5d20422d46afe5042bbc7f65f9cbedde, type: 3}
-  _residuoInfo: "Sacolinha pl\xE1stica."
+  _residuoInfo: "Uma sacolinha pl\xE1stica."

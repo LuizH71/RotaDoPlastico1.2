@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Rede embaralhada.
   m_EditorClassIdentifier: 
   _residuoImage: {fileID: 2050469916, guid: 5d20422d46afe5042bbc7f65f9cbedde, type: 3}
-  _residuoInfo: Rede embaralhada.
+  _residuoInfo: Uma rede emaranhada.

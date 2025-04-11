@@ -94,5 +94,8 @@ public class Player : MonoBehaviour
     public void StopAccelerating()
     {
         _isAccelerating = false;
+        _audioSource.enabled = false;
+        left = false;
+        right = false;
     }
 }

@@ -24,7 +24,7 @@ public class HealthUI : MonoBehaviour
         else
         {
             _healthSlider.value = 0;
-            Time.timeScale = 0;
+            //Time.timeScale = 0;
             Death.Invoke();
         }
     }

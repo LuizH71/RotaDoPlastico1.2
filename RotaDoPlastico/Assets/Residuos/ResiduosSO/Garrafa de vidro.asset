@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Garrafa de vidro
   m_EditorClassIdentifier: 
   _residuoImage: {fileID: 569672738, guid: 5d20422d46afe5042bbc7f65f9cbedde, type: 3}
-  _residuoInfo: 'Garrafa de vidro.
+  _residuoInfo: 'Uma garrafa de vidro.
 
 '

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: "Garrafa de pl\xE1stico"
   m_EditorClassIdentifier: 
   _residuoImage: {fileID: 1510591960, guid: 5d20422d46afe5042bbc7f65f9cbedde, type: 3}
-  _residuoInfo: "Garrafa de pl\xE1stico."
+  _residuoInfo: "Uma garrafa pl\xE1stica."
