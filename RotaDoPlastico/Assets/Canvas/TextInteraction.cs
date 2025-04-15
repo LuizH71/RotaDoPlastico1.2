@@ -36,6 +36,7 @@ public class TextInteraction : MonoBehaviour
     [Header("On UI elements")]
     [SerializeField] GameObject _interactionObj; //the obj that contains the text object and pannels
     [SerializeField] TextMeshProUGUI _interactionText;// the obj that contains the text component
+    [SerializeField] GameObject _triangulo;
  
     [Header("Old scientist")]
     [SerializeField] private GameObject _oldScientistObj;
@@ -135,12 +136,14 @@ public class TextInteraction : MonoBehaviour
                 _interactionText.text = line;
                 StartTyping = false;
                 nextFrase = true;
+
+                _triangulo.SetActive(true); //enables the triangle;
                 break;
             }
         }
 
         nextFrase = true;
-
+        _triangulo.SetActive(true); //enables the triangle;
     }
     private IEnumerator StartTypingDelay()
     {
@@ -163,6 +166,7 @@ public class TextInteraction : MonoBehaviour
 
         }
     }
+
     //method that run the courotine
     private void GoToNextParagraphOrisble()
     {
@@ -174,30 +178,14 @@ public class TextInteraction : MonoBehaviour
             StartTyping = false;
             textLocation += 1;
             updateUI(NpcInteraction[textLocation].NPC);//Updatede ui/ Switches characters
+            _triangulo.SetActive(false); // disable the triangle
 
             _input = false;
             StartCoroutine(DisplayLine(NpcInteraction[textLocation].NpcDialogue));
         }
         else if (textLocation == NpcInteraction.Length) //if paragraph were over than disable the UI interaction obj
         {
-            if (_inicio)
-            {
-                _hudOBJ.SetActive(true);
-                hadConversation = true;
-                textLocation += 1;
-                _input = false;
-                _interactionObj.SetActive(false);
-                Timer.Instance.StartTimer = true;
-            }
-            else if (_fail || BoteDestruido)
-            {
-                _deathEvent.Invoke();
-            }
-            else if (_finalizado)
-            {
-                _finishGameEvent.Invoke();
-                Timer.Instance.StartTimer = false;
-            }
+            EndConversation();
 
         }
     }
@@ -226,5 +214,28 @@ public class TextInteraction : MonoBehaviour
                 break;
         }
             
+    }
+
+
+    public void EndConversation()
+    {
+        if (_inicio)
+        {
+            _hudOBJ.SetActive(true);
+            hadConversation = true;
+            textLocation += 1;
+            _input = false;
+            _interactionObj.SetActive(false);
+            Timer.Instance.StartTimer = true;
+        }
+        else if (_fail || BoteDestruido)
+        {
+            _deathEvent.Invoke();
+        }
+        else if (_finalizado)
+        {
+            _finishGameEvent.Invoke();
+            Timer.Instance.StartTimer = false;
+        }
     }
 }

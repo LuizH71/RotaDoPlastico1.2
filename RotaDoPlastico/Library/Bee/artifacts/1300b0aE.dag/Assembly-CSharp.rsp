@@ -418,6 +418,7 @@
 "Assets/Canvas/PauseMenu.cs"
 "Assets/Canvas/TextInteraction.cs"
 "Assets/Canvas/Timer.cs"
+"Assets/JumpDialogue.cs"
 "Assets/MicroPlastic/MicroPlasticArea.cs"
 "Assets/MicroPlastic/MicroPlasticComponent.cs"
 "Assets/Player/Scrpts/BoiaMove.cs"
