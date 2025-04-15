@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 321}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 989
-  m_MinSize: {x: 875, y: 321}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 104
+  controlID: 151
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,8 +167,8 @@ MonoBehaviour:
     y: 0
     width: 273
     height: 939
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 105
+  controlID: 96
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,8 +249,8 @@ MonoBehaviour:
     y: 694
     width: 959
     height: 245
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 20}
@@ -449,7 +449,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: b2730000
     m_LastClickedID: 29618
-    m_ExpandedIDs: 00000000fc0100006a0300006c0300006e030000ca720000cc720000ce720000d0720000d2720000d4720000d6720000d8720000da720000dc720000de720000e0720000e2720000e4720000e6720000e8720000ea720000ec720000ee720000f0720000f2720000f4720000f6720000f8720000fa720000fc720000fe72000000730000027300000473000006730000087300000a7300000c7300000e73000010730000127300001473000016730000187300001a7300001c7300001e730000207300002273000024730000
+    m_ExpandedIDs: 000000006a0300006c0300006e030000c0700000f8720000fa720000fc720000fe72000000730000027300000473000006730000087300000a7300000c7300000e73000010730000127300001473000016730000187300001a7300001c7300001e73000020730000227300002473000026730000287300002a7300002c7300002e73000030730000327300003473000036730000387300003a7300003c7300003e73000040730000427300004473000046730000487300004a7300004c7300004e730000507300005273000054730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -477,21 +477,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000fc0100006a0300006c0300006e030000ca720000cc720000ce720000d0720000d2720000d4720000d6720000d8720000da720000dc720000de720000e0720000e2720000e4720000e6720000e8720000ea720000ec720000ee720000f0720000f2720000f4720000f6720000f8720000fa720000fc72000000730000027300000473000006730000087300000a7300000c7300000e7300001473000016730000187300001a7300001c7300001e730000207300002473000040740000447400001a7500007894000022c30200
+    m_ExpandedIDs: ffffffff000000006a0300006c0300006e030000c0700000f8720000fa720000fc720000fe72000000730000027300000473000006730000087300000a7300000c7300000e73000010730000127300001473000016730000187300001a7300001c7300001e73000020730000227300002473000026730000287300002a7300002c7300002e73000030730000327300003473000036730000387300003a7300003c7300003e73000040730000427300004473000046730000487300004a7300004c7300004e730000507300005273000054730000887400007c950000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Adelia
-      m_OriginalName: Adelia
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 742194
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
@@ -570,23 +570,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 5653fcff9053fcfff256fcff0057fcff2057fcffb65dfcfff05dfcff5261fcff6061fcff8061fcff9a65fcffe265fcffb266fcffba6dfcff0e6efcff6871fcff7271fcff8c71fcff8479fcffd879fcff3a7dfcff487dfcff6a7dfcff9e88fcfff288fcff548cfcff628cfcff848cfcff889ffcffde9ffcff54a3fcff5ea3fcff78a3fcfffcf7fcff68b2fdffa8b2fdff0cb8fdff28c5fdff46c5fdff66c5fdff7cc5fdff7ec5fdffe6d7fdff62f2fdff8c36feffe254feff5465feff1084feff0244ffff0a44ffffa2a3ffff6ab3ffff90f0fffffafaffff507000002a7700002a7b0000e07f0000ec8a0000429000006a920000909200001a620600f67e0600a85d0700ac5d0700bc5d0700d85d0700003c0800163c0800503d08007e3e0800a23e0800063f08001a420800a6440800644508009c46080066470800da47080048480800e2480800604d0800fa4d08008e4f0800d44f08003e51080030520800a0520800185708008e570800e8570800261b09007e2009005e2409009e240900cc2409003235090084370900aa370900381f0c0064230c006e280c00dc280c00cc3c0c004af90d0060f90d002a3a0e00403a0e00
+      m_SelectedIDs: 5a750000
+      m_LastClickedID: 30042
+      m_ExpandedIDs: c2f9ffffe8faffff92760000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Imperador
-        m_OriginalName: Imperador
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 801996
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 7}
       m_SearchString: 
@@ -3400,7 +3400,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 634.4068
     speed: 2
-    m_Value: 629.9248
+    m_Value: 634.4068
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -3495,7 +3495,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 932432
+  m_LastSelectedObjectID: 30042
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
