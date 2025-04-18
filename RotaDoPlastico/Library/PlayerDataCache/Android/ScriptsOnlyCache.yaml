@@ -77,7 +77,6 @@ ScriptsOnlyBuild:
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings
     Unity.AdaptivePerformance.Simulator.Editor.dll:
     - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
-    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettingsEditor
     Unity.Mobile.AndroidLogcat.Editor.dll:
     - Unity.Android.Logcat.AndroidLogcatManager
     Unity.RenderPipelines.Core.Runtime:
@@ -132,8 +131,8 @@ ScriptsOnlyBuild:
     - TMPro.TextMeshProUGUI
     Unity.Timeline.Editor.dll:
     - TimelinePreferences
-    - TimelineProjectSettings
     - UnityEditor.Timeline.SequenceHierarchy
+    - UnityEditor.Timeline.TimelineAssetViewModel
     - UnityEditor.Timeline.TimelineWindow
     Unity.Timeline.dll:
     - UnityEngine.Timeline.ActivationPlayableAsset
@@ -326,32 +325,8 @@ ScriptsOnlyBuild:
     fullTypeName: GameEvent
     methodName: Raise
   - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
     fullTypeName: MicroPlasticArea
     methodName: CheckMicroPlasticAreaComponents
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
   - assembly: Assembly-CSharp
     fullTypeName: GameEvent
     methodName: Raise
@@ -398,89 +373,8 @@ ScriptsOnlyBuild:
     fullTypeName: GameEvent
     methodName: Raise
   - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: ResetLevel
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
   - assembly: Assembly-CSharp
     fullTypeName: GameEvent
     methodName: Raise
@@ -688,81 +582,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameEvent
     methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
   - assembly: Assembly-CSharp
     fullTypeName: GameEvent
     methodName: Raise
@@ -817,15 +639,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameEvent
     methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -836,15 +649,6 @@ ScriptsOnlyBuild:
     fullTypeName: GameEvent
     methodName: Raise
   - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
     fullTypeName: MicroPlasticArea
     methodName: CheckMicroPlasticAreaComponents
   - assembly: Assembly-CSharp
@@ -866,35 +670,8 @@ ScriptsOnlyBuild:
     fullTypeName: GameEvent
     methodName: Raise
   - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
     fullTypeName: MicroPlasticArea
     methodName: CheckMicroPlasticAreaComponents
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
   - assembly: Assembly-CSharp
     fullTypeName: GameEvent
     methodName: Raise
@@ -913,87 +690,6 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
   - assembly: Assembly-CSharp
     fullTypeName: GameEvent
     methodName: Raise
@@ -1118,53 +814,8 @@ ScriptsOnlyBuild:
     fullTypeName: GameEvent
     methodName: Raise
   - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
     fullTypeName: MicroPlasticArea
     methodName: CheckMicroPlasticAreaComponents
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
   - assembly: Assembly-CSharp
     fullTypeName: GameEvent
     methodName: Raise
@@ -1252,75 +903,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameEvent
     methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
   - assembly: Assembly-CSharp
     fullTypeName: GameEvent
     methodName: Raise
@@ -1367,59 +952,8 @@ ScriptsOnlyBuild:
     fullTypeName: GameEvent
     methodName: Raise
   - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
     fullTypeName: MicroPlasticArea
     methodName: CheckMicroPlasticAreaComponents
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
   - assembly: Assembly-CSharp
     fullTypeName: GameEvent
     methodName: Raise
@@ -1471,45 +1005,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MicroPlasticArea
     methodName: CheckMicroPlasticAreaComponents
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
   - assembly: Assembly-CSharp
     fullTypeName: GameEvent
     methodName: Raise
@@ -1600,27 +1095,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: GameEvent
     methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -1688,77 +1162,11 @@ ScriptsOnlyBuild:
     fullTypeName: GameEvent
     methodName: Raise
   - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
     fullTypeName: MicroPlasticArea
     methodName: CheckMicroPlasticAreaComponents
   - assembly: Assembly-CSharp
     fullTypeName: MicroPlasticArea
     methodName: CheckMicroPlasticAreaComponents
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
-  - assembly: Assembly-CSharp
-    fullTypeName: GameEvent
-    methodName: Raise
   - assembly: Assembly-CSharp
     fullTypeName: GameEvent
     methodName: Raise
@@ -1825,29 +1233,29 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16726}
+      Script: {instanceID: 16730}
     - Class: 114
-      Script: {instanceID: 16770}
+      Script: {instanceID: 16774}
     - Class: 114
-      Script: {instanceID: 17732}
+      Script: {instanceID: 17736}
     - Class: 114
-      Script: {instanceID: 18546}
+      Script: {instanceID: 18550}
     - Class: 114
-      Script: {instanceID: 18706}
+      Script: {instanceID: 18710}
     - Class: 114
-      Script: {instanceID: 20590}
+      Script: {instanceID: 20594}
     - Class: 114
-      Script: {instanceID: 23364}
+      Script: {instanceID: 23368}
     - Class: 114
-      Script: {instanceID: 23542}
+      Script: {instanceID: 23546}
     - Class: 114
-      Script: {instanceID: 25016}
+      Script: {instanceID: 25022}
     - Class: 114
-      Script: {instanceID: 25228}
+      Script: {instanceID: 25234}
     - Class: 114
-      Script: {instanceID: 25572}
+      Script: {instanceID: 25578}
     - Class: 114
-      Script: {instanceID: 26498}
+      Script: {instanceID: 26504}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1914,105 +1322,105 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 706}
     - Class: 114
-      Script: {instanceID: 16724}
+      Script: {instanceID: 16728}
     - Class: 114
-      Script: {instanceID: 16726}
+      Script: {instanceID: 16730}
     - Class: 114
-      Script: {instanceID: 16770}
+      Script: {instanceID: 16774}
     - Class: 114
-      Script: {instanceID: 16814}
+      Script: {instanceID: 16818}
     - Class: 114
-      Script: {instanceID: 17078}
+      Script: {instanceID: 17082}
     - Class: 114
-      Script: {instanceID: 17584}
+      Script: {instanceID: 17588}
     - Class: 114
-      Script: {instanceID: 17602}
+      Script: {instanceID: 17606}
     - Class: 114
-      Script: {instanceID: 17660}
+      Script: {instanceID: 17664}
     - Class: 114
-      Script: {instanceID: 18012}
+      Script: {instanceID: 18016}
     - Class: 114
-      Script: {instanceID: 18502}
+      Script: {instanceID: 18506}
     - Class: 114
-      Script: {instanceID: 18952}
+      Script: {instanceID: 18956}
     - Class: 114
-      Script: {instanceID: 18988}
+      Script: {instanceID: 18992}
     - Class: 114
-      Script: {instanceID: 19688}
+      Script: {instanceID: 19692}
     - Class: 114
-      Script: {instanceID: 20590}
+      Script: {instanceID: 20594}
     - Class: 114
-      Script: {instanceID: 20604}
+      Script: {instanceID: 20608}
     - Class: 114
-      Script: {instanceID: 20672}
+      Script: {instanceID: 20676}
     - Class: 114
-      Script: {instanceID: 20754}
+      Script: {instanceID: 20758}
     - Class: 114
-      Script: {instanceID: 20766}
+      Script: {instanceID: 20770}
     - Class: 114
-      Script: {instanceID: 20854}
+      Script: {instanceID: 20858}
     - Class: 114
-      Script: {instanceID: 20910}
+      Script: {instanceID: 20914}
     - Class: 114
-      Script: {instanceID: 21018}
+      Script: {instanceID: 21022}
     - Class: 114
-      Script: {instanceID: 21448}
+      Script: {instanceID: 21452}
     - Class: 114
-      Script: {instanceID: 21516}
+      Script: {instanceID: 21520}
     - Class: 114
-      Script: {instanceID: 22224}
+      Script: {instanceID: 22228}
     - Class: 114
-      Script: {instanceID: 22484}
+      Script: {instanceID: 22488}
     - Class: 114
-      Script: {instanceID: 22674}
+      Script: {instanceID: 22678}
     - Class: 114
-      Script: {instanceID: 23364}
+      Script: {instanceID: 23368}
     - Class: 114
-      Script: {instanceID: 23428}
+      Script: {instanceID: 23432}
     - Class: 114
-      Script: {instanceID: 23542}
+      Script: {instanceID: 23546}
     - Class: 114
-      Script: {instanceID: 24036}
+      Script: {instanceID: 24040}
     - Class: 114
-      Script: {instanceID: 24134}
+      Script: {instanceID: 24068}
     - Class: 114
-      Script: {instanceID: 24208}
+      Script: {instanceID: 24140}
     - Class: 114
-      Script: {instanceID: 24532}
+      Script: {instanceID: 24214}
     - Class: 114
-      Script: {instanceID: 24566}
+      Script: {instanceID: 24538}
     - Class: 114
-      Script: {instanceID: 24852}
+      Script: {instanceID: 24572}
     - Class: 114
-      Script: {instanceID: 24880}
+      Script: {instanceID: 24858}
     - Class: 114
-      Script: {instanceID: 24972}
+      Script: {instanceID: 24886}
     - Class: 114
-      Script: {instanceID: 25160}
+      Script: {instanceID: 24978}
     - Class: 114
-      Script: {instanceID: 25500}
+      Script: {instanceID: 25166}
     - Class: 114
-      Script: {instanceID: 25572}
+      Script: {instanceID: 25506}
     - Class: 114
-      Script: {instanceID: 25694}
+      Script: {instanceID: 25578}
     - Class: 114
-      Script: {instanceID: 26012}
+      Script: {instanceID: 25700}
     - Class: 114
-      Script: {instanceID: 26070}
+      Script: {instanceID: 26018}
     - Class: 114
-      Script: {instanceID: 26424}
+      Script: {instanceID: 26076}
     - Class: 114
-      Script: {instanceID: 26482}
+      Script: {instanceID: 26430}
     - Class: 114
-      Script: {instanceID: 26498}
+      Script: {instanceID: 26488}
     - Class: 114
-      Script: {instanceID: 26898}
+      Script: {instanceID: 26504}
     - Class: 114
-      Script: {instanceID: 27284}
+      Script: {instanceID: 26904}
     - Class: 114
-      Script: {instanceID: 28104}
+      Script: {instanceID: 27290}
     - Class: 114
-      Script: {instanceID: 90514}
+      Script: {instanceID: 28110}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -2069,123 +1477,123 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16720}
-    - Class: 114
-      Script: {instanceID: 16722}
-    - Class: 114
       Script: {instanceID: 16724}
     - Class: 114
       Script: {instanceID: 16726}
     - Class: 114
       Script: {instanceID: 16728}
     - Class: 114
-      Script: {instanceID: 16738}
+      Script: {instanceID: 16730}
     - Class: 114
-      Script: {instanceID: 16770}
+      Script: {instanceID: 16732}
     - Class: 114
-      Script: {instanceID: 16882}
+      Script: {instanceID: 16742}
     - Class: 114
-      Script: {instanceID: 17238}
+      Script: {instanceID: 16774}
     - Class: 114
-      Script: {instanceID: 17448}
+      Script: {instanceID: 16886}
     - Class: 114
-      Script: {instanceID: 17732}
+      Script: {instanceID: 17242}
     - Class: 114
-      Script: {instanceID: 17814}
+      Script: {instanceID: 17452}
     - Class: 114
-      Script: {instanceID: 18264}
+      Script: {instanceID: 17736}
     - Class: 114
-      Script: {instanceID: 18344}
+      Script: {instanceID: 17818}
     - Class: 114
-      Script: {instanceID: 18484}
+      Script: {instanceID: 18268}
     - Class: 114
-      Script: {instanceID: 18546}
+      Script: {instanceID: 18348}
     - Class: 114
-      Script: {instanceID: 18706}
+      Script: {instanceID: 18488}
     - Class: 114
-      Script: {instanceID: 19024}
+      Script: {instanceID: 18550}
     - Class: 114
-      Script: {instanceID: 19778}
+      Script: {instanceID: 18710}
     - Class: 114
-      Script: {instanceID: 19818}
+      Script: {instanceID: 19028}
     - Class: 114
-      Script: {instanceID: 19880}
+      Script: {instanceID: 19782}
     - Class: 114
-      Script: {instanceID: 19930}
+      Script: {instanceID: 19822}
     - Class: 114
-      Script: {instanceID: 20108}
+      Script: {instanceID: 19884}
     - Class: 114
-      Script: {instanceID: 20126}
+      Script: {instanceID: 19934}
     - Class: 114
-      Script: {instanceID: 20586}
+      Script: {instanceID: 20112}
+    - Class: 114
+      Script: {instanceID: 20130}
     - Class: 114
       Script: {instanceID: 20590}
     - Class: 114
-      Script: {instanceID: 20660}
+      Script: {instanceID: 20594}
     - Class: 114
-      Script: {instanceID: 20764}
+      Script: {instanceID: 20664}
     - Class: 114
-      Script: {instanceID: 20846}
+      Script: {instanceID: 20768}
     - Class: 114
-      Script: {instanceID: 21194}
+      Script: {instanceID: 20850}
     - Class: 114
-      Script: {instanceID: 21202}
+      Script: {instanceID: 21198}
     - Class: 114
-      Script: {instanceID: 21250}
+      Script: {instanceID: 21206}
     - Class: 114
-      Script: {instanceID: 21854}
+      Script: {instanceID: 21254}
     - Class: 114
-      Script: {instanceID: 22066}
+      Script: {instanceID: 21858}
     - Class: 114
-      Script: {instanceID: 22986}
+      Script: {instanceID: 22070}
     - Class: 114
-      Script: {instanceID: 23042}
+      Script: {instanceID: 22990}
     - Class: 114
-      Script: {instanceID: 23178}
+      Script: {instanceID: 23046}
     - Class: 114
-      Script: {instanceID: 23364}
+      Script: {instanceID: 23182}
     - Class: 114
-      Script: {instanceID: 23542}
+      Script: {instanceID: 23368}
     - Class: 114
-      Script: {instanceID: 24186}
+      Script: {instanceID: 23546}
     - Class: 114
-      Script: {instanceID: 24254}
+      Script: {instanceID: 24192}
     - Class: 114
-      Script: {instanceID: 24496}
+      Script: {instanceID: 24260}
     - Class: 114
-      Script: {instanceID: 24588}
+      Script: {instanceID: 24502}
     - Class: 114
-      Script: {instanceID: 24826}
+      Script: {instanceID: 24594}
     - Class: 114
-      Script: {instanceID: 24896}
+      Script: {instanceID: 24832}
     - Class: 114
-      Script: {instanceID: 25228}
+      Script: {instanceID: 24902}
     - Class: 114
-      Script: {instanceID: 25526}
+      Script: {instanceID: 25234}
     - Class: 114
-      Script: {instanceID: 25572}
+      Script: {instanceID: 25532}
     - Class: 114
-      Script: {instanceID: 25766}
+      Script: {instanceID: 25578}
     - Class: 114
-      Script: {instanceID: 26008}
+      Script: {instanceID: 25772}
     - Class: 114
-      Script: {instanceID: 26296}
+      Script: {instanceID: 26014}
     - Class: 114
-      Script: {instanceID: 26428}
+      Script: {instanceID: 26302}
     - Class: 114
-      Script: {instanceID: 26498}
+      Script: {instanceID: 26434}
     - Class: 114
-      Script: {instanceID: 26510}
+      Script: {instanceID: 26504}
     - Class: 114
-      Script: {instanceID: 26594}
+      Script: {instanceID: 26516}
     - Class: 114
-      Script: {instanceID: 26712}
+      Script: {instanceID: 26600}
     - Class: 114
-      Script: {instanceID: 26848}
+      Script: {instanceID: 26718}
     - Class: 114
-      Script: {instanceID: 27102}
+      Script: {instanceID: 26854}
     - Class: 114
-      Script: {instanceID: 27882}
+      Script: {instanceID: 27108}
+    - Class: 114
+      Script: {instanceID: 27888}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3551,6 +2959,12 @@ ScriptsOnlyBuild:
     className: RandomSound
   - hash:
       serializedVersion: 2
+      Hash: 14303fe9e3c5b9b115e85b0b1157b3de
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: JumpDialogue
+  - hash:
+      serializedVersion: 2
       Hash: 5b8b7230ad968399f6726aa1269dcdcb
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -4209,12 +3623,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 14303fe9e3c5b9b115e85b0b1157b3de
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: JumpDialogue
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
