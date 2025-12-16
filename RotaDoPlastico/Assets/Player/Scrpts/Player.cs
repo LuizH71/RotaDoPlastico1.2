@@ -25,8 +25,8 @@ public class Player : MonoBehaviour
 
     [SerializeField] private PlayerAnimation _playerAnimation;
 
-    public static UnityAction<bool> _accelerating;// Cria uma ação/event que passa um bool. Esse evento é especialmente
-    // para a classe, ButtonFeedback, com essa informação ele vai saber se o botão na HUD deve estar pressionado ou não
+    public static UnityAction<bool> _accelerating;// Cria uma aï¿½ï¿½o/event que passa um bool. Esse evento ï¿½ especialmente
+    // para a classe, ButtonFeedback, com essa informaï¿½ï¿½o ele vai saber se o botï¿½o na HUD deve estar pressionado ou nï¿½o
     private void Awake()
     {
         if(Instance == null)
@@ -55,7 +55,7 @@ public class Player : MonoBehaviour
         if (_isAccelerating)
         {
             _rb.AddForce(_boatAcceleration * transform.up);
-            _rb.velocity = Vector2.ClampMagnitude(_rb.velocity, _boatMaxVelocity);
+            _rb.linearVelocity = Vector2.ClampMagnitude(_rb.linearVelocity, _boatMaxVelocity);
         }
     }
     public void Accelerate()

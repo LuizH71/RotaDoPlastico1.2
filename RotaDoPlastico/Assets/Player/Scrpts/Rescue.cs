@@ -26,8 +26,8 @@ public class Rescue : MonoBehaviour
 
     [SerializeField] public bool Ligado = false;
 
-    public static UnityAction<bool> _rescuing;// Cria uma ação/event que passa um bool. Esse evento é especialmente
-    // para a classe, ButtonFeedback, com essa informação ele vai saber se o botão na HUD deve estar pressionado ou não
+    public static UnityAction<bool> _rescuing;// Cria uma aï¿½ï¿½o/event que passa um bool. Esse evento ï¿½ especialmente
+    // para a classe, ButtonFeedback, com essa informaï¿½ï¿½o ele vai saber se o botï¿½o na HUD deve estar pressionado ou nï¿½o
     void Start()
     {
         _player = GameObject.FindGameObjectWithTag("Player");
@@ -104,7 +104,7 @@ public class Rescue : MonoBehaviour
         else if (!_launched)//Liga
         {
             _player.GetComponent<Player>().enabled = false;
-            _player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            _player.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
             Ligado = true;
             _boiaEndPos.gameObject.SetActive(true);
 

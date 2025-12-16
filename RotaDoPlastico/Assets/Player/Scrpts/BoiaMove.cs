@@ -32,7 +32,7 @@ public class BoiaMove : MonoBehaviour
         TargetMovement();
     }
 
-    private void TargetMovement()//Faz o movimento da sinalização aonde a boia vai cair
+    private void TargetMovement()//Faz o movimento da sinalizaï¿½ï¿½o aonde a boia vai cair
     {
         if (Input.touchCount > 0)
         {
@@ -50,14 +50,14 @@ public class BoiaMove : MonoBehaviour
                     _rb.MovePosition(new Vector2(touchPos.x - _deltaX, touchPos.y - _deltaY));
                     break;
 
-                case TouchPhase.Ended:// Caso solte da tela ou não faz nada em caso de estar em cima da terra ou solta a boia caso esteja em cima da água
+                case TouchPhase.Ended:// Caso solte da tela ou nï¿½o faz nada em caso de estar em cima da terra ou solta a boia caso esteja em cima da ï¿½gua
                     if (!LaunchBoia)
                     {
                         ResetPos();
                     }
                     else
                     {
-                        _rb.velocity = Vector2.zero;
+                        _rb.linearVelocity = Vector2.zero;
                         _player.GetComponent<Rescue>().SpawnBoia();
                         _player.GetComponent<Rescue>().Launch = true;
                         _spriteRender.sprite = null;
@@ -76,17 +76,17 @@ public class BoiaMove : MonoBehaviour
         transform.position = _player.transform.position;
         this.enabled = true;
     }
-    private void Raycast()// Checa pra ver se onde a boia vai é  água ou terra
+    private void Raycast()// Checa pra ver se onde a boia vai ï¿½  ï¿½gua ou terra
     {
 
-        if (Physics2D.CircleCast(transform.position, _rayRadius, Vector2.zero,1f,TerrnoAndPlayer))// Se for terra fica vermelho e não deixa jogar a boia
+        if (Physics2D.CircleCast(transform.position, _rayRadius, Vector2.zero,1f,TerrnoAndPlayer))// Se for terra fica vermelho e nï¿½o deixa jogar a boia
         {
             //this.GetComponent<SpriteRenderer>().color = Color.red;
             _spriteRender.sprite = _boiaErrada;
             LaunchBoia = false;
 
         }
-        else//Se For água fica azul e deixa jogar a boia
+        else//Se For ï¿½gua fica azul e deixa jogar a boia
         {
             //this.GetComponent<SpriteRenderer>().color = Color.blue;
             _spriteRender.sprite = _boiaNormal;

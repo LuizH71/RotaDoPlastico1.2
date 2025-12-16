@@ -17,6 +17,7 @@ public class Sound : MonoBehaviour
     public int Priority;
 
     public bool Loop;
+    public bool PlayOnAwake;
 
     [HideInInspector]
     public AudioSource Source;

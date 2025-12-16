@@ -67,6 +67,17 @@
         "DisplayIdEnabled": false,
         "DisplayId": ""
     },
+    "m_ScreenCaptureSettings": {
+        "Mode": 0,
+        "m_LastSaveLocation": [
+            "D:\\projeto Interantar\\RotaDoPlastico1.2\\RotaDoPlastico",
+            "D:\\projeto Interantar\\RotaDoPlastico1.2\\RotaDoPlastico"
+        ]
+    },
+    "m_QueryLayoutSettings": {
+        "LastLayoutSaveLocation": "",
+        "LastScreenshotSaveLocation": ""
+    },
     "m_InputSettings": {
         "ShiftModifier": false,
         "SendText": "",

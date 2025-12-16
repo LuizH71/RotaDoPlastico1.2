@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/projeto Interantar/RotaDoPlastico1.2/RotaDoPlastico/Packages/manifest.json
+    m_FilePath: C:/Users/Luiz/Disco D/projeto Interantar/RotaDoPlastico1.2/RotaDoPlastico/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638635783453287995
-    m_Hash: 523215579
+      ticks: 638955451664021619
+    m_Hash: 847827709
   m_LockFileStatus:
-    m_FilePath: D:/projeto Interantar/RotaDoPlastico1.2/RotaDoPlastico/Packages/packages-lock.json
+    m_FilePath: C:/Users/Luiz/Disco D/projeto Interantar/RotaDoPlastico1.2/RotaDoPlastico/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638635783453297997
-    m_Hash: 326197532
+      ticks: 638955451664056851
+    m_Hash: 3626016848
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/projeto Interantar/RotaDoPlastico1.2/RotaDoPlastico/Packages
-m_EditorVersion: 2022.3.20f1 (61c2feb0970d)
+m_ProjectPath: C:/Users/Luiz/Disco D/projeto Interantar/RotaDoPlastico1.2/RotaDoPlastico/Packages
+m_EditorVersion: 6000.0.59f2 (ef281c76c3c1)
 m_ResolvedPackages:
-- packageId: com.unity.adaptiveperformance.samsung.android@5.0.0
+- packageId: com.unity.adaptiveperformance.samsung.android@5.1.0
   testable: 0
   isDirectDependency: 1
-  version: 5.0.0
+  version: 5.1.0
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.adaptiveperformance.samsung.android@5.0.0
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.adaptiveperformance.samsung.android@d07c3e95be8a
   assetPath: Packages/com.unity.adaptiveperformance.samsung.android
   name: com.unity.adaptiveperformance.samsung.android
   displayName: Adaptive Performance Samsung Android
@@ -36,13 +36,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
-  description: "The Adaptive Performance Samsung (Android) package provides the Adaptive
-    Performance subsystem for Samsung Android platforms and works in combination
-    with Adaptive Performance. \n\nBy installing this package, you agree to the terms
-    and conditions of the Samsung GameSDK End User License Agreement found under
-    \"View licenses\" above."
-  status: 0
+  type: 
+  description: "The Adaptive Performance Samsung (Android) package is deprecated.
+    Please use Adaptive Performance Android provider instead. \n\nBy installing this
+    package, you agree to the terms and conditions of the Samsung GameSDK End User
+    License Agreement found under \"View licenses\" above."
   errors: []
   versions:
     all:
@@ -89,19 +87,27 @@ m_ResolvedPackages:
     - 5.0.0-pre.1
     - 5.0.0-pre.2
     - 5.0.0
+    - 5.1.0
     compatible:
-    - 4.0.2
-    - 5.0.0-pre.1
-    - 5.0.0-pre.2
-    - 5.0.0
-    recommended: 4.0.2
+    - 5.1.0
+    recommended: 5.1.0
     deprecated: []
   dependencies:
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
   - name: com.unity.adaptiveperformance
-    version: 5.0.0
+    version: 5.1.0
   resolvedDependencies:
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.adaptiveperformance
-    version: 5.0.0
+    version: 5.1.6
   - name: com.unity.profiling.core
     version: 1.0.2
   keywords:
@@ -131,30 +137,53 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638158713650000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.adaptiveperformance.samsung.android@5.0/manual/index.html
+  datePublishedTicks: 638888013190600000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.adaptiveperformance.samsung.android@5.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.adaptiveperformance.samsung.android.git
-    revision: 11a249c3a7df60f3bfff228fa7f1496991f40dfb
+    revision: 50d6bbe49e2687ecd90cf35aa319e2d5e43a407c
     path: 
   unityLifecycle:
-    version: 4.0.2
+    version: 5.1.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ai.navigation@1.1.5
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n* Samsung provider was deprecated. Please
+    use Android provider instead.\n* minimum support is now Unity 2022.3"}'
+  assetStore:
+    productId: 
+  fingerprint: d07c3e95be8a842b93761fc68c5c6fc87527b759
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 5.1.0
+    minimumUnityVersion: 2022.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.ai.navigation@2.0.9
   testable: 0
   isDirectDependency: 1
-  version: 1.1.5
+  version: 2.0.9
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.ai.navigation@1.1.5
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.ai.navigation@5218e4bf7edc
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -163,14 +192,15 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
-  description: High-level NavMesh components for building and using NavMeshes at
-    runtime and at edit time.
-  status: 0
+  type: 
+  description: The AI Navigation package contains high-level components that allow
+    you to use navmeshes to incorporate navigation and pathfinding in your game.
+    With this package installed you can build and use navmeshes at runtime and at
+    edit time, create dynamic obstacles, and use links to allow specific actions
+    (like jumping) as your characters navigate between navmeshes.
   errors: []
   versions:
     all:
-    - 1.0.0-exp.1
     - 1.0.0-exp.2
     - 1.0.0-exp.3
     - 1.0.0-exp.4
@@ -180,14 +210,21 @@ m_ResolvedPackages:
     - 1.1.3
     - 1.1.4
     - 1.1.5
+    - 1.1.6
+    - 1.1.7
     - 2.0.0-pre.3
     - 2.0.0-pre.4
     - 2.0.0
     - 2.0.3
     - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    - 2.0.7
+    - 2.0.8
+    - 2.0.9
     compatible:
-    - 1.1.5
-    recommended: 1.1.5
+    - 2.0.9
+    recommended: 2.0.9
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -195,7 +232,25 @@ m_ResolvedPackages:
   resolvedDependencies:
   - name: com.unity.modules.ai
     version: 1.0.0
-  keywords: []
+  keywords:
+  - carving
+  - mesh
+  - navigation
+  - navmesh
+  - NavMesh
+  - navmesh agent
+  - navmesh link
+  - navmeshlink
+  - navmesh modifier
+  - navmeshmodifier
+  - navmesh modifier volume
+  - navmeshmodifiervolume
+  - navmesh obstacle
+  - navmesh surface
+  - navmeshsurface
+  - offmesh link
+  - off-mesh link
+  - pathfinding
   registry:
     id: main
     name: 
@@ -204,30 +259,63 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638319373850000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
+  datePublishedTicks: 638919725134710000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: a905e1ab41c8afae1a75688ceb3b4dfa1686ea75
+    revision: 91b1bd9119720d8e48b9f9de9ad18da1e8c1088e
     path: 
   unityLifecycle:
-    version: 1.1.5
+    version: 2.0.9
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.cinemachine@2.9.7
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n* New sample scene **9_agent_cornering_control**
+    to demonstrate controlling an agent''s velocity in order to better navigate tight
+    corners. ([UUM-59747](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-59747))\n\n###
+    Fixed\n* Fixed samples not correctly configuring navigation agent types when
+    imported into a project.\n* Foldouts in **AI Navigation** overlay collapse when
+    toggling settings. ([NAVB-144](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-144))\n*
+    Fixed poor performance when enabling/disabling increasing numbers of NavMeshModifiers.
+    ([NAVB-96](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-96))\n*
+    A small white square was displayed in the scene on top of the gizmo icons for
+    NavMesh Link, NavMesh Modifier Volume and NavMesh Surface. ([NAVB-154](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-154))\n*
+    **Navigation Updater** no longer attempts to process scenes and prefabs from
+    the read-only **Packages** folder. ([NAVB-146](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-146))"}'
+  assetStore:
+    productId: 
+  fingerprint: 5218e4bf7edc04fcad4ed3836c1c41aef334b996
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.9
+    minimumUnityVersion: 6000.0.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.cinemachine@2.10.4
   testable: 0
   isDirectDependency: 1
-  version: 2.9.7
+  version: 2.10.4
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.cinemachine@2.9.7
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.cinemachine@915237edaa40
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -236,13 +324,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: cinematography
-  type: asset
-  description: "Smart camera tools for passionate creators. \n\nNew starting from
-    2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject
-    menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version
-    of Cinemachine, delete the Cinemachine asset from your project BEFORE installing
-    this version from the Package Manager."
-  status: 0
+  type: 
+  description: "Smart camera tools for passionate creators. \n\n--- ATTENTION ---\nUpgrading
+    a project from Cinemachine 2.x to Cinemachine 3.x is not automatic and not trivial.\nDon't
+    do it unless you're willing to put in the required effort.\n\n> For more details,
+    refer to the upgrade guide:\nhttps://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/CinemachineUpgradeFrom2.html\n--------------------\n\n\n"
   errors: []
   versions:
     all:
@@ -313,6 +399,10 @@ m_ResolvedPackages:
     - 2.9.7
     - 2.10.0
     - 2.10.1
+    - 2.10.2
+    - 2.10.3
+    - 2.10.4
+    - 2.10.5
     - 3.0.0-pre.3
     - 3.0.0-pre.4
     - 3.0.0-pre.5
@@ -323,11 +413,12 @@ m_ResolvedPackages:
     - 3.0.1
     - 3.1.0
     - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    - 3.1.4
     compatible:
-    - 2.9.5
-    - 2.9.7
-    - 2.10.0
-    - 2.10.1
+    - 2.10.4
+    - 2.10.5
     - 3.0.0-pre.3
     - 3.0.0-pre.4
     - 3.0.0-pre.5
@@ -338,16 +429,19 @@ m_ResolvedPackages:
     - 3.0.1
     - 3.1.0
     - 3.1.1
-    recommended: 2.9.7
+    - 3.1.2
+    - 3.1.3
+    - 3.1.4
+    recommended: 3.1.4
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.31
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.6.0
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -383,43 +477,67 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638191355130000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/index.html
+  datePublishedTicks: 638851637662630000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.10/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
-    revision: 46485ca80113434766f2b256525bb98def548fb9
+    revision: 87d5dbb847c5fae7125aa05286e81b6bb012076f
     path: 
   unityLifecycle:
-    version: 2.9.5
+    version: 2.10.4
     nextVersion: 
-    recommendedVersion: 
+    recommendedVersion: 3.1.0
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.collab-proxy@2.4.4
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"- Bugfix: FramingTransposer with a dead zone would
+    sometimes drift.\n- Cinemachine Shot Editor no longer displays UX to create cameras
+    when editing a prefab.\n- Added CINEMACHINE_TRANSPARENT_POST_PROCESSING_BLENDS
+    scripting define to tune the PostProcessing blend behaviour."}'
+  assetStore:
+    productId: 
+  fingerprint: 915237edaa40461a941e260ca123faf48eaf6a40
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.10.4
+    minimumUnityVersion: 2022.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.collab-proxy@2.9.3
   testable: 0
   isDirectDependency: 1
-  version: 2.4.4
+  version: 2.9.3
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.collab-proxy@2.4.4
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
-  displayName: Version Control
+  displayName: Unity Version Control
   author:
     name: 
     email: 
     url: 
   category: Editor
-  type: assets
+  type: 
   description: The package gives you the ability to use Unity Version Control in
     the Unity editor. To use Unity Version Control, a subscription is required. Learn
     more about how you can get started for free by visiting https://unity.com/solutions/version-control
-  status: 0
   errors: []
   versions:
     all:
@@ -498,14 +616,16 @@ m_ResolvedPackages:
     - 2.4.4
     - 2.5.1
     - 2.5.2
+    - 2.6.0
+    - 2.7.1
+    - 2.8.1
+    - 2.8.2
+    - 2.9.1
+    - 2.9.2
+    - 2.9.3
     compatible:
-    - 2.2.0
-    - 2.3.1
-    - 2.4.3
-    - 2.4.4
-    - 2.5.1
-    - 2.5.2
-    recommended: 2.2.0
+    - 2.9.3
+    recommended: 2.9.3
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -524,6 +644,7 @@ m_ResolvedPackages:
   - teams
   - version
   - vcs
+  - uvcs
   registry:
     id: main
     name: 
@@ -532,30 +653,54 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638573492230000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.4/manual/index.html
+  datePublishedTicks: 638924048898490000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.9/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 03b1de8d838eb1e427cb1b1d8bf9157f33377542
+    revision: d05e170be4282c71223767f286e93871356512a1
     path: 
   unityLifecycle:
-    version: 2.2.0
+    version: 2.9.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.feature.2d@2.0.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n\n- Fixed the error that was thrown when
+    the \"Configure Unity Version Control\" button is pressed in the Build Automation
+    settings in Build Profiles"}'
+  assetStore:
+    productId: 
+  fingerprint: ab839cc7d2adf143e5378baf46edc31cbc5d84f7
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.9.3
+    minimumUnityVersion: 2021.3.0f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.feature.2d@2.0.1
   testable: 0
   isDirectDependency: 1
-  version: 2.0.0
+  version: 2.0.1
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.feature.2d@2.0.0
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.feature.2d@dd1ea8910f12
   assetPath: Packages/com.unity.feature.2d
   name: com.unity.feature.2d
   displayName: 2D
@@ -570,14 +715,13 @@ m_ResolvedPackages:
     2D game worlds. Create frame-by-frame and bone-based animated characters. Integrated
     with 2D physics to support simulations with colliders and joints. Supports the
     needs of a range of 2D art styles, including pixel art.
-  status: 0
   errors: []
   versions:
     all:
-    - 2.0.0
+    - 2.0.1
     compatible:
-    - 2.0.0
-    recommended: 2.0.0
+    - 2.0.1
+    recommended: 2.0.1
     deprecated: []
   dependencies:
   - name: com.unity.2d.animation
@@ -598,13 +742,13 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.2d.animation
-    version: 9.1.0
+    version: 10.2.1
   - name: com.unity.2d.common
-    version: 8.0.2
+    version: 9.1.1
   - name: com.unity.burst
-    version: 1.8.12
+    version: 1.8.25
   - name: com.unity.mathematics
-    version: 1.2.6
+    version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.2d.sprite
@@ -617,18 +761,24 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
   - name: com.unity.collections
-    version: 1.2.4
+    version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.6.0
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
   - name: com.unity.2d.pixel-perfect
-    version: 5.0.3
+    version: 5.1.0
   - name: com.unity.2d.psdimporter
-    version: 8.0.4
+    version: 9.1.0
   - name: com.unity.2d.spriteshape
-    version: 9.0.2
+    version: 10.0.7
   - name: com.unity.modules.physics2d
     version: 1.0.0
   - name: com.unity.2d.tilemap
@@ -636,11 +786,9 @@ m_ResolvedPackages:
   - name: com.unity.modules.tilemap
     version: 1.0.0
   - name: com.unity.2d.tilemap.extras
-    version: 3.1.2
-  - name: com.unity.ugui
-    version: 1.0.0
+    version: 4.1.0
   - name: com.unity.2d.aseprite
-    version: 1.1.1
+    version: 1.1.10
   keywords: []
   registry:
     id: main
@@ -650,7 +798,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -661,19 +814,36 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 2.0.0
+    version: 2.0.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"quickstart":"https://docs.unity3d.com/Documentation/Manual/2DFeature.html"}'
+  assetStore:
+    productId: 
+  fingerprint: dd1ea8910f12f021c166e8d0d78de44f1390ff6b
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.1
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.feature.mobile@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.feature.mobile@1.0.0
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.feature.mobile@00f8a2b6a6fb
   assetPath: Packages/com.unity.feature.mobile
   name: com.unity.feature.mobile
   displayName: Mobile
@@ -685,7 +855,6 @@ m_ResolvedPackages:
   type: feature
   description: Optimize your apps for mobile devices and provide a performant experience
     for your users. Includes utilities for debugging on device and support for notifications.
-  status: 0
   errors: []
   versions:
     all:
@@ -703,13 +872,17 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.mobile.android-logcat
-    version: 1.4.0
+    version: 1.4.5
   - name: com.unity.adaptiveperformance
-    version: 5.0.0
+    version: 5.1.6
   - name: com.unity.profiling.core
     version: 1.0.2
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.mobile.notifications
-    version: 2.3.1
+    version: 2.4.2
   - name: com.unity.modules.androidjni
     version: 1.0.0
   keywords: []
@@ -721,7 +894,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -739,12 +917,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.27
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"quickstart":"https://docs.unity3d.com/Documentation/Manual/MobileFeature.html"}'
+  assetStore:
+    productId: 
+  fingerprint: 00f8a2b6a6fb9c01b3e6d2ada669d3dc43945443
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.ide.rider@3.0.38
   testable: 0
   isDirectDependency: 1
-  version: 3.0.27
+  version: 3.0.38
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.ide.rider@3.0.27
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -753,11 +948,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
-  status: 0
   errors: []
   versions:
     all:
@@ -804,18 +998,22 @@ m_ResolvedPackages:
     - 3.0.27
     - 3.0.28
     - 3.0.31
+    - 3.0.34
+    - 3.0.35
+    - 3.0.36
+    - 3.0.37
+    - 3.0.38
     compatible:
-    - 3.0.27
-    - 3.0.28
-    - 3.0.31
-    recommended: 3.0.31
-    deprecated: []
+    - 3.0.38
+    recommended: 3.0.38
+    deprecated:
+    - 3.0.37
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
   resolvedDependencies:
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   keywords: []
   registry:
     id: main
@@ -825,30 +1023,53 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638373878680000000
+  datePublishedTicks: 638938045127600000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 1d471c19a7f21834ae5b8d0358fd6f9b242c1ee8
+    revision: 8a49d81ce92f334a07e3b71a8847b2f60dc12287
     path: 
   unityLifecycle:
-    version: 3.0.27
+    version: 3.0.38
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.visualstudio@2.0.22
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"- fix a regression, introduced in 3.0.37. New files
+    are not added in the project."}'
+  assetStore:
+    productId: 
+  fingerprint: 1f60b3138684c97af67aa8d911b1632ba916d29d
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 3.0.38
+    minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.ide.visualstudio@2.0.23
   testable: 0
   isDirectDependency: 1
-  version: 2.0.22
+  version: 2.0.23
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -857,11 +1078,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
-  status: 0
   errors: []
   versions:
     all:
@@ -889,18 +1109,21 @@ m_ResolvedPackages:
     - 2.0.20
     - 2.0.21
     - 2.0.22
+    - 2.0.23
+    - 2.0.25
     compatible:
-    - 2.0.22
-    recommended: 2.0.22
+    - 2.0.23
+    - 2.0.25
+    recommended: 2.0.25
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.6.0
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -914,66 +1137,95 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638326061910000000
+  datePublishedTicks: 638786696173840000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 700b44077345e97d37d464ff25507638983aed64
+    revision: 0fe3b29f9aff2b90b9f0962ae35036a824d3dd6b
     path: 
   unityLifecycle:
-    version: 2.0.22
+    version: 2.0.23
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.vscode@1.2.5
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"Integration:\n\n- Monitor `additionalfile` extension
+    by default.\n- Try opening a Visual Studio Code workspace if there''s one (`.code-workspace`
+    file in the Unity project).\n\nProject generation:\n\n- Identify `asset`, `meta`,
+    `prefab` and `unity` files as `yaml` (Visual Studio Code).\n- Add `sln`/`csproj`
+    file nesting (Visual Studio Code).\n- Improve SDK style project generation."}'
+  assetStore:
+    productId: 
+  fingerprint: 198cdf337d13c83ca953581515630d66b779e92b
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.23
+    minimumUnityVersion: 2019.4.25f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.multiplayer.center@1.0.0
   testable: 0
   isDirectDependency: 1
-  version: 1.2.5
-  source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.ide.vscode@1.2.5
-  assetPath: Packages/com.unity.ide.vscode
-  name: com.unity.ide.vscode
-  displayName: Visual Studio Code Editor
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  assetPath: Packages/com.unity.multiplayer.center
+  name: com.unity.multiplayer.center
+  displayName: Multiplayer Center
   author:
     name: 
     email: 
     url: 
   category: 
-  type: asset
-  description: Code editor integration for supporting Visual Studio Code as code
-    editor for unity. Adds support for generating csproj files for intellisense purposes,
-    auto discovery of installations, etc.
-  status: 0
+  type: 
+  description: The multiplayer center provides a starting point to create multiplayer
+    games. It will recommend specific packages and enable you to easily access integrations,
+    samples and documentation.
   errors: []
   versions:
     all:
-    - 1.0.2
-    - 1.0.3
-    - 1.0.7
-    - 1.1.0
-    - 1.1.2
-    - 1.1.3
-    - 1.1.4
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.2.4
-    - 1.2.5
+    - 1.0.0
     compatible:
-    - 1.2.5
-    recommended: 1.2.5
+    - 1.0.0
+    recommended: 1.0.0
     deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
+  dependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  keywords:
+  - Multiplayer
+  - Netcode
+  - Services
+  - Tools
   registry:
     id: main
     name: 
@@ -982,30 +1234,52 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637800255360000000
+  datePublishedTicks: 0
   documentationUrl: 
-  hasRepository: 1
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
-    revision: b0740c80bfc2440527c317109f7c3d9100132722
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
-    version: 1.2.5
+    version: 1.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.shadergraph@14.0.10
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: f3fb577b3546594b97b8cc34307cd621f60f1c73
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 6000.0.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.shadergraph@17.0.4
   testable: 0
   isDirectDependency: 1
-  version: 14.0.10
+  version: 17.0.4
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.shadergraph@14.0.10
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.shadergraph@de26b472816a
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -1020,134 +1294,52 @@ m_ResolvedPackages:
     Specific render pipelines can implement specific graph features. Currently, both
     the High Definition Rendering Pipeline and the Universal Rendering Pipeline support
     Shader Graph.
-  status: 0
   errors: []
   versions:
     all:
-    - 0.1.8
-    - 0.1.9
-    - 0.1.17
-    - 1.0.0-beta
-    - 1.1.1-preview
-    - 1.1.2-preview
-    - 1.1.3-preview
-    - 1.1.4-preview
-    - 1.1.5-preview
-    - 1.1.6-preview
-    - 1.1.8-preview
-    - 1.1.9-preview
-    - 2.0.1-preview
-    - 2.0.3-preview
-    - 2.0.4-preview
-    - 2.0.4-preview.1
-    - 2.0.5-preview
-    - 2.0.6-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 3.0.0-preview
-    - 3.1.0-preview
-    - 3.3.0-preview
-    - 4.0.0-preview
-    - 4.0.1-preview
-    - 4.1.0-preview
-    - 4.2.0-preview
-    - 4.3.0-preview
-    - 4.6.0-preview
-    - 4.8.0-preview
-    - 4.9.0-preview
-    - 4.10.0-preview
-    - 5.0.0-preview
-    - 5.1.0
-    - 5.2.0
-    - 5.2.1
-    - 5.2.2
-    - 5.2.3
-    - 5.3.1
-    - 5.6.1
-    - 5.7.2
-    - 5.8.2
-    - 5.9.0
-    - 5.10.0
-    - 5.13.0
-    - 5.16.1
-    - 6.5.2
-    - 6.5.3
-    - 6.7.1
-    - 6.9.0
-    - 6.9.1
-    - 6.9.2
-    - 7.0.0
-    - 7.0.1
-    - 7.1.1
-    - 7.1.2
-    - 7.1.5
-    - 7.1.6
-    - 7.1.7
-    - 7.1.8
-    - 7.2.0
-    - 7.2.1
-    - 7.3.1
-    - 7.4.1
-    - 7.4.2
-    - 7.4.3
-    - 7.5.1
-    - 7.5.2
-    - 7.5.3
-    - 7.6.0
-    - 7.7.0
-    - 7.7.1
-    - 8.0.1
-    - 8.1.0
-    - 8.2.0
-    - 8.3.1
-    - 9.0.0-preview.14
-    - 9.0.0-preview.34
-    - 9.0.0-preview.55
-    - 9.0.0-preview.72
-    - 10.0.0-preview.27
-    - 10.1.0
-    - 10.2.0
-    - 10.2.1
-    - 10.2.2
-    - 10.3.1
-    - 10.3.2
-    - 10.4.0
-    - 10.5.0
-    - 10.5.1
-    - 10.6.0
-    - 10.7.0
-    - 10.8.0
-    - 10.8.1
-    - 10.9.0
-    - 10.10.0
-    - 10.10.1
-    - 14.0.10
+    - 17.0.4
     compatible:
-    - 14.0.10
-    recommended: 14.0.10
+    - 17.0.4
+    recommended: 17.0.4
     deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 14.0.10
+    version: 17.0.4
   - name: com.unity.searcher
-    version: 4.9.2
+    version: 4.9.3
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 14.0.10
-  - name: com.unity.ugui
+    version: 17.0.4
+  - name: com.unity.burst
+    version: 1.8.25
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.1
   - name: com.unity.searcher
-    version: 4.9.2
+    version: 4.9.3
   keywords: []
   registry:
     id: main
@@ -1157,7 +1349,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1168,19 +1365,36 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 14.0.10
+    version: 17.0.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.test-framework@1.1.33
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: de26b472816ac61e3f313fc6573f32ed59e67998
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 17.0.4
+    minimumUnityVersion: 6000.0.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.test-framework@1.6.0
   testable: 0
   isDirectDependency: 1
-  version: 1.1.33
-  source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.test-framework@1.1.33
+  version: 1.6.0
+  source: 2
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.test-framework@0baaad2f700c
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1189,98 +1403,26 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: asset
+  type: 
   description: Test framework for running Edit mode and Play mode tests in Unity.
-  status: 0
   errors: []
   versions:
     all:
-    - 0.0.4-preview
-    - 0.0.29-preview
-    - 1.0.0
-    - 1.0.7
-    - 1.0.9
-    - 1.0.11
-    - 1.0.12
-    - 1.0.13
-    - 1.0.14
-    - 1.0.16
-    - 1.0.17
-    - 1.0.18
-    - 1.1.0
-    - 1.1.1
-    - 1.1.2
-    - 1.1.3
-    - 1.1.5
-    - 1.1.8
-    - 1.1.9
-    - 1.1.11
-    - 1.1.13
-    - 1.1.14
-    - 1.1.16
-    - 1.1.18
-    - 1.1.19
-    - 1.1.20
-    - 1.1.22
-    - 1.1.24
-    - 1.1.26
-    - 1.1.27
-    - 1.1.29
-    - 1.1.30
-    - 1.1.31
-    - 1.1.33
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.7
-    - 1.3.8
-    - 1.3.9
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4
-    - 1.4.5
-    - 2.0.1-exp.1
-    - 2.0.1-exp.2
-    - 2.0.1-pre.12
-    - 2.0.1-pre.18
+    - 1.6.0
     compatible:
-    - 1.1.33
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.7
-    - 1.3.8
-    - 1.3.9
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4
-    - 1.4.5
-    - 2.0.1-exp.1
-    - 2.0.1-exp.2
-    - 2.0.1-pre.12
-    - 2.0.1-pre.18
-    recommended: 1.1.33
+    - 1.6.0
+    recommended: 1.6.0
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.3
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -1296,225 +1438,52 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637938212700000000
+  datePublishedTicks: 0
   documentationUrl: 
-  hasRepository: 1
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 34a4d423d64926635eb36d3bb86276179cc186e1
-    path: 
-  unityLifecycle:
-    version: 1.1.33
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.textmeshpro@3.0.6
-  testable: 0
-  isDirectDependency: 1
-  version: 3.0.6
-  source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.textmeshpro@3.0.6
-  assetPath: Packages/com.unity.textmeshpro
-  name: com.unity.textmeshpro
-  displayName: TextMeshPro
-  author:
-    name: 
-    email: 
+    type: 
     url: 
-  category: Text Rendering
-  type: asset
-  description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
-    replacement for Unity''s UI Text and the legacy Text Mesh.
-
-
-    Powerful and
-    easy to use, TextMeshPro (also known as TMP) uses Advanced Text Rendering techniques
-    along with a set of custom shaders; delivering substantial visual quality improvements
-    while giving users incredible flexibility when it comes to text styling and texturing.
-
-
-    TextMeshPro
-    provides Improved Control over text formatting and layout with features like
-    character, word, line and paragraph spacing, kerning, justified text, Links,
-    over 30 Rich Text Tags available, support for Multi Font & Sprites, Custom Styles
-    and more.
-
-
-    Great performance. Since the geometry created by TextMeshPro
-    uses two triangles per character just like Unity''s text components, this improved
-    visual quality and flexibility comes at no additional performance cost.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.2
-    - 1.0.21
-    - 1.0.23
-    - 1.0.25
-    - 1.0.26
-    - 1.1.0
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.2.4
-    - 1.3.0-preview
-    - 1.3.0
-    - 1.4.0-preview.1b
-    - 1.4.0-preview.2a
-    - 1.4.0-preview.3a
-    - 1.4.0
-    - 1.4.1-preview.1
-    - 1.4.1
-    - 1.5.0-preview.1
-    - 1.5.0-preview.2
-    - 1.5.0-preview.3
-    - 1.5.0-preview.4
-    - 1.5.0-preview.5
-    - 1.5.0-preview.6
-    - 1.5.0-preview.7
-    - 1.5.0-preview.8
-    - 1.5.0-preview.10
-    - 1.5.0-preview.11
-    - 1.5.0-preview.12
-    - 1.5.0-preview.13
-    - 1.5.0-preview.14
-    - 1.5.0
-    - 1.5.1
-    - 1.5.3
-    - 1.5.4
-    - 1.5.5
-    - 1.5.6
-    - 1.6.0-preview.1
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.1
-    - 2.1.0-preview.1
-    - 2.1.0-preview.2
-    - 2.1.0-preview.3
-    - 2.1.0-preview.4
-    - 2.1.0-preview.5
-    - 2.1.0-preview.7
-    - 2.1.0-preview.8
-    - 2.1.0-preview.10
-    - 2.1.0-preview.11
-    - 2.1.0-preview.12
-    - 2.1.0-preview.13
-    - 2.1.0-preview.14
-    - 2.1.0
-    - 2.1.1
-    - 2.1.3
-    - 2.1.4
-    - 2.1.5
-    - 2.1.6
-    - 2.2.0-preview.1
-    - 2.2.0-preview.2
-    - 2.2.0-preview.3
-    - 3.0.0-preview.1
-    - 3.0.0-preview.3
-    - 3.0.0-preview.4
-    - 3.0.0-preview.5
-    - 3.0.0-preview.7
-    - 3.0.0-preview.8
-    - 3.0.0-preview.10
-    - 3.0.0-preview.11
-    - 3.0.0-preview.12
-    - 3.0.0-preview.13
-    - 3.0.0-preview.14
-    - 3.0.0
-    - 3.0.1
-    - 3.0.3
-    - 3.0.4
-    - 3.0.5
-    - 3.0.6
-    - 3.0.7
-    - 3.0.8
-    - 3.0.9
-    - 3.2.0-pre.1
-    - 3.2.0-pre.2
-    - 3.2.0-pre.3
-    - 3.2.0-pre.4
-    - 3.2.0-pre.5
-    - 3.2.0-pre.6
-    - 3.2.0-pre.7
-    - 3.2.0-pre.8
-    - 3.2.0-pre.9
-    - 3.2.0-pre.10
-    - 4.0.0-pre.1
-    - 4.0.0-pre.2
-    compatible:
-    - 3.0.6
-    - 3.0.7
-    - 3.0.8
-    - 3.0.9
-    - 3.2.0-pre.1
-    - 3.2.0-pre.2
-    - 3.2.0-pre.3
-    - 3.2.0-pre.4
-    - 3.2.0-pre.5
-    - 3.2.0-pre.6
-    - 3.2.0-pre.7
-    - 3.2.0-pre.8
-    - 3.2.0-pre.9
-    - 3.2.0-pre.10
-    - 4.0.0-pre.1
-    - 4.0.0-pre.2
-    recommended: 3.0.9
-    deprecated: []
-  dependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  keywords:
-  - TextMeshPro
-  - TextMesh Pro
-  - TMP
-  - Text
-  - SDF
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637547111200000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
+    revision: 
     path: 
   unityLifecycle:
-    version: 3.0.6
+    version: 1.6.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.timeline@1.7.6
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 0baaad2f700c671c6932db856fb80e6fa04b1bde
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.6.0
+    minimumUnityVersion: 6000.0.44f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.timeline@1.8.9
   testable: 0
   isDirectDependency: 1
-  version: 1.7.6
+  version: 1.8.9
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.timeline@1.7.6
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.timeline@6b9e48457ddb
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1523,10 +1492,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
-  status: 0
   errors: []
   versions:
     all:
@@ -1608,6 +1576,7 @@ m_ResolvedPackages:
     - 1.7.4
     - 1.7.5
     - 1.7.6
+    - 1.7.7
     - 1.8.0
     - 1.8.1
     - 1.8.2
@@ -1616,17 +1585,11 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     - 1.8.7
+    - 1.8.8
+    - 1.8.9
     compatible:
-    - 1.7.6
-    - 1.8.0
-    - 1.8.1
-    - 1.8.2
-    - 1.8.3
-    - 1.8.4
-    - 1.8.5
-    - 1.8.6
-    - 1.8.7
-    recommended: 1.7.6
+    - 1.8.9
+    recommended: 1.8.9
     deprecated: []
   dependencies:
   - name: com.unity.modules.audio
@@ -1660,30 +1623,64 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638326112840000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
+  datePublishedTicks: 638900049118440000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 02f49ada64a9f88044207cf42ba407dc634ef8e6
+    revision: 5d309c1b02350ecb7093a4001d66afb1a238fc50
     path: 
   unityLifecycle:
-    version: 1.7.6
+    version: 1.8.9
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ugui@1.0.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n\n- Added profiler markers for Timeline
+    graph creation and evaluation. (ATL-2108)\n\n### Fixed\n\n- Fix custom implementation
+    of AnimationTrack not being able to record and not having access to AnimationTrack
+    actions through the context menu. (TB-333)\n- Fix an issue where custom Tracks
+    and Clips Editors code is marked as unused in Rider even when they are associated
+    with a specific Clip or Track Asset. (TB-334)\n- Fix and issue where a clip Inspector
+    with an embedded playable asset inspector can leak when selection changes with
+    2 inspector windows opened. (TB-324)\n- Fix Editing Track label while Track is
+    selected makes text lose the white color. (TB-336)\n- Maximizing and Restoring
+    the Timeline Window will now keep editing the previous Timeline (TB-289)\n- Added
+    a warning when trying to add a custom track whose class name would not match
+    the file name. (TB-329)\n- Fixed an issue where timeline duration incorrectly
+    included tracks muted via hierarchy. (TB-326)"}'
+  assetStore:
+    productId: 
+  fingerprint: 6b9e48457ddb4f64813d77fd77efc79a8f3102ae
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.8.9
+    minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
-  version: 1.0.0
+  version: 2.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.ugui@23b1a4ff749d
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1697,17 +1694,13 @@ m_ResolvedPackages:
     and applications. It is a GameObject-based UI system that uses Components and
     the Game View to arrange, position, and style user interfaces. \u200B You cannot
     use Unity UI to create or change user interfaces in the Unity Editor."
-  status: 0
   errors: []
   versions:
     all:
-    - 1.0.0
-    - 3.0.0-exp.1
-    - 3.0.0-exp.3
-    - 3.0.0-exp.4
+    - 2.0.0
     compatible:
-    - 1.0.0
-    recommended: 1.0.0
+    - 2.0.0
+    recommended: 2.0.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.ui
@@ -1724,6 +1717,11 @@ m_ResolvedPackages:
   - ugui
   - Unity UI
   - Canvas
+  - TextMeshPro
+  - TextMesh Pro
+  - Text
+  - TMP
+  - SDF
   registry:
     id: main
     name: 
@@ -1732,7 +1730,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1743,19 +1746,36 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 2.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.visualscripting@1.9.1
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 23b1a4ff749d69614ac83bcec9b1eb5d286cc9f0
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.0
+    minimumUnityVersion: 2019.2.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.visualscripting@1.9.7
   testable: 0
   isDirectDependency: 1
-  version: 1.9.1
+  version: 1.9.7
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.visualscripting@1.9.1
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.visualscripting@6279e2b7c485
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1777,7 +1797,6 @@ m_ResolvedPackages:
 
     Visual scripting is compatible with third-party
     APIs, including most packages, assets and custom libraries.'
-  status: 0
   errors: []
   versions:
     all:
@@ -1802,11 +1821,14 @@ m_ResolvedPackages:
     - 1.9.1
     - 1.9.2
     - 1.9.4
+    - 1.9.5
+    - 1.9.6
+    - 1.9.7
+    - 1.9.8
     compatible:
-    - 1.9.1
-    - 1.9.2
-    - 1.9.4
-    recommended: 1.9.4
+    - 1.9.7
+    - 1.9.8
+    recommended: 1.9.8
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -1816,7 +1838,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ugui
-    version: 1.0.0
+    version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
@@ -1832,30 +1854,136 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638284821510000000
+  datePublishedTicks: 638835226812630000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 5e78e9c354ed1567dbcea08e2bd9992e4a473cfb
+    revision: 8292335505915a41ec7c5cc8e08ac436e24120a9
     path: 
   unityLifecycle:
-    version: 1.9.1
+    version: 1.9.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fixed a warning \"Unable to load Unity.Android.Gradle''s
+    referenced assembly NiceIO\" when scanning assemblies. [UVSB-2594](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2594)\n-
+    Fixed error when trying to load fuzzy finder on multi screen setup on Mac. [UVSB-2419](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2419)\n-
+    Fixed the `AOTSafeMode` project setting appearing in the Editor Preferences window.
+    It is now shown in the Project Settings tab for Visual Scripting. [UVSB-2590](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2590)\n-
+    Fixed possible crash on VisionOS. [UVSB-2565](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2565)\n\n###
+    Changed\n- The `AOTSafeMode` project setting has been marked as not visible,
+    it will no longer be included when calling `ConfigurationPanel.GetSearchKeywords`.
+    [UVSB-2590](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2590)"}'
+  assetStore:
+    productId: 
+  fingerprint: 6279e2b7c4858e56cca7f367cd38c49ef66778c9
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.9.7
+    minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.accessibility@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+  assetPath: Packages/com.unity.modules.accessibility
+  name: com.unity.modules.accessibility
+  displayName: Accessibility
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'The Accessibility module includes utilities to facilitate the development
+    of accessible user experiences in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AccessibilityModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1867,7 +1995,6 @@ m_ResolvedPackages:
   type: module
   description: 'The AI module implements the path finding features in Unity. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.AIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1887,7 +2014,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1905,12 +2037,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1921,7 +2070,6 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'AndroidJNI module allows you to call Java code. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AndroidJNIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1941,7 +2089,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1959,12 +2112,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1976,7 +2146,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Animation module implements Unity''s animation system. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.AnimationModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1996,7 +2165,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2014,12 +2188,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2031,7 +2222,6 @@ m_ResolvedPackages:
   type: module
   description: 'The AssetBundle module implements the AssetBundle class and related
     APIs to load data from AssetBundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AssetBundleModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2051,7 +2241,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2069,12 +2264,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2086,7 +2298,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Audio module implements Unity''s audio system. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.AudioModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2106,7 +2317,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2124,12 +2340,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2141,7 +2374,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Cloth module implements cloth physics simulation through the
     Cloth component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ClothModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2165,7 +2397,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2183,12 +2420,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2200,7 +2454,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Director module implements the PlayableDirector class. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.DirectorModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2228,7 +2481,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2246,12 +2504,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2262,9 +2537,7 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'The ImageConversion module implements the ImageConversion class which
-    provides helper methods to convert images from and to PNG, JPEG or EXR formats.
-    Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ImageConversionModule.html'
-  status: 0
+    provides helper methods for converting image data. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ImageConversionModule.html'
   errors: []
   versions:
     all:
@@ -2284,7 +2557,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2302,12 +2580,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2319,7 +2614,6 @@ m_ResolvedPackages:
   type: module
   description: 'The IMGUI module provides Unity''s immediate mode GUI solution for
     creating in-game and editor user interfaces. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.IMGUIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2339,7 +2633,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2357,12 +2656,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2374,7 +2690,6 @@ m_ResolvedPackages:
   type: module
   description: 'The JSONSerialize module provides the JsonUtility class which lets
     you serialize Unity Objects to JSON format. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.JSONSerializeModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2394,7 +2709,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2412,12 +2732,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2429,7 +2766,6 @@ m_ResolvedPackages:
   type: module
   description: 'The ParticleSystem module implements Unity''s Particle System. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.ParticleSystemModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2449,7 +2785,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2467,12 +2808,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2484,7 +2842,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Physics module implements 3D physics in Unity. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.PhysicsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2504,7 +2861,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2522,12 +2884,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2539,7 +2918,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Physics2d module implements 2D physics in Unity. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.Physics2DModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2559,7 +2937,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2577,12 +2960,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2594,7 +2994,6 @@ m_ResolvedPackages:
   type: module
   description: 'The ScreenCapture module provides functionality to take screen shots
     using the ScreenCapture class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ScreenCaptureModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2618,7 +3017,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2636,12 +3040,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2653,7 +3074,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Terrain module implements Unity''s Terrain rendering engine available
     through the Terrain component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2673,7 +3093,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2691,12 +3116,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2708,7 +3150,6 @@ m_ResolvedPackages:
   type: module
   description: 'The TerrainPhysics module connects the Terrain and Physics modules
     by implementing the TerrainCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainPhysicsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2736,7 +3177,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2754,12 +3200,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2770,7 +3233,6 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'The Tilemap module implements the Tilemap class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TilemapModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2794,7 +3256,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2812,12 +3279,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2829,7 +3313,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UI module implements basic components required for Unity''s UI
     system Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2849,7 +3332,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2867,12 +3355,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2884,7 +3389,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UIElements module implements the UIElements retained mode UI
     framework. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIElementsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2900,12 +3404,16 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
     version: 1.0.0
   keywords: []
   registry:
@@ -2916,7 +3424,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2934,12 +3447,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2951,7 +3481,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Umbra module implements Unity''s occlusion culling system. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.UmbraModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2971,7 +3500,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2989,12 +3523,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3004,9 +3555,7 @@ m_ResolvedPackages:
     url: 
   category: 
   type: module
-  description: 'The UnityAnalytics module implements APIs required to use Unity Analytics.
-    Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityAnalyticsModule.html'
-  status: 0
+  description: 
   errors: []
   versions:
     all:
@@ -3034,7 +3583,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3052,12 +3606,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3069,7 +3640,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequest module lets you communicate with http services.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3089,7 +3659,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3107,12 +3682,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3124,7 +3716,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestAssetBundle module provides the DownloadHandlerAssetBundle
     class to use UnityWebRequest to download Asset Bundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAssetBundleModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3152,7 +3743,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3170,12 +3766,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3187,7 +3800,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestAudio module provides the DownloadHandlerAudioClip
     class to use UnityWebRequest to download AudioClips. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAudioModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3215,7 +3827,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3233,12 +3850,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3250,7 +3884,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestTexture module provides the DownloadHandlerTexture
     class to use UnityWebRequest to download Textures. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestTextureModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3278,7 +3911,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3296,12 +3934,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3313,7 +3968,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestWWW module implements the legacy WWW lets you
     communicate with http services. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestWWWModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3357,7 +4011,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3375,12 +4034,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3392,7 +4068,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Vehicles module implements vehicle physics simulation through
     the WheelCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VehiclesModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3416,7 +4091,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3434,12 +4114,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3451,7 +4148,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Video module lets you play back video files in your content.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VideoModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3483,7 +4179,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3501,12 +4202,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3518,7 +4236,6 @@ m_ResolvedPackages:
   type: module
   description: 'The VR module implements support for virtual reality devices in Unity.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3552,7 +4269,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3570,12 +4292,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3587,7 +4326,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Wind module implements the WindZone component which can affect
     terrain rendering and particle simulations. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.WindModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3607,7 +4345,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3625,12 +4368,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3642,7 +4402,6 @@ m_ResolvedPackages:
   type: module
   description: 'The XR module contains the VR and AR related platform support functionality.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.XRModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3674,7 +4433,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3692,12 +4456,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3709,7 +4490,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Subsystem module contains the definitions and runtime support
     for general subsystems in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.SubsystemsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3733,7 +4513,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3751,12 +4536,105 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ext.nunit@1.0.6
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.hierarchycore@1.0.0
   testable: 0
   isDirectDependency: 0
-  version: 1.0.6
-  source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.59f2\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+  assetPath: Packages/com.unity.modules.hierarchycore
+  name: com.unity.modules.hierarchycore
+  displayName: Hierarchy Core
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'Module that contains a high-performance hierarchy container. Scripting
+    API: https://docs.unity3d.com/ScriptReference/UnityEngine.HierarchyCoreModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.ext.nunit@2.0.5
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.5
+  source: 2
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3765,30 +4643,16 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: asset
-  description: Custom version of the nunit package build to work with Unity. Used
-    by the Unity Test Framework.
-  status: 0
+  type: 
+  description: A custom version of NUnit used by Unity Test Framework. Based on NUnit
+    version 3.5 and works with all platforms, il2cpp and Mono AOT.
   errors: []
   versions:
     all:
-    - 0.1.5-preview
-    - 0.1.6-preview
-    - 0.1.9-preview
-    - 1.0.0
-    - 1.0.5
-    - 1.0.6
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
     - 2.0.5
     compatible:
-    - 1.0.6
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
     - 2.0.5
-    recommended: 1.0.6
+    recommended: 2.0.5
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -3804,33 +4668,55 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637429759280000000
-  documentationUrl: 
-  hasRepository: 1
+  datePublishedTicks: 0
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ext.nunit@2.0/manual/index.html
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
-    revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
-    version: 1.0.6
+    version: 2.0.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.render-pipelines.core@14.0.10
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 031a54704bffe39e6a0324909f8eaa4565bdebf2
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.5
+    minimumUnityVersion: 2019.4.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.render-pipelines.core@17.0.4
   testable: 0
   isDirectDependency: 0
-  version: 14.0.10
+  version: 17.0.4
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.render-pipelines.core@14.0.10
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.render-pipelines.core@029632be9a02
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
-  displayName: Core RP Library
+  displayName: Scriptable Render Pipeline Core
   author:
     name: 
     email: 
@@ -3844,135 +4730,60 @@ m_ResolvedPackages:
     Render Pipeline (HDRP) and Universal Render Pipeline (URP). If you are creating
     a custom SRP from scratch or customizing a prebuilt SRP, using SRP Core will
     save you time.
-  status: 0
   errors: []
   versions:
     all:
-    - 0.1.21
-    - 0.1.27
-    - 0.1.28
-    - 1.0.0-beta
-    - 1.0.1-beta
-    - 1.1.1-preview
-    - 1.1.2-preview
-    - 1.1.4-preview
-    - 1.1.5-preview
-    - 1.1.8-preview
-    - 1.1.10-preview
-    - 1.1.11-preview
-    - 2.0.1-preview
-    - 2.0.3-preview
-    - 2.0.4-preview
-    - 2.0.4-preview.1
-    - 2.0.5-preview
-    - 2.0.6-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 3.0.0-preview
-    - 3.1.0-preview
-    - 3.3.0-preview
-    - 4.0.0-preview
-    - 4.0.1-preview
-    - 4.1.0-preview
-    - 4.2.0-preview
-    - 4.3.0-preview
-    - 4.6.0-preview
-    - 4.8.0-preview
-    - 4.9.0-preview
-    - 4.10.0-preview
-    - 5.0.0-preview
-    - 5.1.0
-    - 5.2.0
-    - 5.2.1
-    - 5.2.2
-    - 5.2.3
-    - 5.3.1
-    - 5.6.1
-    - 5.7.2
-    - 5.8.2
-    - 5.9.0
-    - 5.10.0
-    - 5.13.0
-    - 5.16.1
-    - 6.5.2
-    - 6.5.3
-    - 6.7.1
-    - 6.9.0
-    - 6.9.1
-    - 6.9.2
-    - 7.0.0
-    - 7.0.1
-    - 7.1.1
-    - 7.1.2
-    - 7.1.5
-    - 7.1.6
-    - 7.1.7
-    - 7.1.8
-    - 7.2.0
-    - 7.2.1
-    - 7.3.1
-    - 7.4.1
-    - 7.4.2
-    - 7.4.3
-    - 7.5.1
-    - 7.5.2
-    - 7.5.3
-    - 7.6.0
-    - 7.7.0
-    - 7.7.1
-    - 8.0.1
-    - 8.1.0
-    - 8.2.0
-    - 8.3.1
-    - 9.0.0-preview.13
-    - 9.0.0-preview.35
-    - 9.0.0-preview.38
-    - 9.0.0-preview.60
-    - 9.0.0-preview.77
-    - 10.0.0-preview.30
-    - 10.1.0
-    - 10.2.0
-    - 10.2.1
-    - 10.2.2
-    - 10.3.1
-    - 10.3.2
-    - 10.4.0
-    - 10.5.0
-    - 10.5.1
-    - 10.6.0
-    - 10.7.0
-    - 10.8.0
-    - 10.8.1
-    - 10.9.0
-    - 10.10.0
-    - 10.10.1
-    - 14.0.10
+    - 17.0.4
     compatible:
-    - 14.0.10
-    recommended: 14.0.10
+    - 17.0.4
+    recommended: 17.0.4
     deprecated: []
   dependencies:
+  - name: com.unity.burst
+    version: 1.8.20
+  - name: com.unity.mathematics
+    version: 1.3.2
   - name: com.unity.ugui
-    version: 1.0.0
+    version: 2.0.0
+  - name: com.unity.collections
+    version: 2.4.3
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.1
   resolvedDependencies:
-  - name: com.unity.ugui
+  - name: com.unity.burst
+    version: 1.8.25
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
   - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.terrain
     version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.1
   keywords: []
   registry:
     id: main
@@ -3982,7 +4793,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3993,19 +4809,36 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 14.0.10
+    version: 17.0.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.searcher@4.9.2
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 029632be9a0271571aabfba918ea32f2fe33bd70
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 17.0.4
+    minimumUnityVersion: 6000.0.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.searcher@4.9.3
   testable: 0
   isDirectDependency: 0
-  version: 4.9.2
+  version: 4.9.3
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.searcher@4.9.2
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.searcher@1e17ce91558d
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -4014,10 +4847,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
-  status: 0
   errors: []
   versions:
     all:
@@ -4037,9 +4869,11 @@ m_ResolvedPackages:
     - 4.7.0-preview
     - 4.9.1
     - 4.9.2
+    - 4.9.3
     compatible:
     - 4.9.2
-    recommended: 4.9.2
+    - 4.9.3
+    recommended: 4.9.3
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4054,15 +4888,20 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637831252240000000
-  documentationUrl: 
+  datePublishedTicks: 638731478077990000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.searcher@4.9/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
-    revision: 7f9f75b04e97cf09c8ddc3968d059e74d6a2460a
+    revision: 6fad693b6604ae7175b59ebb4990d9a0b6c1d012
     path: 
   unityLifecycle:
     version: 4.9.2
@@ -4072,12 +4911,30 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.mobile.android-logcat@1.4.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"- Fixed a bug where spaces are removed when highlighted.\n-
+    Changed VisualSplitter to twoPaneSplitView and updated indentation"}'
+  assetStore:
+    productId: 
+  fingerprint: 1e17ce91558d1d9127554adc03d275f39a7466a2
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 4.9.2
+    minimumUnityVersion: 2019.1.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.mobile.android-logcat@1.4.5
   testable: 0
   isDirectDependency: 0
-  version: 1.4.0
+  version: 1.4.5
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.mobile.android-logcat@1.4.0
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.mobile.android-logcat@0ddcd2133dc3
   assetPath: Packages/com.unity.mobile.android-logcat
   name: com.unity.mobile.android-logcat
   displayName: Android Logcat
@@ -4086,7 +4943,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: "Android Logcat package provides support for:\n - Android log messages\n
     - Android application memory statistics\n - Input injection\n - Android Screen
     Capture\n - Android Screen Recorder\n - Stacktrace Utility\n\nClick the 'View
@@ -4095,7 +4952,6 @@ m_ResolvedPackages:
     'Alt+6' on Windows or 'Option+6' on macOS. \n\nMake sure to have Android module
     loaded and switch to Android build target in 'Build Settings' window if the menu
     doesn't exist."
-  status: 0
   errors: []
   versions:
     all:
@@ -4116,12 +4972,13 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
     compatible:
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    recommended: 1.4.3
+    - 1.4.5
+    - 1.4.6
+    recommended: 1.4.6
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4137,30 +4994,219 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638363408280000000
+  datePublishedTicks: 638801672940570000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.mobile.android-logcat@1.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.mobile.logcat.git
-    revision: a2d1d8c5dc68f439704c5b0d43f92b53c4e19193
+    revision: 3699423c243d638fcec959c0a8fe07aee8a6c46c
     path: 
   unityLifecycle:
-    version: 1.4.0
+    version: 1.4.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.mobile.notifications@2.3.1
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixes & Improvements\n - Fix \"llvm-nm.exe: error:
+    : unknown argument ''-e''\" when resolving stacktraces on Windows. Was happening
+    with Unity version 6000.0.44f1"}'
+  assetStore:
+    productId: 
+  fingerprint: 0ddcd2133dc3642d39aae1db273b1a54bed03644
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.4.5
+    minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.adaptiveperformance@5.1.6
   testable: 0
   isDirectDependency: 0
-  version: 2.3.1
+  version: 5.1.6
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.mobile.notifications@2.3.1
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.adaptiveperformance@de279be9c429
+  assetPath: Packages/com.unity.adaptiveperformance
+  name: com.unity.adaptiveperformance
+  displayName: Adaptive Performance
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'The Adaptive Performance package provides an API to get feedback
+    about the thermal and power state of mobile devices, enabling applications to
+    make performance-relevant adaptions at runtime.
+
+
+    For instruction on how
+    to use samples, please read the documentation.
+
+
+    By installing this package,
+    you agree to the terms and conditions of the Unity End User License Agreement
+    found under "View licenses" above.'
+  errors: []
+  versions:
+    all:
+    - 0.2.0-preview.1
+    - 1.0.0
+    - 1.0.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.0-preview.5
+    - 1.1.0-preview.7
+    - 1.1.0
+    - 1.1.6
+    - 1.1.9
+    - 1.1.10
+    - 1.2.0
+    - 1.2.2
+    - 1.2.3
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0-preview.4
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.9
+    - 2.0.0-preview.10
+    - 2.0.0-preview.11
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.2.1
+    - 2.2.3
+    - 2.2.4
+    - 3.0.0-pre.2
+    - 3.0.0
+    - 3.0.2
+    - 3.0.3
+    - 4.0.0-pre.1
+    - 4.0.0
+    - 4.0.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0-pre.3
+    - 5.0.0-pre.4
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    - 5.1.3
+    - 5.1.4
+    - 5.1.5
+    - 5.1.6
+    compatible:
+    - 5.1.6
+    recommended: 5.1.6
+    deprecated: []
+  dependencies:
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.profiling.core
+    version: 1.0.2
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - mobile
+  - adaptive
+  - performance
+  - utility
+  - utilities
+  - core
+  - samsung
+  - ap
+  - provider
+  - subsystem
+  - indexer
+  - scaler
+  - vrr
+  - boost
+  - profiles
+  - cluster
+  - clusterinfo
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638926834513700000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.adaptiveperformance@5.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.adaptiveperformance.git
+    revision: f397ac29f7a6eb45e585039a13df33143f580c99
+    path: 
+  unityLifecycle:
+    version: 5.1.6
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Truncate long scaler name to display \"...\"
+    to be consistent with other editor styles."}'
+  assetStore:
+    productId: 
+  fingerprint: de279be9c4293882b05e64612e641789bcfc5a00
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 5.1.6
+    minimumUnityVersion: 2022.3.0f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.mobile.notifications@2.4.2
+  testable: 0
+  isDirectDependency: 0
+  version: 2.4.2
+  source: 1
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.mobile.notifications@790bff01702e
   assetPath: Packages/com.unity.mobile.notifications
   name: com.unity.mobile.notifications
   displayName: Mobile Notifications
@@ -4169,14 +5215,13 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: 'Mobile Notifications package adds support for scheduling local repeatable
     or one-time notifications on iOS and Android.
 
 
     On iOS receiving of push
     notifications is also supported.'
-  status: 0
   errors: []
   versions:
     all:
@@ -4224,10 +5269,12 @@ m_ResolvedPackages:
     - 2.3.0
     - 2.3.1
     - 2.3.2
+    - 2.4.0
+    - 2.4.1
+    - 2.4.2
     compatible:
-    - 2.3.1
-    - 2.3.2
-    recommended: 2.3.2
+    - 2.4.2
+    recommended: 2.4.2
     deprecated: []
   dependencies:
   - name: com.unity.modules.androidjni
@@ -4248,30 +5295,52 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638385783130000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mobile.notifications@2.3/manual/index.html
+  datePublishedTicks: 638936022544480000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mobile.notifications@2.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.mobile.notifications.git
-    revision: 7513f8c8811199d8400191a313cf7248311388ba
+    revision: e0004bb55c79532613716da45ee0e94922d77695
     path: 
   unityLifecycle:
-    version: 2.3.1
+    version: 2.4.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.animation@9.1.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changes & Improvements:\n\n- Documentation updates."}'
+  assetStore:
+    productId: 
+  fingerprint: 790bff01702e042cf7b0162904abf538977e40fc
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.4.2
+    minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.animation@10.2.1
   testable: 0
   isDirectDependency: 0
-  version: 9.1.0
+  version: 10.2.1
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.animation@9.1.0
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.animation@81ad133dbdf1
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -4280,10 +5349,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: assets
+  type: 
   description: 2D Animation provides all the necessary tooling and runtime components
     for skeletal animation using Sprites.
-  status: 0
   errors: []
   versions:
     all:
@@ -4386,6 +5454,8 @@ m_ResolvedPackages:
     - 7.0.13
     - 7.1.0
     - 7.1.1
+    - 7.1.2
+    - 7.2.0
     - 8.0.0-pre.3
     - 8.0.0-pre.4
     - 8.0.0
@@ -4404,6 +5474,9 @@ m_ResolvedPackages:
     - 9.1.0
     - 9.1.1
     - 9.1.2
+    - 9.1.3
+    - 9.2.0
+    - 9.2.1
     - 10.0.0-pre.1
     - 10.0.0-pre.2
     - 10.0.0
@@ -4414,30 +5487,36 @@ m_ResolvedPackages:
     - 10.1.1
     - 10.1.2
     - 10.1.3
+    - 10.1.4
+    - 10.2.0
+    - 10.2.1
+    - 11.0.0
+    - 12.0.0
+    - 12.0.1
+    - 12.0.2
+    - 13.0.0
     compatible:
-    - 9.1.0
-    - 9.1.1
-    - 9.1.2
-    recommended: 9.1.2
+    - 10.2.1
+    recommended: 10.2.1
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 8.0.2
+    version: 9.1.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
-    version: 1.1.0
+    version: 1.2.4
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 8.0.2
+    version: 9.1.1
   - name: com.unity.burst
-    version: 1.8.12
+    version: 1.8.25
   - name: com.unity.mathematics
-    version: 1.2.6
+    version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.2d.sprite
@@ -4450,12 +5529,18 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
   - name: com.unity.collections
-    version: 1.2.4
+    version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.6.0
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
   keywords:
   - 2d
   - animation
@@ -4467,30 +5552,62 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638406543510000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@9.1/manual/index.html
+  datePublishedTicks: 638856773149660000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@10.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: dfc01cb8076aa8ca74afe1ded252f91c99b080ac
+    revision: 383370d5a0ac5360369e71e96aa41ade8ed5c1b5
     path: 
   unityLifecycle:
-    version: 9.1.0
+    version: 10.2.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.pixel-perfect@5.0.3
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fix the exception when generating geometry
+    with hidden sprites. (DANB-841)\n- Added missing tooltips to visibility window
+    (DANB-843)\n- Fixed InvalidOperationException occurs when playing in sample scene
+    ''3 Character'' and ''Attachment Points''. (DANB-860)\n- Fix the issue of putting
+    a warning string \"Adding null Transform to TransformAccessArray will result
+    in degraded performance.\" (DANB-931)\n- Fixed misaligned text in 2D Animation
+    preferences (DANB-879)\n- Fixed blurry icons in Sprite Library Editor. (DANB-842)\n-
+    Fixed unselectable pivot dropdown in skinning editor. (DANB-956)\n- Fixed incorrect
+    scrollbars when adding a large number of categories to sprite library. (DANB-895)\n-
+    Fixed blurry Sprite Library asset icons in Project window. (DANB-901)\n- Fixed
+    wrong USS syntax."}'
+  assetStore:
+    productId: 
+  fingerprint: 81ad133dbdf13da9a686af329d3a20b84565fd89
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 10.2.1
+    minimumUnityVersion: 6000.0.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.pixel-perfect@5.1.0
   testable: 0
   isDirectDependency: 0
-  version: 5.0.3
+  version: 5.1.0
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.pixel-perfect@5.0.3
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.pixel-perfect@2f2037a56bf7
   assetPath: Packages/com.unity.2d.pixel-perfect
   name: com.unity.2d.pixel-perfect
   displayName: 2D Pixel Perfect
@@ -4499,7 +5616,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: tool
+  type: 
   description: 'The 2D Pixel Perfect package contains the Pixel Perfect Camera component
     which ensures your pixel art remains crisp and clear at different resolutions,
     and stable in motion.
@@ -4510,7 +5627,6 @@ m_ResolvedPackages:
     the user. The user can adjust the definition of the pixel art rendered within
     the camera viewport through the component settings, as well preview any changes
     immediately in Game view by using the Run in Edit Mode feature.'
-  status: 0
   errors: []
   versions:
     all:
@@ -4531,12 +5647,20 @@ m_ResolvedPackages:
     - 5.0.1
     - 5.0.2
     - 5.0.3
+    - 5.1.0
+    - 5.1.1
     compatible:
     - 5.0.3
+    - 5.1.0
+    - 5.1.1
     recommended: 5.0.3
     deprecated: []
-  dependencies: []
-  resolvedDependencies: []
+  dependencies:
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   keywords:
   - pixel
   - perfect
@@ -4550,15 +5674,20 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638023910590000000
-  documentationUrl: 
+  datePublishedTicks: 638775664687690000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.pixel-perfect@5.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 6dea8ac5bd6953acd64f1ac9d470912954b0c015
+    revision: 9ead9de91ee9fdb290bfcc223d793a449e7f8370
     path: 
   unityLifecycle:
     version: 5.0.3
@@ -4568,12 +5697,30 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.psdimporter@8.0.4
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n- Update minimum Unity version to 2021.3\n\n###
+    Fixed\n- Update usage of URP namespace.\n- Fixed package dependencies."}'
+  assetStore:
+    productId: 
+  fingerprint: 2f2037a56bf7822af81e9898037a0aac12686533
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 5.0.3
+    minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.psdimporter@9.1.0
   testable: 0
   isDirectDependency: 0
-  version: 8.0.4
+  version: 9.1.0
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.psdimporter@8.0.4
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.psdimporter@e0ffc26deb40
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -4582,11 +5729,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: assets
+  type: 
   description: A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop Big)
     file format. The ScriptedImporter is currently targeted for users who wants to
     create multi Sprite character animation using Unity 2D Animation Package.
-  status: 0
   errors: []
   versions:
     all:
@@ -4649,6 +5795,7 @@ m_ResolvedPackages:
     - 6.0.7
     - 6.0.8
     - 6.0.9
+    - 6.1.0
     - 7.0.0-pre.3
     - 7.0.0-pre.4
     - 7.0.0
@@ -4663,31 +5810,37 @@ m_ResolvedPackages:
     - 8.0.3
     - 8.0.4
     - 8.0.5
+    - 8.1.0
+    - 8.1.1
     - 9.0.0-pre.1
     - 9.0.0-pre.2
     - 9.0.0
     - 9.0.1
     - 9.0.2
     - 9.0.3
+    - 9.1.0
+    - 10.0.0
+    - 10.1.0
+    - 10.1.1
+    - 11.0.0
+    - 11.0.1
+    - 12.0.0
     compatible:
-    - 8.0.4
-    - 8.0.5
-    recommended: 8.0.5
+    - 9.1.0
+    recommended: 9.1.0
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 8.0.2
+    version: 9.1.1
   - name: com.unity.2d.sprite
     version: 1.0.0
-  - name: com.unity.2d.animation
-    version: 9.1.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 8.0.2
+    version: 9.1.1
   - name: com.unity.burst
-    version: 1.8.12
+    version: 1.8.25
   - name: com.unity.mathematics
-    version: 1.2.6
+    version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.2d.sprite
@@ -4700,14 +5853,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.2d.animation
-    version: 9.1.0
-  - name: com.unity.collections
-    version: 1.2.4
-  - name: com.unity.test-framework
-    version: 1.1.33
-  - name: com.unity.ext.nunit
-    version: 1.0.6
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
   keywords:
   - 2d
   - psdimporter
@@ -4720,30 +5867,61 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638406543530000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@8.0/manual/index.html
+  datePublishedTicks: 638856773164730000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@9.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: dfc01cb8076aa8ca74afe1ded252f91c99b080ac
+    revision: 383370d5a0ac5360369e71e96aa41ade8ed5c1b5
     path: 
   unityLifecycle:
-    version: 8.0.4
+    version: 9.1.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fixed case Layer Separation toggle icon
+    is invisible when the icon state is \"separated\" with mousedown. (Case DANB-949)\n-
+    Fixed case NullReferenceException is thrown when entering Play mode while PSD
+    Importer Inspector is opened. (Case DANB-873)\n- Fixed case Layer Merging and
+    Separation toggle icon is obscured in the Layer Management Panel of the PSD Importer
+    (Case DANB-889)\n- Fixed case the Include Hidden Layers option in the PSD Importer''s
+    Layer Management Panel is not being toggled reliably (Case DANB-888)\n- Fixed
+    case where \"Mip Map Preserve Coverage\" is cut off in the Inspector window.
+    (Case DANB-892)\n- Fixed a typo in settings. (Case DANB-891)\n- doc: fix headings
+    and incorrect links in the PSDImporter properties page"}'
+  assetStore:
+    productId: 
+  fingerprint: e0ffc26deb4024d7b96fd4903fd4a89dbce4059c
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 9.1.0
+    minimumUnityVersion: 6000.0.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.sprite@897b7eecf04e
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -4755,7 +5933,6 @@ m_ResolvedPackages:
   type: 
   description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
     like pivot, borders and Physics shape
-  status: 0
   errors: []
   versions:
     all:
@@ -4778,7 +5955,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -4796,12 +5978,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.spriteshape@9.0.2
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 897b7eecf04ec94126f19c6ce2cba3404cc15178
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2019.2.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.spriteshape@10.0.7
   testable: 0
   isDirectDependency: 0
-  version: 9.0.2
+  version: 10.0.7
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.spriteshape@9.0.2
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.spriteshape@9e35352ae135
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -4810,11 +6009,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: asset
+  type: 
   description: SpriteShape Runtime & Editor Package contains the tooling and the
     runtime component that allows you to create very organic looking spline based
     2D worlds. It comes with intuitive configurator and a highly performant renderer.
-  status: 0
   errors: []
   versions:
     all:
@@ -4887,6 +6085,7 @@ m_ResolvedPackages:
     - 7.0.5
     - 7.0.6
     - 7.0.7
+    - 7.1.0
     - 8.0.0-pre.4
     - 8.0.0-pre.5
     - 8.0.0
@@ -4897,6 +6096,9 @@ m_ResolvedPackages:
     - 9.0.2
     - 9.0.3
     - 9.0.4
+    - 9.0.5
+    - 9.1.0
+    - 9.1.1
     - 10.0.0-pre.1
     - 10.0.0-pre.2
     - 10.0.0
@@ -4906,26 +6108,31 @@ m_ResolvedPackages:
     - 10.0.4
     - 10.0.5
     - 10.0.6
+    - 10.0.7
+    - 10.1.0
+    - 11.0.0
+    - 12.0.0
+    - 12.0.1
+    - 13.0.0
     compatible:
-    - 9.0.2
-    - 9.0.3
-    - 9.0.4
-    recommended: 9.0.4
+    - 10.0.7
+    - 10.1.0
+    recommended: 10.0.7
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 8.0.1
+    version: 9.0.7
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 8.0.2
+    version: 9.1.1
   - name: com.unity.burst
-    version: 1.8.12
+    version: 1.8.25
   - name: com.unity.mathematics
-    version: 1.2.6
+    version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.2d.sprite
@@ -4937,6 +6144,8 @@ m_ResolvedPackages:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
     version: 1.0.0
   - name: com.unity.modules.physics2d
     version: 1.0.0
@@ -4955,30 +6164,53 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638150103540000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@9.0/manual/index.html
+  datePublishedTicks: 638654459104040000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@10.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: ff926a6d093212af31bc3c835f61abfbb1b3f163
+    revision: baf581b10d05f7aa59c58b39f4b798829f703946
     path: 
   unityLifecycle:
-    version: 9.0.2
+    version: 10.0.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- DANB-731 \"System.IndexOutOfRangeException\"
+    is thrown when increasing Sprite Shape Mesh size beyond limits"}'
+  assetStore:
+    productId: 
+  fingerprint: 9e35352ae135f602746220e7edc09eb95bbec530
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 10.0.7
+    minimumUnityVersion: 2023.1.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.2d.tilemap@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.tilemap@1.0.0
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.tilemap@b1f6833cdf82
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -4990,7 +6222,6 @@ m_ResolvedPackages:
   type: 
   description: 2D Tilemap Editor is a package that contains editor functionalities
     for editing Tilemaps.
-  status: 0
   errors: []
   versions:
     all:
@@ -5017,6 +6248,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
   keywords:
   - 2d
   - Tilemap
@@ -5028,7 +6261,12 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -5046,12 +6284,29 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.tilemap.extras@3.1.2
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: b1f6833cdf8289151d95155943f34fb46177c88d
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 2019.2.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.tilemap.extras@4.1.0
   testable: 0
   isDirectDependency: 0
-  version: 3.1.2
+  version: 4.1.0
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.tilemap.extras@3.1.2
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.tilemap.extras@13634da7dbe0
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -5060,7 +6315,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: assets
+  type: 
   description: '2D Tilemap Extras is a package that contains extra scripts for use
     with 2D Tilemap features in Unity. These include custom Tiles and Brushes for
     the Tilemap feature.
@@ -5076,7 +6331,6 @@ m_ResolvedPackages:
 
     Other: Grid Information, Custom Rules
     for Rule Tile'
-  status: 0
   errors: []
   versions:
     all:
@@ -5103,6 +6357,7 @@ m_ResolvedPackages:
     - 2.2.5
     - 2.2.6
     - 2.2.7
+    - 2.2.8
     - 3.0.0
     - 3.0.1
     - 3.0.2
@@ -5110,19 +6365,25 @@ m_ResolvedPackages:
     - 3.1.0
     - 3.1.1
     - 3.1.2
+    - 3.1.3
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     - 4.0.0-pre.3
     - 4.0.0
     - 4.0.1
     - 4.0.2
+    - 4.1.0
+    - 4.2.1
+    - 4.3.0
+    - 4.3.1
+    - 5.0.0
+    - 5.0.1
+    - 6.0.0
     compatible:
-    - 3.1.2
-    recommended: 3.1.2
+    - 4.1.0
+    recommended: 4.1.0
     deprecated: []
   dependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
   - name: com.unity.2d.tilemap
     version: 1.0.0
   - name: com.unity.modules.tilemap
@@ -5130,12 +6391,6 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
   - name: com.unity.2d.tilemap
     version: 1.0.0
   - name: com.unity.modules.tilemap
@@ -5144,7 +6399,13 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
     version: 1.0.0
   keywords:
   - 2d
@@ -5156,30 +6417,55 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638320873890000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@3.1/manual/index.html
+  datePublishedTicks: 638654459126220000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@4.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/2d-extras.git
-    revision: 741b52ca8bcd71b4e016208dbfe792374ca334c8
+    revision: 8d9a9d9b09b21c40c727e0dfb6188875f796d9f5
     path: 
   unityLifecycle:
-    version: 3.1.2
+    version: 4.1.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.aseprite@1.1.1
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n\n- [GameObjectBrush] Allow expansion of
+    SceneRoot Grid foldout when clicking on label\n- [GridInformation] Fix exception
+    when serializing GridInformation component if component is part of a Prefab\n-
+    Remove dependency on com.unity.ugui"}'
+  assetStore:
+    productId: 
+  fingerprint: 13634da7dbe06c39bac6bbe2d1a166cf91f58ad7
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 4.1.0
+    minimumUnityVersion: 6000.0.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.aseprite@1.1.10
   testable: 0
   isDirectDependency: 0
-  version: 1.1.1
+  version: 1.1.10
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.aseprite@1.1.1
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.aseprite@dba7c65ef731
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -5188,10 +6474,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: assets
+  type: 
   description: 2D Aseprite Importer is a package which enables the import of .aseprite
     files from the Pixel Art tool Aseprite.
-  status: 0
   errors: []
   versions:
     all:
@@ -5208,14 +6493,23 @@ m_ResolvedPackages:
     - 1.1.4
     - 1.1.5
     - 1.1.6
+    - 1.1.7
+    - 1.1.8
+    - 1.1.9
+    - 1.1.10
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 3.0.0
     compatible:
-    - 1.1.1
-    - 1.1.2
-    - 1.1.3
-    - 1.1.4
-    - 1.1.5
-    - 1.1.6
-    recommended: 1.1.6
+    - 1.1.10
+    recommended: 1.1.10
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
@@ -5228,11 +6522,11 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 8.0.2
+    version: 9.1.1
   - name: com.unity.burst
-    version: 1.8.12
+    version: 1.8.25
   - name: com.unity.mathematics
-    version: 1.2.6
+    version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.2d.sprite
@@ -5244,6 +6538,8 @@ m_ResolvedPackages:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
     version: 1.0.0
   keywords:
   - 2d
@@ -5259,614 +6555,53 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638415153370000000
+  datePublishedTicks: 638899140607750000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git
-    revision: 4c5ce5be19fca25f82112eb80561965bc91c72c2
+    revision: e7f700af13e4b911ae687b653d992677a302a28a
     path: 
   unityLifecycle:
-    version: 1.1.1
+    version: 1.1.10
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.adaptiveperformance@5.0.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fixed an issue where the \"Export Animation
+    Assets\"-button had an additional offset of 15 px to the right. (DANB-1000)"}'
+  assetStore:
+    productId: 
+  fingerprint: dba7c65ef731c2cd2715a1be4eb9353b39eb570c
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.1.10
+    minimumUnityVersion: 2021.3.15f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.burst@1.8.25
   testable: 0
   isDirectDependency: 0
-  version: 5.0.0
+  version: 1.8.25
   source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.adaptiveperformance@5.0.0
-  assetPath: Packages/com.unity.adaptiveperformance
-  name: com.unity.adaptiveperformance
-  displayName: Adaptive Performance
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: 'The Adaptive Performance package provides an API to get feedback
-    about the thermal and power state of mobile devices, enabling applications to
-    make performance-relevant adaptions at runtime.
-
-
-    For instruction on how
-    to use samples, please read the documentation.
-
-
-    By installing this package,
-    you agree to the terms and conditions of the Unity End User License Agreement
-    found under "View licenses" above.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.2.0-preview.1
-    - 1.0.0
-    - 1.0.1
-    - 1.1.0-preview.2
-    - 1.1.0-preview.3
-    - 1.1.0-preview.4
-    - 1.1.0-preview.5
-    - 1.1.0-preview.7
-    - 1.1.0
-    - 1.1.6
-    - 1.1.9
-    - 1.1.10
-    - 1.2.0
-    - 1.2.2
-    - 1.2.3
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0-preview.4
-    - 2.0.0-preview.7
-    - 2.0.0-preview.8
-    - 2.0.0-preview.9
-    - 2.0.0-preview.10
-    - 2.0.0-preview.11
-    - 2.0.0
-    - 2.0.1
-    - 2.0.2
-    - 2.1.0
-    - 2.1.1
-    - 2.2.1
-    - 2.2.3
-    - 2.2.4
-    - 3.0.0-pre.2
-    - 3.0.0
-    - 3.0.2
-    - 3.0.3
-    - 4.0.0-pre.1
-    - 4.0.0
-    - 4.0.1
-    - 5.0.0-pre.1
-    - 5.0.0-pre.2
-    - 5.0.0-pre.3
-    - 5.0.0-pre.4
-    - 5.0.0
-    - 5.0.1
-    - 5.0.2
-    - 5.1.0
-    compatible:
-    - 4.0.1
-    - 5.0.0-pre.1
-    - 5.0.0-pre.2
-    - 5.0.0-pre.3
-    - 5.0.0-pre.4
-    - 5.0.0
-    - 5.0.1
-    - 5.0.2
-    - 5.1.0
-    recommended: 4.0.1
-    deprecated: []
-  dependencies:
-  - name: com.unity.profiling.core
-    version: 1.0.2
-  resolvedDependencies:
-  - name: com.unity.profiling.core
-    version: 1.0.2
-  keywords:
-  - mobile
-  - adaptive
-  - performance
-  - utility
-  - utilities
-  - core
-  - samsung
-  - ap
-  - provider
-  - subsystem
-  - indexer
-  - scaler
-  - vrr
-  - boost
-  - profiles
-  - cluster
-  - clusterinfo
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638158713640000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.adaptiveperformance@5.0/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.adaptiveperformance.git
-    revision: ef9aded8b3178a1e7593de3c0cba3b0475ce2c18
-    path: 
-  unityLifecycle:
-    version: 4.0.1
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.profiling.core@1.0.2
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.2
-  source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.profiling.core@1.0.2
-  assetPath: Packages/com.unity.profiling.core
-  name: com.unity.profiling.core
-  displayName: Unity Profiling Core API
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: The Unity Profiling Core package provides an API for code instrumentation
-    markup, and for profiling statistic collection.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.0-preview.1
-    - 0.2.0-preview.1
-    - 0.2.1-preview.1
-    - 1.0.0-pre.1
-    - 1.0.0
-    - 1.0.2
-    compatible:
-    - 1.0.2
-    recommended: 1.0.2
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - profiler
-  - profiling
-  - api
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637828752310000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/profiler.git
-    revision: 2189ba14439d76a4083f59fae87163b4bdfd49c2
-    path: 
-  unityLifecycle:
-    version: 1.0.2
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.2d.common@8.0.2
-  testable: 0
-  isDirectDependency: 0
-  version: 8.0.2
-  source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.common@8.0.2
-  assetPath: Packages/com.unity.2d.common
-  name: com.unity.2d.common
-  displayName: 2D Common
-  author:
-    name: 
-    email: 
-    url: 
-  category: 2D
-  type: assets
-  description: 2D Common is a package that contains shared functionalities that are
-    used by most of the other 2D packages.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.9-preview.1
-    - 1.0.9-preview.2
-    - 1.0.10-preview
-    - 1.0.11-preview.1
-    - 1.1.0-preview.1
-    - 1.1.0-preview.2
-    - 1.2.0-preview.1
-    - 2.0.1
-    - 2.0.2
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 3.0.0
-    - 3.0.1
-    - 4.0.0
-    - 4.0.1
-    - 4.0.2
-    - 4.0.3
-    - 4.0.4
-    - 4.1.0
-    - 4.2.0
-    - 4.2.1
-    - 5.0.0-pre.1
-    - 5.0.0-pre.2
-    - 5.0.0
-    - 6.0.0-pre.2
-    - 6.0.0-pre.3
-    - 6.0.0-pre.4
-    - 6.0.0
-    - 6.0.1
-    - 6.0.2
-    - 6.0.3
-    - 6.0.4
-    - 6.0.5
-    - 6.0.6
-    - 6.0.7
-    - 7.0.0-pre.3
-    - 7.0.0-pre.4
-    - 7.0.0
-    - 7.0.1
-    - 7.0.2
-    - 7.0.3
-    - 8.0.0-pre.1
-    - 8.0.0-pre.2
-    - 8.0.0
-    - 8.0.1
-    - 8.0.2
-    - 8.0.3
-    - 9.0.0-pre.1
-    - 9.0.0-pre.2
-    - 9.0.0
-    - 9.0.1
-    - 9.0.2
-    - 9.0.3
-    - 9.0.4
-    - 9.0.5
-    - 9.0.6
-    compatible:
-    - 8.0.2
-    - 8.0.3
-    recommended: 8.0.3
-    deprecated: []
-  dependencies:
-  - name: com.unity.burst
-    version: 1.7.3
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.1.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.burst
-    version: 1.8.12
-  - name: com.unity.mathematics
-    version: 1.2.6
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  keywords:
-  - 2d
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638373846610000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@8.0/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: b7537404d2cb8ef24b567ac4733b4c586fb25b44
-    path: 
-  unityLifecycle:
-    version: 8.0.2
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.mathematics@1.2.6
-  testable: 0
-  isDirectDependency: 0
-  version: 1.2.6
-  source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.mathematics@1.2.6
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    - 1.3.1
-    - 1.3.2
-    compatible:
-    - 1.2.6
-    - 1.3.1
-    - 1.3.2
-    recommended: 1.2.6
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637841876140000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: f110c8c230d253654afed153569030a587cc7557
-    path: 
-  unityLifecycle:
-    version: 1.2.6
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.collections@1.2.4
-  testable: 0
-  isDirectDependency: 0
-  version: 1.2.4
-  source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.collections@1.2.4
-  assetPath: Packages/com.unity.collections
-  name: com.unity.collections
-  displayName: Collections
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: A C# collections library providing data structures that can be used
-    in jobs, and optimized by Burst compiler.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.0.9-preview.1
-    - 0.0.9-preview.2
-    - 0.0.9-preview.3
-    - 0.0.9-preview.4
-    - 0.0.9-preview.5
-    - 0.0.9-preview.6
-    - 0.0.9-preview.7
-    - 0.0.9-preview.8
-    - 0.0.9-preview.9
-    - 0.0.9-preview.10
-    - 0.0.9-preview.11
-    - 0.0.9-preview.12
-    - 0.0.9-preview.13
-    - 0.0.9-preview.14
-    - 0.0.9-preview.15
-    - 0.0.9-preview.16
-    - 0.0.9-preview.17
-    - 0.0.9-preview.18
-    - 0.0.9-preview.19
-    - 0.0.9-preview.20
-    - 0.1.0-preview
-    - 0.1.1-preview
-    - 0.2.0-preview.13
-    - 0.3.0-preview.0
-    - 0.4.0-preview.6
-    - 0.5.0-preview.9
-    - 0.5.1-preview.11
-    - 0.5.2-preview.8
-    - 0.6.0-preview.9
-    - 0.7.0-preview.2
-    - 0.7.1-preview.3
-    - 0.8.0-preview.5
-    - 0.9.0-preview.5
-    - 0.9.0-preview.6
-    - 0.11.0-preview.17
-    - 0.12.0-preview.13
-    - 0.14.0-preview.16
-    - 0.15.0-preview.21
-    - 0.17.0-preview.18
-    - 1.0.0-pre.3
-    - 1.0.0-pre.5
-    - 1.0.0-pre.6
-    - 1.1.0
-    - 1.2.3-pre.1
-    - 1.2.3
-    - 1.2.4
-    - 1.3.1
-    - 1.4.0
-    - 1.5.1
-    - 2.1.0-exp.4
-    - 2.1.0-pre.2
-    - 2.1.0-pre.6
-    - 2.1.0-pre.11
-    - 2.1.0-pre.18
-    - 2.1.1
-    - 2.1.4
-    - 2.2.0
-    - 2.2.1
-    - 2.3.0-exp.1
-    - 2.3.0-pre.3
-    - 2.4.0-exp.2
-    - 2.4.0-pre.2
-    - 2.4.0-pre.5
-    - 2.4.0
-    - 2.4.1
-    - 2.4.2
-    - 2.4.3
-    - 2.5.0-exp.1
-    - 2.5.0-pre.2
-    - 2.5.1
-    compatible:
-    - 1.2.4
-    - 1.3.1
-    - 1.4.0
-    - 1.5.1
-    - 2.1.0-exp.4
-    - 2.1.0-pre.2
-    - 2.1.0-pre.6
-    - 2.1.0-pre.11
-    - 2.1.0-pre.18
-    - 2.1.1
-    - 2.1.4
-    - 2.2.0
-    - 2.2.1
-    - 2.3.0-exp.1
-    - 2.3.0-pre.3
-    - 2.4.0-exp.2
-    - 2.4.0-pre.2
-    - 2.4.0-pre.5
-    - 2.4.0
-    - 2.4.1
-    - 2.4.2
-    - 2.4.3
-    - 2.5.0-exp.1
-    - 2.5.0-pre.2
-    - 2.5.1
-    recommended: 1.2.4
-    deprecated: []
-  dependencies:
-  - name: com.unity.burst
-    version: 1.6.6
-  - name: com.unity.test-framework
-    version: 1.1.31
-  resolvedDependencies:
-  - name: com.unity.burst
-    version: 1.8.12
-  - name: com.unity.mathematics
-    version: 1.2.6
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.test-framework
-    version: 1.1.33
-  - name: com.unity.ext.nunit
-    version: 1.0.6
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  keywords:
-  - dots
-  - collections
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637908244640000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/dots.git
-    revision: 32d153034bea0703098263469b88c73619422782
-    path: 
-  unityLifecycle:
-    version: 1.2.4
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.burst@1.8.12
-  testable: 0
-  isDirectDependency: 0
-  version: 1.8.12
-  source: 1
-  resolvedPath: D:\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.burst@1.8.12
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.burst@1df634d836b8
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -5875,10 +6610,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Burst is a compiler that translates from IL/.NET bytecode to highly
     optimized native code using LLVM.
-  status: 0
   errors: []
   versions:
     all:
@@ -6015,15 +6749,16 @@ m_ResolvedPackages:
     - 1.8.16
     - 1.8.17
     - 1.8.18
+    - 1.8.19
+    - 1.8.20
+    - 1.8.21
+    - 1.8.22
+    - 1.8.23
+    - 1.8.24
+    - 1.8.25
     compatible:
-    - 1.8.12
-    - 1.8.13
-    - 1.8.14
-    - 1.8.15
-    - 1.8.16
-    - 1.8.17
-    - 1.8.18
-    recommended: 1.8.18
+    - 1.8.25
+    recommended: 1.8.25
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -6032,7 +6767,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.mathematics
-    version: 1.2.6
+    version: 1.3.2
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   keywords: []
@@ -6044,21 +6779,945 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
+    compliance:
+      status: 0
+      violations: []
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638406469710000000
+  datePublishedTicks: 638936354350140000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: git@github.cds.internal.unity3d.com:unity/burst
-    revision: a18fd968a92da11c38d1edd157e68ad9a490e67b
+    url: https://github.cds.internal.unity3d.com/unity/burst.git
+    revision: 05afff266a602147349dc3706f2c09210e05ec2f
     path: 
   unityLifecycle:
-    version: 1.8.12
+    version: 1.8.25
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fixed infinite loop and unbounded memory
+    consumption when having a (possibly indirectly) recursive method with the `[MethodImpl(MethodImplOptions.AggressiveInlining)]`
+    attribute\n- Fixes an issue where `math.min` and `math.max` would do signed comparisons
+    on unsigned integers when compiling with `FloatMode.Fast`.\n- Fixed a crash on
+    some Android devices what would be triggered when \"Enable ARMv9 Security Features\"
+    was enabled.\n- Fixed a rare crash that could happen when the Burst package was
+    unloaded.\n- Fixed relocation error when stack protection was enabled on 32-bit
+    Android.\n\n### Added\n- Added LLVM 20 support\n- Added guards to UWP ARM32 to
+    be available only for versions lower than 6.3 [PLAT-15016](https://jira.unity3d.com/browse/PLAT-15016)\n-
+    `FloatMode.Deterministic` is now supported by Burst. Please refer to the documentation
+    for details."}'
+  assetStore:
+    productId: 
+  fingerprint: 1df634d836b8106f13dc82401a91b336d615a874
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.8.25
+    minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.mathematics@1.3.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.3.2
+  source: 1
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.mathematics@8017b507cc74
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    compatible:
+    - 1.3.2
+    - 1.3.3
+    recommended: 1.3.3
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638409134840000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: 1695a8503482a3131be78cc26308a93f82c05b04
+    path: 
+  unityLifecycle:
+    version: 1.3.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
+    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
+    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
+    Updated minimum editor version to 2021.3"}'
+  assetStore:
+    productId: 
+  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.3.2
+    minimumUnityVersion: 2021.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.collections@2.5.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.5.1
+  source: 1
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.collections@56bff8827a7e
+  assetPath: Packages/com.unity.collections
+  name: com.unity.collections
+  displayName: Collections
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A C# collections library providing data structures that can be used
+    in jobs, and optimized by Burst compiler.
+  errors: []
+  versions:
+    all:
+    - 0.0.9-preview.1
+    - 0.0.9-preview.2
+    - 0.0.9-preview.3
+    - 0.0.9-preview.4
+    - 0.0.9-preview.5
+    - 0.0.9-preview.6
+    - 0.0.9-preview.7
+    - 0.0.9-preview.8
+    - 0.0.9-preview.9
+    - 0.0.9-preview.10
+    - 0.0.9-preview.11
+    - 0.0.9-preview.12
+    - 0.0.9-preview.13
+    - 0.0.9-preview.14
+    - 0.0.9-preview.15
+    - 0.0.9-preview.16
+    - 0.0.9-preview.17
+    - 0.0.9-preview.18
+    - 0.0.9-preview.19
+    - 0.0.9-preview.20
+    - 0.1.0-preview
+    - 0.1.1-preview
+    - 0.2.0-preview.13
+    - 0.3.0-preview.0
+    - 0.4.0-preview.6
+    - 0.5.0-preview.9
+    - 0.5.1-preview.11
+    - 0.5.2-preview.8
+    - 0.6.0-preview.9
+    - 0.7.0-preview.2
+    - 0.7.1-preview.3
+    - 0.8.0-preview.5
+    - 0.9.0-preview.5
+    - 0.9.0-preview.6
+    - 0.11.0-preview.17
+    - 0.12.0-preview.13
+    - 0.14.0-preview.16
+    - 0.15.0-preview.21
+    - 0.17.0-preview.18
+    - 1.0.0-pre.3
+    - 1.0.0-pre.5
+    - 1.0.0-pre.6
+    - 1.1.0
+    - 1.2.3-pre.1
+    - 1.2.3
+    - 1.2.4
+    - 1.3.1
+    - 1.4.0
+    - 1.5.1
+    - 1.5.2
+    - 2.1.0-exp.4
+    - 2.1.0-pre.2
+    - 2.1.0-pre.6
+    - 2.1.0-pre.11
+    - 2.1.0-pre.18
+    - 2.1.1
+    - 2.1.4
+    - 2.2.0
+    - 2.2.1
+    - 2.3.0-exp.1
+    - 2.3.0-pre.3
+    - 2.4.0-exp.2
+    - 2.4.0-pre.2
+    - 2.4.0-pre.5
+    - 2.4.0
+    - 2.4.1
+    - 2.4.2
+    - 2.4.3
+    - 2.5.0-exp.1
+    - 2.5.0-pre.2
+    - 2.5.1
+    - 2.5.2
+    - 2.5.3
+    - 2.5.7
+    - 2.6.0-exp.2
+    - 2.6.0-pre.3
+    - 2.6.0-pre.4
+    - 2.6.2
+    compatible:
+    - 2.5.1
+    - 2.5.2
+    - 2.5.3
+    - 2.5.7
+    - 2.6.0-exp.2
+    - 2.6.0-pre.3
+    - 2.6.0-pre.4
+    - 2.6.2
+    recommended: 2.5.7
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.8.17
+  - name: com.unity.test-framework
+    version: 1.4.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.25
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
+  keywords:
+  - dots
+  - collections
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638621282722800000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collections@2.5/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/dots.git
+    revision: 5b0dea6b455f5df005c19fa984ddfa237d6cd707
+    path: 
+  unityLifecycle:
+    version: 2.5.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n* Updated Burst dependency to version
+    1.8.17\n* Updated Unity Test Framework dependency to version 1.4.5\n* Updated
+    entities packages dependencies\n\n### Fixed\n* Certain cases would cause an ILPostProcessor
+    to fail, blocking compilation, but no more."}'
+  assetStore:
+    productId: 
+  fingerprint: 56bff8827a7ef6d44fcee4f36e558a74da89c1a0
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.5.1
+    minimumUnityVersion: 2022.3.11f1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.rendering.light-transport@1.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.1
+  source: 2
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.rendering.light-transport@9bd588f963c0
+  assetPath: Packages/com.unity.rendering.light-transport
+  name: com.unity.rendering.light-transport
+  displayName: Unity Light Transport Library
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Unity Light Transport Library exposes reusable code for writing light
+    transport algorithms such as raytracing or pathtracing
+  errors: []
+  versions:
+    all:
+    - 1.0.1
+    compatible:
+    - 1.0.1
+    recommended: 1.0.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.collections
+    version: 2.2.0
+  - name: com.unity.mathematics
+    version: 1.2.4
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.burst
+    version: 1.8.25
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.2.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  keywords:
+  - raytracing
+  - pathtracing
+  - monte-carlo
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 9bd588f963c0ca6105f0978f9cfc66444032a804
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.1
+    minimumUnityVersion: 2023.3.0b1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.profiling.core@1.0.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.2
+  source: 1
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.profiling.core@aac7b93912bc
+  assetPath: Packages/com.unity.profiling.core
+  name: com.unity.profiling.core
+  displayName: Unity Profiling Core API
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: The Unity Profiling Core package provides an API for code instrumentation
+    markup, and for profiling statistic collection.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.1
+    - 0.2.0-preview.1
+    - 0.2.1-preview.1
+    - 1.0.0-pre.1
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    compatible:
+    - 1.0.2
+    - 1.0.3
+    recommended: 1.0.3
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - profiler
+  - profiling
+  - api
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637828752310000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/profiler.git
+    revision: 2189ba14439d76a4083f59fae87163b4bdfd49c2
+    path: 
+  unityLifecycle:
+    version: 1.0.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: aac7b93912bc5df5fe06b04ff1b758493cdc2346
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.2
+    minimumUnityVersion: 2020.1.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.2d.common@9.1.1
+  testable: 0
+  isDirectDependency: 0
+  version: 9.1.1
+  source: 1
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.2d.common@bc041c6e0d0d
+  assetPath: Packages/com.unity.2d.common
+  name: com.unity.2d.common
+  displayName: 2D Common
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: 2D Common is a package that contains shared functionalities that are
+    used by most of the other 2D packages.
+  errors: []
+  versions:
+    all:
+    - 1.0.9-preview.1
+    - 1.0.9-preview.2
+    - 1.0.10-preview
+    - 1.0.11-preview.1
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.2.0-preview.1
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 3.0.0
+    - 3.0.1
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 4.0.4
+    - 4.1.0
+    - 4.2.0
+    - 4.2.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0
+    - 6.0.0-pre.2
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0
+    - 6.0.1
+    - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.0.6
+    - 6.0.7
+    - 6.0.8
+    - 6.1.0
+    - 7.0.0-pre.3
+    - 7.0.0-pre.4
+    - 7.0.0
+    - 7.0.1
+    - 7.0.2
+    - 7.0.3
+    - 8.0.0-pre.1
+    - 8.0.0-pre.2
+    - 8.0.0
+    - 8.0.1
+    - 8.0.2
+    - 8.0.3
+    - 8.0.4
+    - 8.1.0
+    - 8.1.1
+    - 9.0.0-pre.1
+    - 9.0.0-pre.2
+    - 9.0.0
+    - 9.0.1
+    - 9.0.2
+    - 9.0.3
+    - 9.0.4
+    - 9.0.5
+    - 9.0.6
+    - 9.0.7
+    - 9.1.0
+    - 9.1.1
+    - 10.0.0
+    - 11.0.0
+    - 11.0.1
+    - 12.0.0
+    compatible:
+    - 9.1.1
+    recommended: 9.1.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.8.4
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.1.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.25
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  keywords:
+  - 2d
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638856773121490000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@9.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: 383370d5a0ac5360369e71e96aa41ade8ed5c1b5
+    path: 
+  unityLifecycle:
+    version: 9.1.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- DANB-796 Fixed case where 2D PSD Importer
+    generates mipmaps when \"Generate Mip Maps\" is disabled\n- DANB-879 Fixed misaligned
+    text in 2D Animation preferences"}'
+  assetStore:
+    productId: 
+  fingerprint: bc041c6e0d0d69f1195446076eff5ef3189d3e92
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 9.1.1
+    minimumUnityVersion: 6000.0.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.nuget.mono-cecil@1.11.4
+  testable: 0
+  isDirectDependency: 0
+  version: 1.11.4
+  source: 1
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f
+  assetPath: Packages/com.unity.nuget.mono-cecil
+  name: com.unity.nuget.mono-cecil
+  displayName: Mono Cecil
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: 'The mono cecil library from https://www.nuget.org/packages/Mono.Cecil/
+
+
+    This
+    package is intended for internal Unity use only. Most Unity users will be better
+    suite using the existing community tooling.
+
+    To avoid assembly clashes, please
+    use this package if you intend to use Mono.Cecil.'
+  errors: []
+  versions:
+    all:
+    - 0.1.6-preview.2
+    - 1.0.0-preview.1
+    - 1.10.0-preview.1
+    - 1.10.1-preview.1
+    - 1.10.1
+    - 1.10.2
+    - 1.11.4
+    - 1.11.5
+    - 1.11.6
+    compatible:
+    - 1.11.4
+    - 1.11.5
+    - 1.11.6
+    recommended: 1.11.6
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637852971930000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.mono-cecil.git
+    revision: d0133ce672d724694b56bfd20672acf6f8737fec
+    path: 
+  unityLifecycle:
+    version: 1.11.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: d6f9955a5d5f84d45442ff1ad0fb694cc6e2fd62
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.11.4
+    minimumUnityVersion: 2018.4.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.test-framework.performance@3.2.0
+  testable: 0
+  isDirectDependency: 0
+  version: 3.2.0
+  source: 1
+  resolvedPath: C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562
+  assetPath: Packages/com.unity.test-framework.performance
+  name: com.unity.test-framework.performance
+  displayName: Performance testing API
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Package that extends Unity Test Framework package. Adds performance
+    testing capabilities and collects configuration metadata.
+  errors: []
+  versions:
+    all:
+    - 0.1.27-preview
+    - 0.1.29-preview
+    - 0.1.31-preview
+    - 0.1.33-preview
+    - 0.1.34-preview
+    - 0.1.36-preview
+    - 0.1.37-preview
+    - 0.1.39-preview
+    - 0.1.40-preview
+    - 0.1.41-preview
+    - 0.1.42-preview
+    - 0.1.44-preview
+    - 0.1.45-preview
+    - 0.1.47-preview
+    - 0.1.48-preview
+    - 0.1.49-preview
+    - 0.1.50-preview
+    - 1.0.4-preview
+    - 1.0.6-preview
+    - 1.0.9-preview
+    - 1.1.2-preview
+    - 1.2.0-preview
+    - 1.2.1-preview
+    - 1.2.3-preview
+    - 1.2.5-preview
+    - 1.2.6-preview
+    - 1.3.0-preview
+    - 1.3.1-preview
+    - 1.3.2-preview
+    - 1.3.3-preview
+    - 2.0.1-preview
+    - 2.0.2-preview
+    - 2.0.3-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 2.0.9-preview
+    - 2.1.0-preview
+    - 2.2.0-preview
+    - 2.3.1-preview
+    - 2.4.1-preview
+    - 2.5.1-preview
+    - 2.6.0-preview
+    - 2.7.0-preview
+    - 2.8.0-preview
+    - 2.8.1-preview
+    - 3.0.0-pre.1
+    - 3.0.0-pre.2
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.1.0
+    - 3.2.0
+    compatible:
+    - 3.2.0
+    recommended: 3.2.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.test-framework
+    version: 1.1.33
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.test-framework
+    version: 1.6.0
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - performance
+  - test
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638936561440790000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.test-framework.performance.git
+    revision: fe7ade132131103e7608be564921ab8de35fd8e4
+    path: 
+  unityLifecycle:
+    version: 3.2.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n\n- Improved render threading mode reporting"}'
+  assetStore:
+    productId: 
+  fingerprint: 0840f58e45624f7677679a0f8b6a5137689e607f
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 3.2.0
+    minimumUnityVersion: 2020.3.0a1
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+m_BuiltInPackagesHash: 988bdf8a68b40be00f4507073aadc82581208e31

@@ -1,0 +1,1 @@
+C:\Users\Luiz\Disco D\projeto Interantar\RotaDoPlastico1.2\RotaDoPlastico\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\FramePacing\UnitySwappyWrapper.h

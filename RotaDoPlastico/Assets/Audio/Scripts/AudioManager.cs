@@ -31,10 +31,10 @@ public class AudioManager : MonoBehaviour
             s.Source.outputAudioMixerGroup = s.Output;
             s.Source.pitch = s.Pitch;
             s.Source.loop = s.Loop;
+            s.Source.playOnAwake = s.PlayOnAwake;
             s.Source.priority = s.Priority;
         }
     }
-
 
     public void Play(string name)
     {
@@ -72,6 +72,7 @@ public class AudioManager : MonoBehaviour
             s.Source.volume = s.Volume;
             s.Source.pitch = s.Pitch;
             s.Source.loop = s.Loop;
+            s.Source.playOnAwake = s.PlayOnAwake;
         }
     }
 }
